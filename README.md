@@ -43,10 +43,12 @@ and `benchmarks/results/` the data they produced.
 | `usage.py` | Dollars per month per plugin, from your own history |
 | `speed.py`, `speed.ps1` | Times each plugin's hooks on Linux and Windows |
 
-Each script's first lines say how to run it. To redraw the plugin's charts:
+Each script's first lines say how to run it. The plugin's README shows the logo
+and charts in `assets/` straight from this repository, so that the plugin ships
+no images. To redraw the charts:
 
 ```sh
-python3 benchmarks/charts.py benchmarks/results/2026-09-30/arms.json ../skinflint/assets/charts
+python3 benchmarks/charts.py benchmarks/results/2026-09-30/arms.json assets/charts
 ```
 
 ## License
