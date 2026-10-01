@@ -44,8 +44,8 @@ and `benchmarks/results/` the data they produced.
 | `speed.py`, `speed.ps1` | Times each plugin's hooks on Linux and Windows |
 
 Each script's first lines say how to run it. The plugin's README shows the logo
-and charts in `assets/` straight from this repository, so that the plugin ships
-no images. To redraw the charts:
+and charts in `assets/` straight from this repository, so that the only image
+the plugin ships is its listing icon. To redraw the charts:
 
 ```sh
 python3 benchmarks/charts.py benchmarks/results/2026-09-30/arms.json assets/charts
