@@ -43,7 +43,7 @@ and `benchmarks/results/` the data they produced.
 | `usage.py` | Dollars per month per plugin, from your own history |
 | `speed.py`, `speed.ps1` | Times each plugin's hooks on Linux and Windows |
 
-Each script's first lines say how to run it. The plugin's README shows the logo
+Each script's first lines say how to run it. The plugin's README shows the header image
 and charts in `assets/` straight from this repository, so that the only image
 the plugin ships is its listing icon. To redraw the charts:
 
