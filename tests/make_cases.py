@@ -3,7 +3,7 @@
 
 Maintainer tool: the cases themselves are plain files, so the runners
 (golden.sh, golden.ps1) need no Python. Each case directory holds
-  hook        activate | prompt | subagent | compress
+  hook        activate | prompt | subagent | compress | stop
   input.json  the hook payload, exact bytes
   env         optional, KEY=VALUE lines
   setup/      optional files placed in the sandbox first:
@@ -249,6 +249,20 @@ case('4.5-dup-blocks', 'compress', {'session_id': 's1', 'tool_name': 'mcp__x', '
 case('2-stats-new', 'compress', bash(lines(400)))
 case('2-stats-add', 'compress', bash(lines(400)), setup={'cfg/skinflint/stats': 'saved 100\nevents 2\n'})
 case('2-stats-corrupt', 'compress', bash(lines(400)), setup={'cfg/skinflint/stats': 'saved lots\n'})
+FIVE = 'saved 100\nevents 2\nreply 3000\nreplies 4\ninjected 500\n'
+case('2-stats-five-add', 'compress', bash(lines(400)), setup={'cfg/skinflint/stats': FIVE})
+case('2-stats-injected-old-format', 'prompt', {'session_id': 's1', 'prompt': 'x'}, setup={'cfg/skinflint/stats': 'saved 100\nevents 2\n'})
+case('2-stats-injected-add', 'subagent', {'session_id': 's1'}, setup={'cfg/skinflint/stats': FIVE})
+case('2-stats-injected-corrupt', 'prompt', {'session_id': 's1', 'prompt': 'x'}, setup={'cfg/skinflint/stats': 'saved 1\nevents 2\nreply 3\n'})
+case('2-stats-extra-line', 'prompt', {'session_id': 's1', 'prompt': 'x'}, setup={'cfg/skinflint/stats': FIVE + 'more 1\n'})
+# ---------- 5.4 Stop ----------
+case('5.4-stop', 'stop', {'session_id': 's1', 'last_assistant_message': 'Done. caf\u00e9 \U0001F600\nsecond line'})
+case('5.4-stop-add', 'stop', {'session_id': 's1', 'last_assistant_message': 'x' * 250}, setup={'cfg/skinflint/stats': FIVE})
+case('5.4-stop-old-format', 'stop', {'session_id': 's1', 'last_assistant_message': 'abc'}, setup={'cfg/skinflint/stats': 'saved 100\nevents 2\n'})
+case('5.4-stop-off', 'stop', {'session_id': 's1', 'last_assistant_message': 'abc'}, setup={'cfg/skinflint/sessions/s1.mode': 'off'})
+case('5.4-stop-empty', 'stop', {'session_id': 's1', 'last_assistant_message': ''})
+case('5.4-stop-missing', 'stop', {'session_id': 's1'})
+case('5.4-stop-not-string', 'stop', {'session_id': 's1', 'last_assistant_message': ['abc']})
 # ---------- 1 JSON details ----------
 case('1-escapes', 'compress', bash('\n'.join('tab\there "q" back\\slash \u00e9 \U0001F600 ctl\x01 del\x7f %d' % i for i in range(300))))
 case('1-lone-surrogate', 'compress', '{"session_id":"s1","tool_name":"Bash","tool_use_id":"t","tool_response":{"stdout":"%s\\ud800 x \\udc00\\ud83d\\ude00","stderr":""}}' % ('abc \\u00e9\\n' * 400))
