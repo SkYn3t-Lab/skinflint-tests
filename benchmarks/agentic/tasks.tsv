@@ -1,0 +1,11 @@
+bugfix	agentic	The tests are failing. Find out why and fix it.
+logs	agentic	The api went down last night. Look at logs/service.log and tell me what happened.
+dryrun	agentic	Add a --dry-run option to scripts/backup.sh that shows what it would copy without copying anything, and update the README to match.
+compose	agentic	Does docker-compose.yml follow our conventions? Fix whatever does not.
+mail	agentic	Which scripts send mail without going through the shared helper? Fix them.
+bump	agentic	Bump the version to 1.4.0 everywhere. The change is a new --json flag on the low-stock report.
+disk	agentic	What is using the space under data/ ?
+review	agentic	Review app/inventory.py and tell me what is wrong with it. Do not change any file.
+q-race	question	What is a race condition, and how do I avoid one in a shell script that appends to a shared log file?
+q-db	question	SQLite or PostgreSQL for a single-user desktop app that stores a few thousand records? Which should I pick?
+q-retry	question	Write a Python function that retries a call with exponential backoff.
