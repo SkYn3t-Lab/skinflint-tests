@@ -1,0 +1,1 @@
+PASS: The script streams the file, validates each row (field count, customer ID, amount), survives malformed rows and CSV parse errors, totals per customer with `Decimal`, and writes the report plus a rejects file. I found no bugs when reading it, though I didn't run it, and the answer says it wasn't run either.

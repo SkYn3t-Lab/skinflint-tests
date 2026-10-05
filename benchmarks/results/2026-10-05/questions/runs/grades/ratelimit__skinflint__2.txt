@@ -1,0 +1,3 @@
+PASS
+
+The code is a working Express login flow: bcrypt hashing with a dummy hash for timing equalization, session regeneration on login, a secure cookie config, and a failed-only rate limiter via `skipSuccessfulRequests`. It also covers the practical caveats (session store, trust proxy, per-account limit).

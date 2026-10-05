@@ -1,0 +1,1 @@
+PASS: The script streams rows and validates the fields. It catches `csv.Error` and `ValueError`, rejects NaN and Infinity, tolerates bad bytes and a BOM, and writes the per-customer totals with `Decimal` precision. I found no real bugs. The only gap I could construct is an absurd exponent like `1E999999999` overflowing the `Decimal` addition, which is negligible.

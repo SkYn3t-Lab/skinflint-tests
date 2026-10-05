@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains borrow/return reuse, the cost of connection setup, capping connections, sensible pool sizing, external poolers, and leak failure modes, all of which are accurate.

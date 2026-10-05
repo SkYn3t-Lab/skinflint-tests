@@ -1,0 +1,2 @@
+PASS
+The code makes up to 4 attempts (the first try plus 3 retries) and sleeps 1s, 2s, then 4s between them. It retries only connection errors, timeouts, 429 and 5xx, and it raises the last error after the final attempt.

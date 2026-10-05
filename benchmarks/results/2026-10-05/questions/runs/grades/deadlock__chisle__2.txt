@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly defines deadlock, lists the four Coffman conditions, and pairs each prevention technique with the condition it breaks. Its gotchas and detection tools are sound. The mention of Go's `-race` as a deadlock detector is slightly off, since it finds data races, and the stray "Chisle statusline" line is irrelevant. Neither undermines the explanation.

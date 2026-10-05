@@ -1,0 +1,1 @@
+PASS: The Postgres SQL is valid and does what was asked. `ADD COLUMN IF NOT EXISTS` and the `WHERE first_name IS NULL AND last_name IS NULL` guard make a second run a no-op. The regex splits into first and last names correctly, and single-word names correctly get a NULL `last_name`.

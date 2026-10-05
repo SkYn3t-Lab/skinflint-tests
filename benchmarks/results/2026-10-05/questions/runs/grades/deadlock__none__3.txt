@@ -1,0 +1,1 @@
+PASS: The answer defines deadlock correctly, gives the classic two-lock example and the four Coffman conditions, maps each avoidance technique to the condition it breaks, and adds practical detection tips, all of which is technically accurate.

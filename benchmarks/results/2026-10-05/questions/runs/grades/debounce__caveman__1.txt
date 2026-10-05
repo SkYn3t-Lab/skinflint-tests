@@ -1,0 +1,3 @@
+PASS
+
+The vanilla JS and React snippets both debounce at 300 ms, abort stale requests, and handle empty input correctly, which fully answers the request for debounced search code.

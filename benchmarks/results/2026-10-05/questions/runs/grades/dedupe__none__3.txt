@@ -1,0 +1,2 @@
+PASS
+The `dict.fromkeys` one-liner correctly dedupes while preserving first-occurrence order, and the answer also covers the unhashable-item and key-based cases accurately.

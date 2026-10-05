@@ -1,0 +1,1 @@
+{"hook_success:SessionStart": {"count": 1, "bytes": 4318, "first": "CAVEMAN MODE ACTIVE \u2014 mode: caveman\n\n# caveman\n\nRespond ters"}, "hook_additional_context:UserPromptSubmit": {"count": 1, "bytes": 409, "first": "CAVEMAN MODE ACTIVE (caveman). Respond terse like smart cave"}}

@@ -1,0 +1,1 @@
+PASS: The answer correctly covers the strangler fig approach, ordering by value and coupling, a staged data-ownership path (outbox, CDC, sagas, and flipping reads before writes), and ways to stay shippable (branch by abstraction, flags, shadow traffic, and expand/contract). It has no significant technical errors.

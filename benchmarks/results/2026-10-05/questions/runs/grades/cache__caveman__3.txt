@@ -1,0 +1,1 @@
+PASS: The answer gives working, type-correct cache-aside code with TTL, LRU eviction, in-flight request coalescing and an invalidation path that avoids the stale-write race. It also states that no repo code existed to integrate with, and it flags the multi-instance and per-viewer-key caveats.

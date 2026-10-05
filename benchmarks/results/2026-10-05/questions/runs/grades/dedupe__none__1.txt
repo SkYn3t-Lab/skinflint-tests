@@ -1,0 +1,2 @@
+PASS
+The `dict.fromkeys` one-liner correctly removes duplicates while preserving first-occurrence order, and the fallback `dedupe` function with `key=tuple` correctly handles unhashable items like lists.

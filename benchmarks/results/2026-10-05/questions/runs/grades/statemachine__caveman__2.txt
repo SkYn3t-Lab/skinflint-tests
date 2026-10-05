@@ -1,0 +1,2 @@
+PASS
+The code correctly defines all six states, a legal-transition table, and an `Order` class whose `transition` raises `InvalidTransition` on illegal moves (including self-transitions) and leaves state unchanged, which is what was asked. The code is untested, but I read through it and found no bugs.

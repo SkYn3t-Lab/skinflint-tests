@@ -1,0 +1,1 @@
+PASS: The script streams rows, validates field count, IDs and amounts, and logs bad rows to a rejects file. It totals per customer with `Decimal` and writes the report atomically. I traced the code and found no bugs. The answer also says plainly that it was not run.

@@ -1,0 +1,2 @@
+PASS
+The code makes one initial attempt plus three retries with 1s/2s/4s exponential backoff, retries only transient errors (5xx, 429, and network or timeout OSErrors), and re-raises the final error, so it does what was asked; the optional `requests`/urllib3 `Retry` alternative is also correct.

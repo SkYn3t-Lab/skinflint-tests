@@ -1,0 +1,3 @@
+PASS
+
+The migration is valid PostgreSQL: `ADD COLUMN IF NOT EXISTS` and the regex `substring` calls split names correctly, and the `first_name IS NULL AND last_name IS NULL` guard makes a second run a no-op. It also states its assumptions and the limits of its split rule.

@@ -1,0 +1,1 @@
+PASS: The vanilla JS code is correct. It debounces with `clearTimeout`/`setTimeout`, cancels the stale in-flight request with `AbortController`, and ignores `AbortError`. The React `useEffect` version does the same, with cleanup on every `query` change.

@@ -1,0 +1,2 @@
+PASS
+The code defines all six states with a sensible transition table, rejects illegal transitions with `InvalidTransition` while leaving state unchanged, and its self-check covers all 36 state pairs, so it should run and print `ok` as claimed.

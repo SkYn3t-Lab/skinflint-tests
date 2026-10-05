@@ -1,0 +1,3 @@
+PASS
+
+The code is a coherent, working Express login implementation with scrypt hashing, regenerated sessions, and per-IP and per-account limits on failed attempts. I read it but did not run it, and the answer itself says it is untested. I found no bugs: the scrypt parameters are a valid OWASP option, the `limit` option and `skipSuccessfulRequests` match express-rate-limit v7+, and the dummy-hash timing defence works.

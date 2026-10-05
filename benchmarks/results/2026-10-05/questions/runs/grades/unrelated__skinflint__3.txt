@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the error means the histories share no common ancestor, gives the right fix (`git pull origin main --allow-unrelated-histories`), and sensibly warns to verify the remote URL first.

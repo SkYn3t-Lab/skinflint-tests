@@ -1,0 +1,1 @@
+PASS: The answer correctly says re-renders come from state, a parent re-render, or context. It then covers the usual causes (unstable props defeating `memo`, context value identity, store selectors, effects that set state, equal-but-new references, unstable keys, Strict Mode), each with a valid fix and a way to diagnose.

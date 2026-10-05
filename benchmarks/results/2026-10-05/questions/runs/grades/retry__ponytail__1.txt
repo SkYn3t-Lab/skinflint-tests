@@ -1,0 +1,1 @@
+PASS: Both snippets work and give three retries with exponential backoff. The only flaw is minor: the `Retry` comment says "~1s, 2s, 4s", but urllib3 skips the sleep before the first retry, so the delays are closer to 0s, 2s, 4s.

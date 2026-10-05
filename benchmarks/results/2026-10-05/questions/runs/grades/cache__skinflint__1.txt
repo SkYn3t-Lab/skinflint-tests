@@ -1,0 +1,1 @@
+PASS: The code is a working TypeScript TTL cache that shares in-flight requests, drops failed lookups and has an invalidation hook. The answer states its assumptions and the limits (no size cap, no shared store), though it is generic because it found no existing code to adapt.

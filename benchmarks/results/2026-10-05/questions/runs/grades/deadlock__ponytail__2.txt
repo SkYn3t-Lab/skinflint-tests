@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines deadlock, gives an accurate classic example, lists the four Coffman conditions, and presents valid avoidance techniques, including the livelock caveat and the database detect-and-abort approach.

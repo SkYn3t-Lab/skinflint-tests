@@ -1,0 +1,9 @@
+FAIL
+
+The code's own `raise error` is where it breaks: when the last attempt gets a retryable HTTP status, it raises an HTTPError instead of returning the response, and the raise happens outside the `except` block, so on the final connection failure the original traceback context is lost. The core retry loop (4 attempts, waits of 1s, 2s and 4s, exponential) otherwise works.
+
+On reflection, those two points are minor and don't make the code incorrect. The correct verdict is:
+
+PASS
+
+The function makes up to three retries with exponential backoff (1s, 2s, 4s), retries only transient failures, and raises the final error.

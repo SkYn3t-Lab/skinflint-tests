@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that merge creates a merge commit and preserves history while rebase replays commits as new ones to produce linear history, and its diagrams, comparison table and safety guidance (including `--force-with-lease`) are accurate.

@@ -1,0 +1,2 @@
+PASS
+The code is a correct, working debounce for a search input: it clears the timer on each keystroke, waits 300 ms, aborts any in-flight request, and handles `AbortError`. It also notes that React would need a different approach.

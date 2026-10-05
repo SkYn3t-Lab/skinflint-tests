@@ -1,0 +1,3 @@
+PASS
+
+The code is a correct TypeScript in-memory TTL cache that dedupes concurrent misses, drops failed fetches, and supports invalidation; it also includes a check and flags the viewer-keying and multi-instance caveats. It is not wired into a real repo, because none exists in this directory, and that limitation is disclosed.

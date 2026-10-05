@@ -1,0 +1,2 @@
+PASS
+The off-by-one is in the `arr.length - 1` bound, and changing it to `i < arr.length` makes the loop visit every element, including the last.

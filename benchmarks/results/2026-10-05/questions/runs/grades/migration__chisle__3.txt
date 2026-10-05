@@ -1,0 +1,1 @@
+PASS: The Postgres migration adds the columns with `IF NOT EXISTS`, backfills with a `regexp_match` split, and guards the `UPDATE` with `WHERE first_name IS NULL AND last_name IS NULL`, so a second run changes nothing. The odd statusline sentence at the end doesn't affect the code.

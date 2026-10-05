@@ -1,0 +1,1 @@
+FAIL: The backreference explanation and the `\b(\w+) \1\b` example are correct, but the answer also adds an unrelated offer about a "Chisle statusline badge" and editing `settings.json`, which the question didn't ask about.

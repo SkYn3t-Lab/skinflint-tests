@@ -1,0 +1,3 @@
+PASS
+
+The answer covers every requested area (resources, auth, pagination, versioning, error format) with sound reasoning. Its technical details hold up: RFC 7396 merge patch, RFC 9457 problem details, keyset cursors, `If-Match` with 412/428, and 404 rather than 403 for another tenant's resource. The stray note about a statusline badge is irrelevant but doesn't make the design wrong.

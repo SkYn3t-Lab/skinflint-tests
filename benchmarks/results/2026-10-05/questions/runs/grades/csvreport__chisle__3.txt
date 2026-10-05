@@ -1,0 +1,1 @@
+PASS: the script streams rows, validates them, totals per customer with `Decimal`, and writes the report and a rejects file. It handles short rows, extra fields, bad or non-finite amounts and `csv.Error` without crashing, and it says plainly that it is untested. The stray statusline-badge line is irrelevant but harmless.

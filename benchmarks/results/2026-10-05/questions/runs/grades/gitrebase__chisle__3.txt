@@ -1,0 +1,1 @@
+FAIL: The merge-versus-rebase explanation is technically correct, but the answer ends with an unrelated offer about a "chisle statusline badge" in `settings.json`. That offer has nothing to do with the question and refers to a configuration the user never mentioned, so the answer doesn't stay on what was asked.

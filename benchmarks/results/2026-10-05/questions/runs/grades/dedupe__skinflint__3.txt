@@ -1,0 +1,2 @@
+PASS
+`dict.fromkeys(items)` removes duplicates and keeps first-occurrence order for hashable items on Python 3.7+, and the answer states both of those caveats correctly.

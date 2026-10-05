@@ -1,0 +1,2 @@
+PASS
+The answer accurately explains how pooling works (borrow, return, queueing, health checks) and why it helps (setup cost, load capping, backpressure), and its caveats about pool size, leaks, session state, and per-process pools are correct.

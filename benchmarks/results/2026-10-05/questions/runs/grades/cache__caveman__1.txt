@@ -1,0 +1,3 @@
+PASS
+
+The cache-aside code is correct and complete for the request. It uses valid ioredis calls, collapses concurrent misses into one load, and falls back to the database when Redis fails. It also invalidates on write, caches misses briefly, and warns about per-viewer data. The answer says plainly that there is no app code to wire it into. The unrelated "Caveman statusline" line and the uncaught Redis error in `invalidate` are minor flaws.

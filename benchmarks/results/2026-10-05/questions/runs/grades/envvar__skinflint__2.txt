@@ -1,0 +1,5 @@
+FAIL: The code is correct for unset and non-numeric values, but its closing note is wrong. With `n >= 0`, an unset `PORT` still gives `Number(undefined)`, which is `NaN`, so it falls back to 3000. An empty `PORT=""` does give `Number("")`, which is `0`, so the note is right about the empty case. A whitespace-only value such as `PORT=" "` also gives 0, and the answer doesn't mention that. The main code works, but the caveat is incomplete.
+
+Looking again, the main code is correct. The empty string and whitespace-only values both become 0, and `n > 0` rejects them, so they default to 3000 as requested. The caveat is accurate too.
+
+PASS: The code correctly defaults to 3000 for unset, empty, non-numeric, non-integer and out-of-range values, and the caveat about port 0 is accurate.

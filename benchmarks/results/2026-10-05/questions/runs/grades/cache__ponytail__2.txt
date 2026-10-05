@@ -1,0 +1,1 @@
+PASS: The code is a correct TTL cache with an injectable clock, invalidation on writes, and a self-check that holds up when I trace it, and the answer honestly says it was not run and why. The code isn't wired to a real repo because none exists here, and the answer offers to do that once the repo is shared.

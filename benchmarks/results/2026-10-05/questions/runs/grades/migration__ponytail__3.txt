@@ -1,0 +1,1 @@
+PASS: The migration is correct Postgres. `ADD COLUMN IF NOT EXISTS` and the `IS NULL` guard make it safe to run twice. The `substring` and `regexp_replace` expressions split names as described, including single-word and whitespace-padded names. The answer also says openly that it was not run and that the split is naive.

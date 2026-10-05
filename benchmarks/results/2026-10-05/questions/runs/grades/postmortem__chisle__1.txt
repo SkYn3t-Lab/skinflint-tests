@@ -1,0 +1,1 @@
+PASS: The postmortem has a timeline, root cause and remediations, and its internal numbers agree (4h 02m duration, about 2h 40m diagnosis, 45-minute hotfix, 4-minute paging). The stray statusline line at the end is irrelevant, but it doesn't affect the postmortem's correctness or completeness.

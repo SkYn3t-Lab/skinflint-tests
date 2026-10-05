@@ -1,0 +1,2 @@
+PASS
+The code correctly defines all six states and a transition table, raises `InvalidTransition` on illegal moves without changing state, and the stated rules are reasonable and editable.

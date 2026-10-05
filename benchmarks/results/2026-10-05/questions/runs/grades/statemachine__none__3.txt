@@ -1,0 +1,3 @@
+PASS
+
+The code is a correct, complete state machine covering all six states, enforcing a sensible and clearly documented transition table, and rejecting invalid transitions with `InvalidTransition` while leaving state and history unchanged. The answer also says up front that the code is untested.

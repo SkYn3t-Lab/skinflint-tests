@@ -1,0 +1,2 @@
+PASS
+The code is a working TypeScript TTL cache that shares in-flight fetches, drops failed requests, supports invalidation, and states its assumptions and limits.

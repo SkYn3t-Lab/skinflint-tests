@@ -1,0 +1,3 @@
+PASS
+
+The code correctly uses `Retry(total=3, backoff_factor=1, status_forcelist=...)` on a mounted `HTTPAdapter`, which retries up to three times with exponential backoff. One comment is slightly off: I believe urllib3 2.x also skips the first sleep, so the delays would be 0s, 2s, 4s rather than the stated 1s, 2s, 4s. That doesn't affect whether the code works.

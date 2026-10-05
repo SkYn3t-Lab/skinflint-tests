@@ -1,0 +1,3 @@
+PASS
+
+The code falls back to 3000 for unset, empty, non-numeric, fractional and out-of-range values, and the explanation matches its behavior; the only quirk is that it also accepts forms like `"0x50"` and `"1e3"`, which is minor.

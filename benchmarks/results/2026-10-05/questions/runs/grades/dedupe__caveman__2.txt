@@ -1,0 +1,2 @@
+PASS
+`dict.fromkeys` deduplicates hashable items while preserving insertion order (Python 3.7+), and the answer gives a correct fallback for unhashable items.

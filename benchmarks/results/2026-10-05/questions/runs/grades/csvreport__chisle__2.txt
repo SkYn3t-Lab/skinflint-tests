@@ -1,0 +1,3 @@
+PASS
+
+The script streams rows, validates them, totals per customer with `Decimal`, and logs rejects instead of crashing. I traced its selftest by hand and it gives the expected (3, 5, 2) counts and the expected report rows. I did not run it.

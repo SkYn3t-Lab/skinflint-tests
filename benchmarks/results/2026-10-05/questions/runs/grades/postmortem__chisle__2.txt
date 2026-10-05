@@ -1,0 +1,3 @@
+PASS
+
+The answer is a complete postmortem with a consistent timeline, a correct root cause (no timeout, pool-acquire or dependency isolation) and prioritized remediations. Its arithmetic checks out, including the detect, identify and mitigate durations. The "75 minutes" figure is loose, since 14:25 to 16:10 is 105 minutes, but that is a minor flaw. The stray statusline line at the end doesn't affect the postmortem.

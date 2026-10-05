@@ -1,0 +1,2 @@
+PASS
+The answer accurately describes the pool lifecycle (checkout, return, validation, maintenance), the real benefits (setup cost, load capping, throughput), common pitfalls, and in-process versus proxy pooling, with no technical errors.

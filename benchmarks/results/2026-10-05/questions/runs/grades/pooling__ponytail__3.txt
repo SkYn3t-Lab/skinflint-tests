@@ -1,0 +1,2 @@
+PASS
+The answer accurately describes the pool lifecycle (checkout, return with state reset, exhaustion queueing, health checks), the real benefits (avoided TCP/TLS/auth setup cost, capped load, better throughput), and the common pitfalls (leaks, per-process multiplication, session state under transaction pooling), with no technical errors.

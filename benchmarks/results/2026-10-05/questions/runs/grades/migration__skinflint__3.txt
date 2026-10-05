@@ -1,0 +1,1 @@
+PASS: In PostgreSQL this migration runs as written. `ADD COLUMN IF NOT EXISTS` makes the DDL repeatable, and both regex extractions are valid. The `first_name IS NULL AND last_name IS NULL` guard makes the backfill skip rows already done on a second run, and the answer states its assumptions (table name, split behaviour, batching for large tables).

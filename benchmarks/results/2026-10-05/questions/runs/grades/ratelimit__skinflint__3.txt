@@ -1,0 +1,3 @@
+PASS
+
+The code looks correct and complete: it uses bcrypt hashing with a dummy-hash timing equalizer, session regeneration on login, and failure-only per-IP rate limiting via `skipSuccessfulRequests`. I judged this by reading the code and did not run it. The answer also states its limits plainly, including the in-memory stores, per-IP-only limiting, and the proxy setting.

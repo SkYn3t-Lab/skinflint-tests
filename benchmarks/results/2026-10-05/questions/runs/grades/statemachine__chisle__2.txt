@@ -1,0 +1,1 @@
+PASS: The code defines all six states, an explicit transition table, and an `Order.transition` method that raises `InvalidTransition` and leaves the state unchanged on illegal moves. Its self-test checks all 36 state pairs against the table, and the answer says honestly that it wasn't executed.

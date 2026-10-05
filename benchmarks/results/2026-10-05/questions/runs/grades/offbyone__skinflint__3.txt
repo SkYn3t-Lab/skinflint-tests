@@ -1,0 +1,2 @@
+PASS
+Changing the condition to `i < arr.length` makes the loop visit every index, including the last, and the explanation correctly identifies the `- 1` as the cause.

@@ -1,0 +1,1 @@
+PASS: I traced the self-test by hand and the code appears correct. The expected totals (a=10.00, b=5.20), 4 good rows, 5 rejects and reject line numbers 5–9 all match. Malformed rows, NaN/Infinity, a missing header and an empty file are all handled without crashing. The answer says plainly that the code was not run, and I didn't run it either.

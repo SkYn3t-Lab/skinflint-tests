@@ -1,0 +1,2 @@
+PASS
+The fix removes the off-by-one `- 1` so the loop iterates over every index through `arr.length - 1`, which correctly includes the last element.

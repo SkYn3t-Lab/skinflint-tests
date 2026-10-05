@@ -1,0 +1,2 @@
+PASS
+The off-by-one in the loop condition (`i < arr.length - 1`) was the cause, and changing it to `i < arr.length` makes the loop visit every index, including the last.

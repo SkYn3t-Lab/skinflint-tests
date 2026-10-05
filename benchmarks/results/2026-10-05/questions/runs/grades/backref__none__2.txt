@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly defines a backreference as a match against the text captured by an earlier group, gives valid syntax (`\1`, `\k<name>`), and includes a working short example (`\b(\w+) \1\b`) whose stated matches are accurate.

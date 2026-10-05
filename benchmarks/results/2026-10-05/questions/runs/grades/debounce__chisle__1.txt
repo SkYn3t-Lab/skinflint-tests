@@ -1,0 +1,3 @@
+PASS
+
+Both the vanilla and React versions correctly debounce at 300ms, cancel stale requests with `AbortController`, and clean up properly, so the code solves the request. The stray statusline remark is irrelevant but doesn't affect correctness.

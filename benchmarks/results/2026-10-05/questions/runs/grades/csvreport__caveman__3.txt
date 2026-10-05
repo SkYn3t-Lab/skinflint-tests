@@ -1,0 +1,1 @@
+PASS: The script streams rows, validates them, totals per customer with `Decimal`, and handles malformed rows without crashing. Bad rows go to a rejects file, and the answer discloses that the code is untested and lists its limits. Edge cases such as short or long rows, parse errors and a missing header all follow the right code paths.

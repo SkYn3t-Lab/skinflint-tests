@@ -1,0 +1,1 @@
+PASS: The loop makes one initial attempt plus three retries with 1s, 2s and 4s waits. It retries only on connection errors, timeouts and 429/5xx, and raises other 4xx errors immediately. The `urllib3` `Retry` alternative is also valid.

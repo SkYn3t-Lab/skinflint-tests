@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the error means the histories have no common ancestor, notes the Git 2.9 default, gives the right fix (`--allow-unrelated-histories`) and the right alternatives for a wrong remote, a shallow clone, or throwaway history, and warns about the force-push risk.

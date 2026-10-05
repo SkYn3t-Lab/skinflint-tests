@@ -1,0 +1,2 @@
+PASS
+The code is a correct, complete state machine with all six states, a legal-transition table, and an `InvalidTransition` exception for illegal moves. It also states its transition-table assumptions and says it is untested.

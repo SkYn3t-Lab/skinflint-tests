@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines deadlock, lists the four Coffman conditions, and gives valid avoidance strategies (consistent lock ordering, try-lock with timeout and backoff, minimizing lock scope, and database detection and recovery).

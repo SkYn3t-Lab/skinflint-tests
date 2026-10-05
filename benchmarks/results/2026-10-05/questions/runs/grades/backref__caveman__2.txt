@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a backreference as a token matching the same text previously captured by a group, and gives a valid short example (`(\w+) \1` matching "the the").

@@ -1,0 +1,3 @@
+PASS
+
+`dict.fromkeys` correctly dedupes hashable items in first-occurrence order. The fallback loop is also correct: `key=tuple` turns the inner lists into hashable keys, so the example returns `[[1, 2], [3]]` as shown.

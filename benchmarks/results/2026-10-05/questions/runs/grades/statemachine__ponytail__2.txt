@@ -1,0 +1,2 @@
+PASS
+The code defines all six states, a clear transition table, and an `InvalidTransition` exception. It rejects illegal moves without changing state, and its self-test covers every state pair. The answer also says openly that it was not run.

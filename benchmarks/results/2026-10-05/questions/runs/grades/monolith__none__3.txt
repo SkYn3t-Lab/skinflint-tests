@@ -1,0 +1,1 @@
+PASS: The answer correctly covers strangler-fig routing, extraction ordering, staged data ownership (CDC, outbox, sagas, expand/contract), and shippability techniques (branch by abstraction, feature flags, shadowing), with no significant technical errors.

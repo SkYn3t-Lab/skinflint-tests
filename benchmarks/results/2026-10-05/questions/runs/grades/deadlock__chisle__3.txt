@@ -1,0 +1,1 @@
+PASS: The answer correctly defines deadlock, lists the four Coffman conditions, and gives sound avoidance strategies (lock ordering, try-lock with backoff, deadlock detection) plus accurate gotchas. The unrelated statusline offer at the end doesn't affect its technical correctness.

@@ -1,0 +1,3 @@
+PASS
+
+The code correctly defines all six states and a transition table, raises `InvalidTransition` on illegal moves and leaves the state unchanged when it does. The self-test would pass as written. The unusual transition choices (no cancel after payment, no refund while shipped) are stated and easy to change.

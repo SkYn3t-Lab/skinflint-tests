@@ -1,0 +1,2 @@
+PASS
+The answer correctly covers the main real causes of unexpected re-renders (parent renders, unstable prop identities, context changes, equal-but-new state, effect-derived state, over-broad subscriptions, remounting, StrictMode) with accurate, standard fixes. The closing note on the React Compiler is also accurate: it automates memoization, which covers causes 1 and 2, and causes 3 to 7 still need manual fixes.

@@ -1,0 +1,3 @@
+PASS
+
+The answer covers the main causes of extra re-renders (parent renders, unstable prop references, context changes, selectors, inline component definitions, keys, effect-driven state, over-subscribing hooks, StrictMode) and gives a technically accurate fix for each. The closing note about the chisle statusline badge is unrelated, but it doesn't make the React content wrong or incomplete.

@@ -1,0 +1,3 @@
+PASS
+
+The code returns a valid integer port from 1 to 65535 and falls back to 3000 for unset, empty, or non-numeric input, so it does what was asked. The unrelated statusline line at the end doesn't affect that.

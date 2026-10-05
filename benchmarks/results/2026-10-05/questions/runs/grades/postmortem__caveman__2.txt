@@ -1,0 +1,1 @@
+PASS: The postmortem has a timeline, root cause (a remote call made while holding a pooled connection, with a 30 s timeout) and prioritized remediations. Its durations check out (114, 107 and 85 minutes, and the 4-hour span), and it states up front that the incident facts are invented placeholders.

@@ -1,0 +1,2 @@
+PASS
+The answer accurately explains pooling mechanics (borrow/return, lazy or eager creation, max size with queuing, validation and eviction) and the benefits (avoiding connection setup cost, capping server load, backpressure, session reuse), with correct gotchas such as leaks, oversized pools, per-instance multiplication and state leakage.

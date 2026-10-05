@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that merge creates a merge commit while rebase replays commits with new hashes, and its comparison table, rule of thumb, `--force-with-lease` advice and combined workflow are all accurate.

@@ -1,0 +1,2 @@
+PASS
+The answer's `list(dict.fromkeys(items))` correctly removes duplicates while preserving first-occurrence order for hashable items. The fallback loop handles unhashable items correctly, though it is O(n²).

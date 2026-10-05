@@ -1,0 +1,3 @@
+PASS
+
+The code is correct and runnable as written: it defines all six states and a transition table, `Order.transition` rejects illegal moves (including self-transitions) with `InvalidTransition`, and a failed transition leaves state and history unchanged.

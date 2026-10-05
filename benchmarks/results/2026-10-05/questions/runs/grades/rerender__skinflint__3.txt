@@ -1,0 +1,1 @@
+PASS: The answer correctly identifies the main causes of extra re-renders (parent renders, unstable prop identities, context value changes, state updates, key changes, selector issues) and gives accurate fixes for each, along with correct caveats about Strict Mode and the React Compiler.

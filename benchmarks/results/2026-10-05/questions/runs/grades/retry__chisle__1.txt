@@ -1,0 +1,3 @@
+PASS
+
+The code is a working `requests` session that retries up to three times with exponential backoff, and its notes on sleep times, `RetryError` versus `ConnectionError`, and `allowed_methods=None` are accurate for urllib3. The trailing line about a "Chisle statusline badge" is unrelated to the question, but it doesn't affect the correctness of the answer.

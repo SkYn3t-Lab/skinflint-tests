@@ -1,0 +1,1 @@
+PASS: The answer covers all five requested areas (resources, auth, pagination, versioning, error format) with technically sound choices and reasoning, including RFC 9457 errors, keyset pagination, ETag/If-Match concurrency, and 404-over-403 for cross-tenant resources. The unrelated statusline note at the end doesn't affect its correctness.

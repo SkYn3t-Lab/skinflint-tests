@@ -1,0 +1,1 @@
+PASS. The answer correctly explains that the histories share no common ancestor and gives the right fix (`--allow-unrelated-histories`), plus accurate alternatives and a warning about force-pushing.

@@ -1,0 +1,2 @@
+PASS
+The answer accurately explains the pool lifecycle (checkout, use, return, queuing and timeouts, housekeeping) and gives correct reasons it helps: it avoids setup costs, caps database load, and improves throughput. It also adds accurate caveats about pool sizing, leaks, and external poolers.

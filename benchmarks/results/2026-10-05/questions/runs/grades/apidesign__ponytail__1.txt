@@ -1,0 +1,1 @@
+PASS: The answer covers all five requested areas (resources, auth, pagination, versioning, error format) with sound, technically accurate choices, including RFC 7396 merge patch, RFC 9457 problem details, RFC 8594 Sunset, 428/412 for `If-Match`, RLS-based tenant isolation and cursor pagination, and it explains the reasoning for each decision.

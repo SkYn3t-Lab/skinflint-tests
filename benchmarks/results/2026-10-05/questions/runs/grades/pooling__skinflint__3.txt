@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that a pool reuses open connections to avoid costly setup (TCP, TLS, auth, per-connection server processes on Postgres), caps concurrent connections to protect the database, and accurately notes sizing, connection-leak, and external-pooler considerations.

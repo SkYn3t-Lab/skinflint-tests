@@ -1,0 +1,2 @@
+PASS
+`dict.fromkeys` removes duplicates while keeping first-seen order for hashable items. The answer also covers unhashable items with a correct order-preserving fallback and states its O(n²) cost.

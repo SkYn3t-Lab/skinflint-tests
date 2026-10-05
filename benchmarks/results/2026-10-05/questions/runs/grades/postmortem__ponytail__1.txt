@@ -1,0 +1,1 @@
+PASS: The postmortem has the requested timeline, root cause and remediations, and its content is technically sound. The arithmetic is consistent (150 rps × 0.08 s ≈ 12 connections; 150 rps × 20 s ≈ 3,000). It says openly that all names, times and figures are placeholders.

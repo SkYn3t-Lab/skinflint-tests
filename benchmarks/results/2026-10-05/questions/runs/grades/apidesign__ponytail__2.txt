@@ -1,0 +1,2 @@
+PASS
+The answer covers resources, auth and tenancy, pagination, API and document versioning, and the error format, with a rationale for each. Its technical choices are sound: tenant taken from the credential, keyset pagination, ETag with If-Match/If-None-Match preconditions, and RFC 9457 problem+json.

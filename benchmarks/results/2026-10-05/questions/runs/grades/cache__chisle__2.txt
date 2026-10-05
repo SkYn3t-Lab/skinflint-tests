@@ -1,0 +1,3 @@
+PASS
+
+The code is a correct TTL cache. It shares one in-flight fetch between concurrent misses, drops failed fetches, evicts the oldest entry at the size cap, and has an `invalidateProfile` hook. The answer also flags the real risks (viewer-specific responses, multiple instances, shared mutable objects) and says it is a sketch because the directory had no project to wire it into.

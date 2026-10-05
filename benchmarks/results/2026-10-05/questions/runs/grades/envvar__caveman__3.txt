@@ -1,0 +1,1 @@
+FAIL: The code returns 0 instead of 3000 when `PORT` is an empty string or whitespace, a common "unset" case, so it doesn't meet the stated requirement. The answer notices this and suggests `n > 0`, but the code as given still has the flaw.

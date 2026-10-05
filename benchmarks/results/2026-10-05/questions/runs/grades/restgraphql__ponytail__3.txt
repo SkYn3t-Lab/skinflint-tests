@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear REST recommendation with an accurate comparison covering caching, rate limiting, onboarding, evolution and complexity, and it states when GraphQL would be the better choice.

@@ -1,0 +1,3 @@
+PASS
+
+The code correctly implements scrypt password hashing with per-password salts and timing-safe comparison, and it uses a dummy hash for unknown users. It also regenerates the session on login, counts attempts before verifying, and applies per-user and per-IP limits that return 429 with Retry-After. The Express 5 async handling and the notes about Express 4 and CSRF are accurate. I read the code but did not run it.

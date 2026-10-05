@@ -1,0 +1,2 @@
+PASS
+The code is a standard, correct debounce: it clears the pending timer on each keystroke and calls `search` once, 300 ms after typing stops. The answer also notes the out-of-order response caveat.

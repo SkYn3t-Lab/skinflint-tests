@@ -1,0 +1,1 @@
+PASS: The script is valid PostgreSQL. `ADD COLUMN IF NOT EXISTS` and the `WHERE first_name IS NULL AND last_name IS NULL` guard make a second run a no-op. The regex split gives correct results for multi-word, single-word and padded names. NULL or blank names are skipped, and the answer states its assumptions and that the code was not run.

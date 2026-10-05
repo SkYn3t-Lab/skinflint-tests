@@ -1,0 +1,1 @@
+FAIL: `Number(undefined)` is `NaN`, so unset falls back correctly, but `Number("")` is `0` and is rejected by the `> 0` check, so that case works too. The code does have a bug, though: `Number("  8080  ")` and `Number("0x1F90")` (hex) or `"1e3"` are accepted as valid ports, so strings that are not plain decimal integers pass as valid instead of falling back to 3000.

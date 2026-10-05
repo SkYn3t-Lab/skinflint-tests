@@ -1,0 +1,3 @@
+PASS
+
+The answer compares REST and GraphQL accurately on caching, rate limiting, error handling, tooling and schema evolution, and it recommends REST with clear conditions for choosing GraphQL. The stray statusline-badge offer at the end is unrelated but doesn't make the comparison or recommendation wrong.

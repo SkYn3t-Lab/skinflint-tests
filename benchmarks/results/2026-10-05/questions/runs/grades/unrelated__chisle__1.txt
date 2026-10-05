@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the error means the two histories share no common ancestor, lists the usual causes, and gives the right fix (`git pull origin main --allow-unrelated-histories`). It also warns appropriately about the destructive force-push alternative.

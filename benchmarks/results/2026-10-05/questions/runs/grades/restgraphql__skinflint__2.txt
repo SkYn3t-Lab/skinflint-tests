@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear REST recommendation with accurate tradeoffs (caching/CDN, query-cost abuse protection, adoption ease) and the condition under which GraphQL is preferable.

@@ -1,0 +1,1 @@
+PASS: The answer gives a clear REST recommendation for a public API, backed by an accurate comparison of caching, rate limiting, performance, evolution, typing and error handling. It also states when GraphQL would be the better choice.

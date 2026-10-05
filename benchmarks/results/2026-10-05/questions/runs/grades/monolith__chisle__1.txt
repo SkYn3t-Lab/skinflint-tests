@@ -1,0 +1,1 @@
+PASS: The answer covers ordering, data ownership and shippability accurately: strangler fig, a staged data split with CDC or outbox rather than dual writes, sagas, and flagged, reversible steps with a rollback caveat after the write flip. The stray statusline offer at the end is off-topic but doesn't make the migration advice wrong.

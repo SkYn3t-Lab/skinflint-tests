@@ -1,0 +1,1 @@
+PASS: The answer explains correctly that the error means the two histories share no common ancestor. It lists the usual causes and gives correct fixes: `--allow-unrelated-histories`, `reset --hard origin/main`, `push --force-with-lease`, `set-url` and `fetch --unshallow`. It also warns about the data-loss risks of the destructive options.

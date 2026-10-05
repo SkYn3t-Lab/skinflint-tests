@@ -1,0 +1,1 @@
+PASS: The script streams the file, validates each row (field count, empty ID, non-numeric or non-finite amount), recovers from `csv.Error` by calling `next()` by hand, and writes per-customer totals plus a rejects file, so it should do what was asked without crashing on malformed rows.

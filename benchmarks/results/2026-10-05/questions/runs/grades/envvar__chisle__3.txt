@@ -1,0 +1,3 @@
+PASS
+
+The code correctly falls back to 3000 for unset, empty, non-numeric and out-of-range values, and the stated quirks (hex and exponent forms accepted, `PORT=0` rejected) are accurate.

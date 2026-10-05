@@ -1,0 +1,1 @@
+PASS: The answer correctly defines a backreference as a match of the same text captured by an earlier group (`\1`, `\2`, …). Its example, `\b(\w+) \1\b`, is valid and does match repeated words such as "the the".

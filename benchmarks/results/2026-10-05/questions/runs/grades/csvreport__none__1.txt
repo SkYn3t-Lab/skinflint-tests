@@ -1,0 +1,1 @@
+PASS: The script streams the file, validates each row, totals per customer with `Decimal`, and sends bad rows (including parser errors) to a rejects file instead of crashing. I found no bugs when reading through it, and the answer says plainly that it is untested.

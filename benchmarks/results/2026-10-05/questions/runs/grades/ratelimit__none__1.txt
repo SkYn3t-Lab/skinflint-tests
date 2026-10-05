@@ -1,0 +1,1 @@
+PASS: The code is a complete, coherent Express 5 login implementation. It has argon2id hashing with a dummy-hash defence against timing leaks, `express-session` with session regeneration on login, and per-IP and per-username limiters that count only failed attempts. I didn't see any bugs on reading it, and the answer says plainly that it wasn't run.

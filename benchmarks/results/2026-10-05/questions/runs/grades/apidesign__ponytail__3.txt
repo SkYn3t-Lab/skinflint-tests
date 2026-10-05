@@ -1,0 +1,2 @@
+PASS
+The answer covers resources, auth, pagination, versioning and error format with sound, mostly standard choices (tenant from the credential, 404 for cross-tenant access, row-level security backstop, keyset cursors, RFC 9457 errors, ETag/If-Match with 412/428) and gives a reason for each.

@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the error means the histories share no common ancestor, lists the usual causes, and gives the right fix (`--allow-unrelated-histories`) with sensible alternatives and caveats.

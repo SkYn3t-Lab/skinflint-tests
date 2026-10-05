@@ -1,0 +1,1 @@
+PASS: The answer covers the main real causes of extra re-renders (parent renders, unstable props, context values, state placement, effect loops, selectors, keys, inline component definitions, StrictMode) with accurate fixes. The only slip is tying React Compiler to React 19, which is a minor imprecision.

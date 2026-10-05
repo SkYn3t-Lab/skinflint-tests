@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly defines a backreference, gives valid syntax (`\1` and `\k<name>`), and offers a short working example in which `\b(\w+) \1\b` matches doubled words like "the the" and rejects "the then" and "is it".

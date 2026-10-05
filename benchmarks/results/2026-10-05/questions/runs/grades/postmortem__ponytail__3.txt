@@ -1,0 +1,1 @@
+PASS: The postmortem has a timeline, root cause and remediations, and it is technically consistent. The arithmetic checks out: 20 rps × 60 s ≈ 1,200 connections, and the 13:58 migration, 14:05 impact start and 18:05 impact end give four hours. The answer also says up front that its names and figures are placeholders.

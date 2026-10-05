@@ -1,0 +1,1 @@
+PASS. The answer correctly explains that merge adds a two-parent merge commit while rebase replays commits as new ones, and the table, guidance on shared branches, and `--force-with-lease` note are all accurate.

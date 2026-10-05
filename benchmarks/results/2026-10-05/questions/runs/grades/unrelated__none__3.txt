@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the error means the branches share no common ancestor, lists the usual causes, and gives the right fixes (`--allow-unrelated-histories`, force-push, reset, unshallow, fixing the remote) with appropriate warnings.

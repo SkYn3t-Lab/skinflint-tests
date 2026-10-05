@@ -1,0 +1,2 @@
+PASS
+The answer gives correct, working debounce code in React (a debounced-value hook, with an AbortController that drops stale responses) and in vanilla JS. It states its assumptions, and it explains why no file in the working directory could be edited.

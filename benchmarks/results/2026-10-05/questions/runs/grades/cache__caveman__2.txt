@@ -1,0 +1,1 @@
+PASS: The cache code is correct. It has a TTL, LRU eviction, single-flight loading, invalidation that discards in-flight loads, no caching of errors, and sensible caveats. It also states plainly that no user profile API exists in the directory and that the example is standalone and untested.

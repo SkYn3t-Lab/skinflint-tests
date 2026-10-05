@@ -1,0 +1,1 @@
+PASS: The postmortem has the requested timeline, root cause and remediations. Its numbers are internally consistent: the 4h duration, the 1h58m and 2h02m intervals, the 45-minute retry saturation, and 24 pods × 50 connections = 1,200, which exceeds the 1,000 `max_connections`. It also labels the specifics as illustrative placeholders.

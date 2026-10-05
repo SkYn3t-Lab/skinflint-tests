@@ -1,0 +1,1 @@
+PASS: The postmortem has a timeline, a root cause with contributing factors, and remediations. Its arithmetic and timings are internally consistent: the 4h duration, the 20/25 s = 0.8 requests per second, 12×60 = 720 connections against a 500 limit, the 22-minute revert, and the 2h35m and 1h25m phases. It also says openly that the incident details are illustrative placeholders.

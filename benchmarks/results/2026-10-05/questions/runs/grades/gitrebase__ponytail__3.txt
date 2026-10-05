@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that merge preserves history with a merge commit while rebase rewrites commits into a linear history. It also covers the conflict-handling differences, the shared-branch rule of thumb, and the force-push risk, and its diagrams are accurate.

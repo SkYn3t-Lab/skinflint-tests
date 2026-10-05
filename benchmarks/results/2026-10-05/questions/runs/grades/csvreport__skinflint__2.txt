@@ -1,0 +1,3 @@
+PASS
+
+The script streams rows with `csv.DictReader` and skips rows with a wrong field count, an empty customer, or a bad or non-finite amount. It also catches `csv.Error`, so malformed input doesn't crash it. It totals per customer with `Decimal`, writes a sorted report CSV, and the answer says plainly that it wasn't run. I read through the code and found no bugs, but I did not run it either.

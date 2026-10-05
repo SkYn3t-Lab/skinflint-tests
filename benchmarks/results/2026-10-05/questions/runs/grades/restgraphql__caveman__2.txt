@@ -1,0 +1,2 @@
+PASS
+The answer compares REST and GraphQL accurately, with correct technical points on caching, rate limiting, error handling, N+1 resolvers and RFC 9457. It also gives a clear recommendation of REST, with criteria for when GraphQL fits better.

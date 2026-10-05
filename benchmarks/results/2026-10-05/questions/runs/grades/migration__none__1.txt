@@ -1,0 +1,1 @@
+PASS: the PostgreSQL migration is valid, and the answer states its assumptions (PostgreSQL, a `users` table with an `id` key, not run against a database). `ADD COLUMN IF NOT EXISTS` and the `first_name IS NULL AND last_name IS NULL` filter make a second run a no-op, and the split handles multi-word, single-word and blank names correctly.

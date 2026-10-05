@@ -1,0 +1,1 @@
+PASS: The postmortem has all three requested parts (a detailed timeline, a root cause with a worked pool-capacity calculation, and prioritized remediations with owners). It also says up front that the specifics are illustrative, and its figures and the 13:47–17:48 duration are internally consistent.

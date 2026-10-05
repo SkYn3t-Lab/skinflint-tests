@@ -1,0 +1,1 @@
+FAIL: The git explanation is technically accurate, but the answer ends by offering to add a "chisle statusline badge" to `settings.json`. That is an unrelated, unprompted claim about the user's setup, which wasn't asked for and has no basis in the question.

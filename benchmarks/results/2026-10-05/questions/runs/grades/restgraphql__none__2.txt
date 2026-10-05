@@ -1,0 +1,1 @@
+PASS. The answer compares REST and GraphQL accurately across the relevant concerns (caching, rate limiting, evolution, tooling, observability) and gives a clear, well-reasoned recommendation for a public API. It also says when GraphQL would be the better choice.

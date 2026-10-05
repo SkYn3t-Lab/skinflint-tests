@@ -1,0 +1,1 @@
+PASS: The SQL is valid PostgreSQL and meets all three requirements. `ADD COLUMN IF NOT EXISTS` makes the column step idempotent. The regex split and backfill handle single-word, multi-word and blank names. The `WHERE first_name IS NULL AND last_name IS NULL` guard makes a rerun update nothing.

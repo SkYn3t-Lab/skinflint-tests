@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains pooling mechanics (min/max sizes, borrow/return, queuing, health checks) and its benefits (avoiding setup cost, capping DB load, backpressure, session reuse), and the listed gotchas are accurate.

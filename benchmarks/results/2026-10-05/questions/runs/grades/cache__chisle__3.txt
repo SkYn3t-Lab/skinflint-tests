@@ -1,0 +1,1 @@
+PASS: the code is a correct promise-caching TTL cache. It shares in-flight fetches, drops failed fetches, evicts the oldest entry at the size cap, and has an invalidation hook. The answer also states its assumptions (an assumed `fetchProfile`, untested) and covers the per-viewer and multi-instance pitfalls.

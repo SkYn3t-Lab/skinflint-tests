@@ -1,0 +1,1 @@
+PASS: The migration adds both columns with `IF NOT EXISTS` and backfills them with valid PostgreSQL regexes. A second run changes nothing, because the guard skips every row that already has a `first_name`. The answer also states its assumptions and edge cases.

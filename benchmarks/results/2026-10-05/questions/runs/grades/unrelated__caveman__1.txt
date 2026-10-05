@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the error means the two histories share no common ancestor, lists accurate causes, and gives correct fixes (`--allow-unrelated-histories`, `set-url`, `--unshallow`, `reset --hard`) with an appropriate warning about discarding local work.

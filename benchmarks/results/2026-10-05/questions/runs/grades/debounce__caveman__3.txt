@@ -1,0 +1,2 @@
+PASS
+The answer provides working debounce code in both vanilla JS and React, with correct timer clearing and a sensible addition of AbortController to cancel stale in-flight requests.

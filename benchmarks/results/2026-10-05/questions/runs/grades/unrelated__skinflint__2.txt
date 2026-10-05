@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the error means the histories share no common ancestor, gives the right fix (`git pull origin main --allow-unrelated-histories`, also usable with `git merge`), and appropriately warns about the case of a wrong remote or rewritten history.

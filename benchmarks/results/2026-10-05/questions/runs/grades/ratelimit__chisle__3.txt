@@ -1,0 +1,3 @@
+PASS
+
+The code is a working Express 5 login with scrypt hashing and a timing-safe compare, regenerated sessions, and a per-IP and per-username limiter that returns 401 for attempts 1–5 and 429 from the sixth. The stray "chisle" comments and the statusline note are irrelevant, but they don't affect correctness.

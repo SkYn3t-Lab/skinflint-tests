@@ -1,0 +1,1 @@
+PASS: The migration is valid PostgreSQL. `ADD COLUMN IF NOT EXISTS` and the `WHERE first_name IS NULL AND last_name IS NULL` guard make a second run change nothing. The regex split gives the results in its table, and NULL or blank names are excluded because the `btrim(full_name) <> ''` condition is false or NULL for them.

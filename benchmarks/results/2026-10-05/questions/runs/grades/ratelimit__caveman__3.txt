@@ -1,0 +1,1 @@
+PASS: The code covers argon2id hashing, regenerated sessions with hardened cookies, and failed-only rate limiting that is consistent per username+IP and per IP, returning 429 with `Retry-After`. I found no bugs when reading it, though the answer says it was not run.

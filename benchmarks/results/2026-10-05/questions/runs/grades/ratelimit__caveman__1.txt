@@ -1,0 +1,1 @@
+PASS: The code is a complete, working Express 5 setup. It uses argon2 hashing with a dummy-hash timing defense, sessions with regenerate on login to prevent fixation, and per-IP and per-username limits on failed logins only. The answer also states honestly that it was not run, and it lists the production caveats (in-memory stores, lockout tradeoff, CSRF, proxy setting).

@@ -1,0 +1,1 @@
+PASS: The answer covers ordering, data ownership and staying shippable accurately, using standard practices (strangler fig, branch by abstraction, outbox/CDC, sagas, expand/contract, shadow and canary rollout). The stray statusline line at the end is irrelevant to the question and doesn't affect correctness.

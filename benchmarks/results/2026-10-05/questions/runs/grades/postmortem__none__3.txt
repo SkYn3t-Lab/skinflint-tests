@@ -1,0 +1,1 @@
+PASS: The answer is a complete postmortem with a timeline, root cause (with arithmetic that checks out), impact, and a prioritized remediation table, and it labels its specifics as placeholders. The one flaw is that "mitigation took 1h 46m after diagnosis" doesn't match the timeline, which gives 1h 54m from 15:50 to 17:44, but that is minor.

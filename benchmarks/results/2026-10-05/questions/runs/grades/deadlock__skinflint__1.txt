@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines deadlock, accurately lists the four Coffman conditions, and gives valid avoidance strategies (lock ordering, try-lock with timeout and release, short critical sections, fewer locks or lock-free designs).

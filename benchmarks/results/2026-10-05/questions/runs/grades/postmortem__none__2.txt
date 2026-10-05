@@ -1,0 +1,1 @@
+PASS: The answer is a full postmortem with a timeline, root cause, contributing factors and prioritized remediations, and its figures are internally consistent (for example, the 4h05m duration, the 107-minute diagnosis, and a 24×150 pool exceeding the 2,000-connection limit). It also states plainly that the details are placeholders.

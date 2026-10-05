@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines deadlock, gives the classic two-lock example, lists the four Coffman conditions accurately, and describes standard avoidance techniques (lock ordering, try-lock/timeouts, atomic acquisition, detection and recovery) plus practical tooling.

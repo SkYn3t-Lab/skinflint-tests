@@ -1,0 +1,1 @@
+PASS: The answer correctly explains how pooling works (borrow, reuse, return, queueing when exhausted) and why it helps (lower latency, capped connections), and its caveats on sizing, leaks, stale connections and PgBouncer session state are accurate. The closing line about the chisle statusline badge is unrelated, but it doesn't affect correctness or completeness.

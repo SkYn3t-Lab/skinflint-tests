@@ -1,0 +1,3 @@
+PASS
+
+The answer gives a complete postmortem with a timeline, root cause, contributing factors and remediations, and the details are technically consistent: the connection is held across a slow remote call, the 15:35 pool increase hits `max_connections`, and the health check that depends on the database causes restarts. The 14:02 to 18:07 window is 4h 05m, which matches the "four-hour" outage requested.

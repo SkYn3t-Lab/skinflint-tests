@@ -1,0 +1,2 @@
+PASS
+The answer recommends REST, gives technically accurate trade-offs for both options, and states when GraphQL would be the better choice. The closing note about the "chisle statusline badge" is off-topic, but it doesn't make the comparison or recommendation wrong.

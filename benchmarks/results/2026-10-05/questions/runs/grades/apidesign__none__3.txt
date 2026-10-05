@@ -1,0 +1,1 @@
+PASS: The answer covers all requested areas (resources, auth, pagination, versioning, error format) with sound, standards-aligned choices (RFC 9457, ETag/If-Match with 412/428, keyset cursors, tenant derived from the credential, 404 for cross-tenant access) and explains the reasoning behind each.

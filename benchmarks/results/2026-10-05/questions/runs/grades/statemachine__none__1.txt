@@ -1,0 +1,2 @@
+PASS
+The code is a correct, complete state machine: it covers all six states, enforces a clear transition table, and rejects invalid moves (including same-state moves) with a descriptive error that leaves state unchanged. The answer also says honestly that it was not run.

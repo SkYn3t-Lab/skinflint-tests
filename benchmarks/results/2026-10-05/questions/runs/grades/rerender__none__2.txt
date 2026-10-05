@@ -1,0 +1,1 @@
+PASS: The answer correctly covers the main causes of extra re-renders (parent renders, unstable props defeating `memo`, context value identity, equivalent-but-new state, effects that set state, broad store subscriptions, unstable keys, high-frequency updates). Each cause comes with accurate, practical fixes and a sound profiling workflow.

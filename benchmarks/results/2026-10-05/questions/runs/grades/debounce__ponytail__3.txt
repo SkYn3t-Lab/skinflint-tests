@@ -1,0 +1,2 @@
+PASS
+The code is correct: both versions debounce at 300ms, encode the query, and abort stale requests, and the React cleanup cancels the timer and the in-flight fetch.

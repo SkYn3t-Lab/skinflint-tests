@@ -1,0 +1,1 @@
+PASS. The answer covers all five requested areas (resources, auth, pagination, versioning, errors) with technically sound choices, such as tenant taken from the credential, cursor pagination, RFC 9457 errors, and a 404 for cross-tenant resources. It also explains the reasoning behind each choice.

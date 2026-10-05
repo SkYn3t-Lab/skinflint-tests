@@ -1,0 +1,2 @@
+PASS
+The answer covers resources, auth, pagination, versioning and error format, and gives sound reasons for each choice (RFC 7396, RFC 9457, ETag with 412/428, keyset cursors, 404 instead of 403 for other tenants). The closing line about the "Chisle statusline badge" is out of place, but it doesn't change the technical content.

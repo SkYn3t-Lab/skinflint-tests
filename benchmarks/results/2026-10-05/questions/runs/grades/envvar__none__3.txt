@@ -1,0 +1,2 @@
+PASS
+The code returns 3000 when `PORT` is unset, empty, non-numeric, or outside 1–65535, and returns the parsed number otherwise. Its digits-only regex check avoids the `parseInt("80abc")` and `Number("")` pitfalls.

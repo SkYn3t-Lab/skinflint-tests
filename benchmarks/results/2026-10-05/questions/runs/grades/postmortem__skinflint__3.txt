@@ -1,0 +1,1 @@
+PASS: The postmortem has all the requested parts (timeline, root cause, remediations), and its details are consistent with each other. The four-hour duration matches the timestamps, 12 instances × 40 connections matches the 480 idle-in-transaction connections, and the root cause (an HTTP call made while holding a database connection) fits the symptoms and the remediations.

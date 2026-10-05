@@ -1,0 +1,2 @@
+PASS
+`dict.fromkeys(items)` is the standard idiom for removing duplicates while keeping first-occurrence order, and the answer correctly notes the hashability requirement and gives a working (O(n²)) fallback for unhashable items.

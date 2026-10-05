@@ -1,0 +1,1 @@
+PASS: The answer correctly covers the strangler fig pattern, extraction ordering, one-writer data ownership with a staged database split, expand/contract, outbox/CDC, sagas, feature flags, shadow traffic, and rollback, which fully addresses ordering, data ownership, and staying shippable.

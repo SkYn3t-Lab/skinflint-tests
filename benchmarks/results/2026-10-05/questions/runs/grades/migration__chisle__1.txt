@@ -1,0 +1,1 @@
+PASS: The Postgres migration is correct and idempotent. `ADD COLUMN IF NOT EXISTS` and the `WHERE first_name IS NULL` guard make a rerun safe, the regex split and backfill work as described, and the answer states its assumptions and limitations.

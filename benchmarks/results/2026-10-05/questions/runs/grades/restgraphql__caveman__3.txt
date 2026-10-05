@@ -1,0 +1,2 @@
+PASS
+The answer compares REST and GraphQL accurately on caching, rate limiting, security, tooling and costs, and it gives a clear, justified recommendation (REST with OpenAPI) along with when GraphQL would be the better choice.

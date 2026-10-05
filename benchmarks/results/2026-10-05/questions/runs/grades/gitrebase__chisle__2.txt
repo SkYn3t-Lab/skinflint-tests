@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly describes merge (two-parent commit, preserved history) versus rebase (replayed commits with new hashes, linear history, rewrites history), including the force-push caveat and when to use each; the trailing statusline note is unrelated to correctness.

@@ -1,0 +1,2 @@
+PASS
+The explanation of connection pooling is technically accurate (reuse to avoid handshake/TLS/auth/fork costs, capped size, queueing, validation, and the pool-size, leak, and session-state gotchas) and fully answers the question, with the unrelated chisle note being harmless.

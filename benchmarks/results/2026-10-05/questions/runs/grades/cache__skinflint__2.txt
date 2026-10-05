@@ -1,0 +1,1 @@
+PASS: The sketch is correct TypeScript. It has a TTL, shares one in-flight request between concurrent callers, drops failed promises from the cache, and offers an invalidation function. It also flags the real caveats (viewer-dependent responses, no size bound, per-process storage) and states its assumption about the stack, which is reasonable given there is no repo to inspect.

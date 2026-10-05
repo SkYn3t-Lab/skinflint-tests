@@ -1,0 +1,1 @@
+PASS: The code is a complete, coherent Express 5 implementation. Its scrypt parameters and `maxmem` are valid, and the rate limiter counts attempts before the password check and refunds on success. It also handles session fixation, user enumeration and body validation, and I found no bugs, though it was never run, as the answer says.

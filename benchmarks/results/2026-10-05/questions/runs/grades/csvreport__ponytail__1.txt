@@ -1,0 +1,3 @@
+PASS
+
+I traced the code by hand, including the `--selftest` fixture, and it should work. The `DictReader` markers for short and long rows are handled, `NaN` is rejected, and `Decimal` totals come out as `10.30`. The fixture should give 3 good rows and 6 rejected, with 7 lines in the rejects file. It also streams rows, logs rejects with line numbers, and stops only on a missing header column.

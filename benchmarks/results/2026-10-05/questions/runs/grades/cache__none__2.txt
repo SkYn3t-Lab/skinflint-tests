@@ -1,0 +1,1 @@
+PASS: The cache code is correct, with TTL and LRU eviction in `MemoryStore`, shared in-flight fetches, a race-safe `invalidate`, and a store failure treated as a miss. It also says plainly that there was no codebase to integrate with and that the code was not run, and it gives usage wiring and caveats.

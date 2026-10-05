@@ -1,0 +1,1 @@
+PASS: The answer correctly defines a backreference as matching the exact text an earlier group captured, and its `\b(\w+) \1\b` example does match the repeated "the the". The unrelated statusline sentence at the end doesn't make the regex explanation wrong.

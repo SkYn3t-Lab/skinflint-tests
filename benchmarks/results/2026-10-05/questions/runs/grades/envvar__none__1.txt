@@ -1,0 +1,2 @@
+PASS
+The code correctly falls back to 3000 for unset (`Number(undefined)` is NaN), empty (`0`, rejected by `> 0`), partial (`"8080abc"` is NaN), decimal and out-of-range values, and it accepts valid integer ports from 1 to 65535.

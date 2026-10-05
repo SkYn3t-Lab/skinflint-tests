@@ -1,0 +1,3 @@
+PASS
+
+The answer accurately describes the pool lifecycle (checkout, return, exhaustion, housekeeping) and gives correct reasons it helps: it avoids setup cost, caps database load, and improves throughput. It also covers the main pitfalls and both in-process and external pooling.

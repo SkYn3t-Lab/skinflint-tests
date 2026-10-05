@@ -1,0 +1,2 @@
+PASS
+The answer covers all requested areas (resources, auth, pagination, versioning, error format) with technically sound choices and explained rationale, including correct use of ETag/If-Match with 412/428, RFC 9457 problem+json, cursor pagination, and 404 for cross-tenant resources.

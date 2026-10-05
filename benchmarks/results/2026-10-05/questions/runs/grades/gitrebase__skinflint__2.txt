@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly explains that merge creates a merge commit with two parents and leaves existing history untouched, while rebase replays commits onto the target's tip as new commits with new hashes. It also correctly covers the main practical guidance: avoid rebasing shared commits, and conflicts are resolved once for a merge but may be resolved per commit during a rebase.

@@ -1,0 +1,3 @@
+PASS
+
+The code defines all six states with a sensible transition table, rejects invalid transitions and leaves state unchanged on rejection. Its self-test is sound: `State(new)` accepts either an enum member or its string value, and the exhaustive pair check holds. The odd preamble and the statusline note are irrelevant but don't affect correctness.

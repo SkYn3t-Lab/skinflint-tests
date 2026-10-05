@@ -1,0 +1,1 @@
+PASS: The answer correctly covers strangler-fig routing, ordering by risk and dependency, a stepwise data-ownership split (seams, schema separation, CDC/outbox, read/write shift, sagas) and shippability practices (branch by abstraction, shadow traffic, canary, expand/contract), with no significant technical errors.

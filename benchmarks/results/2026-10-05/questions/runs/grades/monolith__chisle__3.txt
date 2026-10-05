@@ -1,0 +1,1 @@
+PASS: The answer covers strangler-fig routing, ordering, data ownership, and keeping each step shippable, and it describes the techniques accurately (expand/contract, outbox, sagas, branch by abstraction). The stray "chisle statusline" note at the end is irrelevant, but it doesn't affect the correctness of the answer.

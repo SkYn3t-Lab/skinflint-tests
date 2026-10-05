@@ -1,0 +1,3 @@
+FAIL
+
+The code returns port 0 instead of 3000 when `PORT=""`, because `Number("")` is 0 and passes the range check. An empty `PORT` is a common unset-or-invalid case, such as `PORT=` in a `.env` file, so the code misses the requirement. The answer admits this and suggests `n > 0`, but its main snippet still has the bug.

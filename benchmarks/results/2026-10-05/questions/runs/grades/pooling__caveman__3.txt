@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains how pooling works (min/max sizing, borrow/return, queuing, validation and eviction) and why it helps (setup cost, load capping, backpressure, session reuse), and its caveats about leaks, pool sizing, PgBouncer and session-state reset are accurate.

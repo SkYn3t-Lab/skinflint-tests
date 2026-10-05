@@ -1,0 +1,1 @@
+PASS: The answer correctly covers strangler-fig routing, ordering by coupling and dependency, staged data separation with expand/contract, sagas, outbox, a single writer per data item, and shippability practices (branch by abstraction, shadowing, incremental cutover, backward-compatible schema changes). It addresses all three requested areas with no significant technical errors.

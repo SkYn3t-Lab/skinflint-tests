@@ -1,0 +1,1 @@
+PASS: The code is a correct, complete state machine. `State(...)` accepts both enum members and strings, the transition table is enforced, and the self-test would pass. The answer also says plainly that the code was not saved or run.

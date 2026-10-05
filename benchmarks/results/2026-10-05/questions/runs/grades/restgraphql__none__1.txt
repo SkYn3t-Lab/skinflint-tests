@@ -1,0 +1,1 @@
+PASS: The answer gives a clear, technically accurate comparison of REST and GraphQL across the factors that matter for a public API, recommends REST with sound reasoning, and notes when GraphQL would be the better choice.

@@ -1,0 +1,3 @@
+PASS
+
+The hand-rolled loop makes one initial attempt plus three retries, sleeping 1s, 2s and 4s between them, and re-raises the last error if all fail. Non-retryable 4xx responses raise immediately, and the urllib3 `Retry` alternative is also correct.

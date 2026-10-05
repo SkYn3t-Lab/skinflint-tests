@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that merge creates a merge commit with two parents and leaves existing commits untouched, while rebase replays commits as new ones for a linear history, and it gives accurate guidance on when to use each and on force-pushing with `--force-with-lease`.

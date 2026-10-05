@@ -1,0 +1,2 @@
+PASS
+The code correctly defines all six states, a legal-transition table, and a `transition` method that raises `InvalidTransition` and leaves state unchanged on illegal moves (including self-transitions), and its usage example matches the actual error message format.

@@ -1,0 +1,3 @@
+PASS
+
+The code returns 3000 for unset, empty, non-numeric, fractional and out-of-range `PORT` values, and otherwise returns the integer port. Its note on allowing `PORT=0` is also correct. The only quirk is that `Number()` accepts forms like `"1e3"` and `"0x1F"`, which is minor.

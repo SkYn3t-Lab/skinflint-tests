@@ -1,0 +1,1 @@
+PASS: The postmortem covers the requested timeline, root cause and remediations, is technically coherent (a timeout-less call inside a transaction pins connections, and the bigger pool and the health-check restart loop are plausible aggravating factors), and the time figures are consistent with the stated 4h 05m outage.

@@ -1,0 +1,1 @@
+PASS: Both the vanilla JS and React versions correctly debounce the input at 300ms, abort stale in-flight requests, and encode the query, so they fully answer the request.

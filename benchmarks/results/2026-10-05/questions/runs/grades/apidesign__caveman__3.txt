@@ -1,0 +1,2 @@
+PASS
+The answer covers all five requested areas (resources, auth, pagination, versioning, error format) with sound, standards-aligned reasoning and trade-offs, including RFC 9457 problem details, cursor pagination, If-Match concurrency and 404-for-cross-tenant.

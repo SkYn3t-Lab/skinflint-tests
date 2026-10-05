@@ -1,0 +1,3 @@
+PASS
+
+The code makes one initial attempt plus three retries with exponential backoff (1s, 2s, 4s plus jitter). It retries only connection errors, timeouts and 429/5xx responses, and raises other 4xx errors immediately. The `urllib3` `Retry` alternative is also set up correctly.

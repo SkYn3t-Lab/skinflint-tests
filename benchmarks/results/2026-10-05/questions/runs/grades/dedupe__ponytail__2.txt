@@ -1,0 +1,2 @@
+PASS
+`dict.fromkeys(items)` removes duplicates and keeps first-occurrence order for hashable items on Python 3.7+. The answer also gives a correct, if O(n²), fallback for unhashable items.

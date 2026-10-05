@@ -1,0 +1,1 @@
+PASS: The script streams the CSV, validates each row, totals amounts per customer with `Decimal`, and writes a report plus a rejects file. In my read-through, malformed rows (short or long rows, bad amounts or dates, parser errors) are logged and skipped, and I found no bugs. I did not run it, and the answer itself says it is untested.

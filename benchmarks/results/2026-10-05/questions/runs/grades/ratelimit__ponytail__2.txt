@@ -1,0 +1,1 @@
+PASS: the code looks correct and complete, and tracing the test sequence by hand gives the expected results, though I did not run it. It covers scrypt hashing with a salt and timing-safe comparison, sessions that regenerate on login, and per-IP and per-username failed-attempt limiting that returns 429 with `Retry-After`.

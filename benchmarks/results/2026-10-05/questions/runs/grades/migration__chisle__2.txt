@@ -1,0 +1,1 @@
+PASS: The Postgres SQL is correct. `ADD COLUMN IF NOT EXISTS` and the `first_name IS NULL` guard make a rerun safe. The regexes give "Mary Ann Smith" → `Mary` / `Ann Smith` and "Cher" → NULL `last_name`, and the answer states its assumptions and caveats.

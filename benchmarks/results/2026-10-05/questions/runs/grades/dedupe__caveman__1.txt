@@ -1,0 +1,2 @@
+PASS
+`dict.fromkeys(items)` is the standard idiom for order-preserving dedup of hashable items. The answer also states the hashability limit and gives a correct fallback for unhashable items.

@@ -1,0 +1,3 @@
+PASS
+
+The answer recommends REST, supports it with accurate technical points (HTTP caching, rate limiting, tooling barrier, GraphQL's 200-with-errors behavior, N+1 queries, RFC 9457), and gives a balanced comparison with a clear recommendation and conditions for choosing GraphQL.

@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly explains that there is no merge base (the refusal became the default in Git 2.9) and lists the usual causes. It gives the right fix, `--allow-unrelated-histories`, along with sensible checks and alternatives. The stray note about a "chisle statusline badge" is irrelevant, but it doesn't make the git advice wrong.

@@ -1,0 +1,2 @@
+FAIL
+Empty string, whitespace-only strings, and values like "1e3" or "0x50" all pass `Number()` as valid integers, and the answer itself admits that an empty PORT yields 0 rather than the 3000 default, so it doesn't meet the "unset or invalid" requirement as written.

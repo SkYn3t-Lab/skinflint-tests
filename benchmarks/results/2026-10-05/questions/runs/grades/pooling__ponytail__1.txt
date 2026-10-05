@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains the pool lifecycle (checkout, use, return, exhaustion, maintenance), the benefits (skipping setup cost, capping database load, better throughput), common pitfalls, and where pools live, and I found no technical errors in it.

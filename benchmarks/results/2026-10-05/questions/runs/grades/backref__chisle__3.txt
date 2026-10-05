@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a backreference as `\N` matching the same text captured by group N. Its `\b(\w+) \1\b` example and the named-group syntax for Python and JS/.NET/PCRE are accurate, and the unrelated statusline note doesn't make the explanation wrong.

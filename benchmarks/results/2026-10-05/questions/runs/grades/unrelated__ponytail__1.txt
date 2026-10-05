@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the two histories share no common ancestor, lists the usual causes, and gives the right fixes (`--allow-unrelated-histories`, `git fetch --unshallow`, re-cloning, a cautious `--force-with-lease`).

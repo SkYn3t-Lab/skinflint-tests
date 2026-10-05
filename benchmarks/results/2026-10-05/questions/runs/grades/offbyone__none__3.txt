@@ -1,0 +1,2 @@
+PASS
+The loop's `i < arr.length - 1` bound excludes the last index, and changing it to `i < arr.length` correctly sums every element.

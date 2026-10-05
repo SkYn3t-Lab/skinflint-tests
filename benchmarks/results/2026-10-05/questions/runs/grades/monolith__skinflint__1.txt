@@ -1,0 +1,1 @@
+PASS: The answer correctly applies the strangler pattern and covers ordering, data ownership (single writer, expand/contract, outbox, sagas) and keeping it shippable (feature flags, shadow traffic, rollback). It also names the distributed-monolith trap.

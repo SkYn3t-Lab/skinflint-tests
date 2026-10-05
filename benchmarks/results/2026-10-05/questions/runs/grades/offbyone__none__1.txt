@@ -1,0 +1,2 @@
+PASS
+Changing the bound from `arr.length - 1` to `arr.length` makes the loop visit every index, including the last, so the fix is correct and the code is complete.

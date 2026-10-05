@@ -1,0 +1,2 @@
+PASS
+The answer correctly identifies that `i < arr.length - 1` stops one element early and fixes it by changing the bound to `i < arr.length`, which sums every element.

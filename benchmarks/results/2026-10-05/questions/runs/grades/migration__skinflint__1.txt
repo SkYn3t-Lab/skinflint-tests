@@ -1,0 +1,1 @@
+PASS: The migration is valid PostgreSQL, so `ADD COLUMN IF NOT EXISTS` and the guarded `UPDATE` make a second run a no-op. The backfill splits on the first space, handles single-word names, and the answer states its assumptions and limitations.

@@ -1,0 +1,2 @@
+PASS
+The explanation of pooling is technically accurate and complete (borrow/return, queueing, cost of connection setup, caps, pitfalls), and the trailing statusline aside is irrelevant but doesn't make the content wrong.

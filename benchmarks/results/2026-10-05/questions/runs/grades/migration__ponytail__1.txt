@@ -1,0 +1,3 @@
+PASS
+
+The SQL is valid PostgreSQL and meets all three requirements. `ADD COLUMN IF NOT EXISTS` and the both-NULL guard on the `UPDATE` make a second run a no-op. The two `substring` regexes split names as the answer describes. The single-word and blank cases behave as the answer says.

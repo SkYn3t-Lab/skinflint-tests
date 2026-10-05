@@ -1,0 +1,1 @@
+PASS: The code makes one initial attempt plus three retries with exponential backoff (1s, 2s, 4s), retries only on connection errors, timeouts, 429 and 5xx, and returns the last response or re-raises the final exception without hitting an unbound `resp`.

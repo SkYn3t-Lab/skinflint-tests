@@ -1,0 +1,1 @@
+FAIL: The debounce and abort code is correct, but the answer ends with an unrelated "Chisle statusline badge isn't configured" offer that doesn't belong in a reply about search debouncing.

@@ -1,0 +1,3 @@
+FAIL
+
+The vanilla JS version has a bug: it aborts the previous request only after the debounce timer fires, so a keystroke made while a request is in flight doesn't cancel that request, and a stale response can still render. It also has no empty-query handling. Beyond that, the answer adds unrelated filler, such as the statusline badge offer.
