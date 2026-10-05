@@ -46,13 +46,13 @@ and `benchmarks/results/` the data they produced.
 | `agentic/` | The tool-using benchmark: `make_fixture.py` generates a small project with one planted problem per task, `run-agentic.sh` runs each task per plugin in a sandbox, `check.py` passes or fails what the run left behind, `analyze-agentic.py` reports cost, tokens, turns and reply size |
 
 Each script's first lines say how to run it. The benchmark numbers in the
-plugin's README come from `results/2026-10-05/`; the tool-output replay and
-the hook timings from `results/2026-09-30/`. The plugin's README shows the header image
+plugin's README and the hook timings come from `results/2026-10-05/`; the
+tool-output replay from `results/2026-09-30/`. The plugin's README shows the header image
 and charts in `assets/` straight from this repository, so that the only image
 the plugin ships is its listing icon. To redraw the charts:
 
 ```sh
-python3 benchmarks/charts.py benchmarks/results/2026-10-05/questions/arms.json assets/charts benchmarks/results/2026-09-30
+python3 benchmarks/charts.py benchmarks/results/2026-10-05/questions/arms.json assets/charts benchmarks/results/2026-10-05
 ```
 
 ## License
