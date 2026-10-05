@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Draw the README charts from an analyze-arms.py JSON file.
 
-  python3 benchmarks/charts.py ARMS.json OUTDIR
+  python3 benchmarks/charts.py ARMS.json OUTDIR [SPEED_DIR]
+
+SPEED_DIR holds speed-linux.md and speed-windows.md for the hook-time chart;
+it defaults to the directory of ARMS.json.
 
 Writes NAME-light.png and NAME-dark.png for each chart, so the README can
 pick one with <picture> and prefers-color-scheme. Needs matplotlib.
@@ -95,7 +98,7 @@ def speed_rows():
             if len(cells) > 2 and not cells[0].startswith(('ms', '---')):
                 rows[cells[0]] = cells
         return rows
-    res = os.path.dirname(src)
+    res = sys.argv[3] if len(sys.argv) > 3 else os.path.dirname(src)
     lin, win = table(os.path.join(res, 'speed-linux.md')), table(os.path.join(res, 'speed-windows.md'))
     out = []
     for env, key in (('Linux, sh', None), ('Windows, Git Bash', 'Git Bash'),

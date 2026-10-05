@@ -35,20 +35,24 @@ and `benchmarks/results/` the data they produced.
 
 | Script | What it does |
 |---|---|
-| `run-arms.sh` | Runs each task through `claude -p` once per plugin |
+| `run-arms.sh` | Runs each question through `claude -p` once per plugin |
+| `run-arms-sandboxed.sh` | The same inside a sandbox in which your home directory is empty; use it whenever a plugin you did not write is one of the arms |
 | `grade.sh` | Grades the answers blind |
 | `analyze-arms.py` | Turns runs and grades into one JSON file |
 | `charts.py` | Draws the README charts from that file (needs matplotlib) |
 | `replay.py` | Replays the tool output in your Claude Code history through a hook |
 | `usage.py` | Dollars per month per plugin, from your own history |
 | `speed.py`, `speed.ps1` | Times each plugin's hooks on Linux and Windows |
+| `agentic/` | The tool-using benchmark: `make_fixture.py` generates a small project with one planted problem per task, `run-agentic.sh` runs each task per plugin in a sandbox, `check.py` passes or fails what the run left behind, `analyze-agentic.py` reports cost, tokens, turns and reply size |
 
-Each script's first lines say how to run it. The plugin's README shows the header image
+Each script's first lines say how to run it. The benchmark numbers in the
+plugin's README come from `results/2026-10-05/`; the tool-output replay and
+the hook timings from `results/2026-09-30/`. The plugin's README shows the header image
 and charts in `assets/` straight from this repository, so that the only image
 the plugin ships is its listing icon. To redraw the charts:
 
 ```sh
-python3 benchmarks/charts.py benchmarks/results/2026-09-30/arms.json assets/charts
+python3 benchmarks/charts.py benchmarks/results/2026-10-05/questions/arms.json assets/charts benchmarks/results/2026-09-30
 ```
 
 ## License
