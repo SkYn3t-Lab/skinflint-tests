@@ -65,7 +65,7 @@ case('5.1-project-keeps-user-key', 'activate', {'source': 'resume'},
      setup={'xdg/skinflint/config.json': '{"defaultMode": "off"}', 'work/.claude/skinflint.json': '{"sections": {"code": false}}'})
 case('5.1-project-invalid', 'activate', {'source': 'resume'},
      setup={'xdg/skinflint/config.json': '{"defaultMode": "off"}', 'work/.claude/skinflint.json': '{"defaultMode": on}'})
-case('3-project-sections', 'prompt', {'prompt': 'x'},
+case('3-project-sections', 'activate', {'source': 'resume'},
      setup={'xdg/skinflint/config.json': '{"sections": {"prose": false}}', 'work/.claude/skinflint.json': '{"sections": {"prose": true, "code": false}}'})
 case('5.1-config-bom', 'activate', {'source': 'resume'}, setup={'xdg/skinflint/config.json': '\ufeff{"defaultMode": "off"}'})
 case('5.1-config-invalid', 'activate', {'source': 'resume'}, setup={'xdg/skinflint/config.json': '{"defaultMode": off}'})
@@ -76,18 +76,18 @@ case('5.1-session-on-beats-default', 'activate', {'session_id': 's1', 'source': 
      env={'SKINFLINT_DEFAULT_MODE': 'off'}, setup={'cfg/skinflint/sessions/s1.mode': ' ON\n'})
 case('5.1-session-garbage', 'activate', {'session_id': 's1', 'source': 'resume'},
      env={'SKINFLINT_DEFAULT_MODE': 'off'}, setup={'cfg/skinflint/sessions/s1.mode': 'maybe'})
-case('3-no-prose', 'prompt', {'prompt': 'x'}, setup={'xdg/skinflint/config.json': '{"sections": {"prose": false}}'})
-case('3-no-code', 'prompt', {'prompt': 'x'}, setup={'xdg/skinflint/config.json': '{"sections": {"code": false}}'})
-case('3-neither', 'prompt', {'prompt': 'x'},
+case('3-no-prose', 'activate', {'source': 'resume'}, setup={'xdg/skinflint/config.json': '{"sections": {"prose": false}}'})
+case('3-no-code', 'activate', {'source': 'resume'}, setup={'xdg/skinflint/config.json': '{"sections": {"code": false}}'})
+case('3-neither', 'activate', {'source': 'resume'},
      setup={'xdg/skinflint/config.json': '{"sections": {"prose": false, "code": false}}'})
-case('3-output-style', 'prompt', {'prompt': 'x'}, setup={'work/.claude/settings.json': '{"outputStyle": "Explanatory"}'})
-case('3-output-style-default', 'prompt', {'prompt': 'x'}, setup={'work/.claude/settings.json': '{"outputStyle": " Default "}'})
-case('3-output-style-local-first', 'prompt', {'prompt': 'x'},
+case('3-output-style', 'activate', {'source': 'resume'}, setup={'work/.claude/settings.json': '{"outputStyle": "Explanatory"}'})
+case('3-output-style-default', 'activate', {'source': 'resume'}, setup={'work/.claude/settings.json': '{"outputStyle": " Default "}'})
+case('3-output-style-local-first', 'activate', {'source': 'resume'},
      setup={'work/.claude/settings.local.json': '{"outputStyle": "default"}', 'work/.claude/settings.json': '{"outputStyle": "Learning"}'})
-case('3-output-style-empty-skipped', 'prompt', {'prompt': 'x'},
+case('3-output-style-empty-skipped', 'activate', {'source': 'resume'},
      setup={'work/.claude/settings.json': '{"outputStyle": "  "}', 'cfg/settings.json': '{"outputStyle": "Learning", "statusLine": 1}'})
-case('3-output-style-not-string', 'prompt', {'prompt': 'x'}, setup={'work/.claude/settings.json': '{"outputStyle": 3}'})
-case('3-explicit-prose-wins', 'prompt', {'prompt': 'x'},
+case('3-output-style-not-string', 'activate', {'source': 'resume'}, setup={'work/.claude/settings.json': '{"outputStyle": 3}'})
+case('3-explicit-prose-wins', 'activate', {'source': 'resume'},
      setup={'xdg/skinflint/config.json': '{"sections": {"prose": true}}', 'work/.claude/settings.json': '{"outputStyle": "Learning"}'})
 case('1-invalid-json', 'activate', '{"source": "startup",}')
 case('1-not-object', 'activate', '["startup"]')
@@ -113,8 +113,8 @@ for i, f in enumerate(['add a normal mode toggle', "don't stop skinflint", 'stop
 case('5.2-off-quiet', 'prompt', {'session_id': 's1', 'prompt': 'hi'}, setup={'cfg/skinflint/sessions/s1.mode': 'off'})
 case('5.2-bad-sid', 'prompt', {'session_id': '../x', 'prompt': 'stop skinflint'})
 case('5.2-long-sid', 'prompt', {'session_id': 'a' * 129, 'prompt': 'stop skinflint'})
-case('5.2-no-prose', 'prompt', {'prompt': 'x'}, setup={'xdg/skinflint/config.json': '{"sections": {"prose": false}}'})
-case('5.2-no-code', 'prompt', {'prompt': 'x'}, setup={'xdg/skinflint/config.json': '{"sections": {"code": false}}'})
+case('5.2-no-prose', 'prompt', {'prompt': 'skinflint on'}, setup={'xdg/skinflint/config.json': '{"sections": {"prose": false}}'})
+case('5.2-no-code', 'prompt', {'prompt': 'skinflint on'}, setup={'xdg/skinflint/config.json': '{"sections": {"code": false}}'})
 
 # ---------- 5.3 SubagentStart ----------
 case('5.3-on', 'subagent', {'session_id': 's1', 'agent_type': 'Explore'})

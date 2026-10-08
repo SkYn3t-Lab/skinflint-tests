@@ -1,1 +1,1 @@
-{"hookSpecificOutput":{"hookEventName":"UserPromptSubmit","additionalContext":"SKINFLINT ON. Code, commit messages and security warnings stay in full sentences."}}
+{"hookSpecificOutput":{"hookEventName":"SessionStart","additionalContext":"SKINFLINT ON. Code, commit messages and security warnings stay in full sentences."}}
