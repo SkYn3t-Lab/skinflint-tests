@@ -1,0 +1,2 @@
+PASS
+The `slugify` function lowercases the title, replaces each run of non-alphanumeric characters with a hyphen, and strips leading and trailing hyphens, so "Hello, World!" becomes "hello-world" and the assert holds.

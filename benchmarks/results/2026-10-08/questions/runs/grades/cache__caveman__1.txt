@@ -1,0 +1,1 @@
+PASS: The cache code is correct, with TTL expiry, LRU eviction, deduplication of concurrent misses, and invalidation that stops a stale in-flight fetch from being written. It also says plainly that there was no repo to wire it into and that it wasn't run, and it flags the per-process and cache-key limitations.

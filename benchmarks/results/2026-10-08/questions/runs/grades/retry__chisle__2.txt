@@ -1,0 +1,3 @@
+PASS
+
+The code correctly makes one initial try plus three retries with 1s, 2s and 4s exponential backoff, retries only transient errors (network errors, timeouts, 5xx and 429), and re-raises the last failure. The stray "Chisle statusline badge" line is irrelevant but does not affect correctness.

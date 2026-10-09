@@ -1,0 +1,3 @@
+PASS
+
+The route uses a correct keyset query: `(created_at, id) < ($2, $3)` with `ORDER BY created_at DESC, id DESC`, and it fetches `limit + 1` rows to detect a next page. It also keeps microsecond precision by carrying `created_at::text` in the cursor. The remaining weakness is minor: a well-formed but invalid cursor value would return a 500 from Postgres instead of a 400.

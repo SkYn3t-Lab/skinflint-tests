@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly defines a backreference as a token that matches the same text an earlier capture group matched, and its example `(\w)\1` correctly matches a doubled character such as `ll` in `hello`.

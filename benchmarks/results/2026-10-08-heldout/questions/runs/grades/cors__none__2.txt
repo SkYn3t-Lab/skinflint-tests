@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the browser enforces CORS (curl doesn't), covers preflight and credentialed-request pitfalls, gives valid curl commands to reproduce the headers, and offers correct server-side or proxy fixes.

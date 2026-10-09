@@ -1,0 +1,1 @@
+PASS: The design covers sign-in, token lifetime and refresh, logout, and lost-phone handling, and its technical details hold up (PKCE, hashed rotating refresh tokens with reuse detection, RFC 7009 revoke, Keychain accessibility class, single-flight refresh). The stray statusline offer at the end is off-topic but doesn't affect correctness.

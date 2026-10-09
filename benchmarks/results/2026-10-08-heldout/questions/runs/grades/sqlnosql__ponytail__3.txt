@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear recommendation (PostgreSQL with `jsonb`) and a balanced comparison. Its technical claims are accurate: GIN supports containment queries, range queries on a JSON key need an expression index, MongoDB has wildcard indexes and built-in sharding, and Atlas Search is Atlas-only. The example schema is valid SQL.

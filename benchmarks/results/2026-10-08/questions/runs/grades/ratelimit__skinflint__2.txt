@@ -1,0 +1,3 @@
+PASS
+
+The code is a complete, working Express app: it hashes passwords with bcrypt, uses a dummy hash to even out timing for unknown usernames, and regenerates the session on login. Its limiter allows 5 failed attempts per IP per window, and successful logins don't count. It uses the current `rateLimit`/`limit` API and correctly says it assumes Express 5 and hasn't been run.

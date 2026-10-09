@@ -1,0 +1,1 @@
+PASS: The code retries connection errors, timeouts, and 429/5xx responses up to three times with exponential backoff. Other 4xx errors raise immediately, and the urllib3 `Retry` alternative is also correct.

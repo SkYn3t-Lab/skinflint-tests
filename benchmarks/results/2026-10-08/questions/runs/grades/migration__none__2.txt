@@ -1,0 +1,3 @@
+PASS
+
+The SQL is valid PostgreSQL. `ADD COLUMN IF NOT EXISTS` makes the schema step re-runnable. The split gives the right results: "Mary Ann Smith" becomes "Mary" / "Ann Smith", and a single-word name gets a NULL last name. The `first_name IS NULL AND last_name IS NULL` guard keeps a second run from overwriting rows that were already split. The answer states its assumptions (a `users` table with an `id` column, not run) and notes the large-table locking caveat.

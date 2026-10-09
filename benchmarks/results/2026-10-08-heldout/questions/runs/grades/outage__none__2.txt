@@ -1,0 +1,3 @@
+PASS
+
+The answer gives a blameless incident summary with timeline placeholders, a likely cause that is flagged as a hypothesis to confirm, and detailed follow-up actions. It also covers impact, contributing factors, and open questions.

@@ -1,0 +1,1 @@
+PASS. The answer correctly describes lookahead as a zero-width assertion, covers positive and negative forms, and gives code examples that work, with the outputs it states. It also mentions lookbehind accurately.

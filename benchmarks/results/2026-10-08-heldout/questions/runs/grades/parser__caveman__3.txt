@@ -1,0 +1,1 @@
+PASS: I read the code closely and found no compile errors or logic bugs. It covers boolean flags, value flags, a generated help message and positionals. The answer admits it was never compiled or run, and I didn't compile it either.

@@ -1,0 +1,2 @@
+PASS
+The code returns the default when PORT is unset, empty, non-numeric, or outside 1–65535, and otherwise returns the parsed integer, which is what was asked.

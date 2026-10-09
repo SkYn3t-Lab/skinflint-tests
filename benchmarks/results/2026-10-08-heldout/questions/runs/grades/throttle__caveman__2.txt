@@ -1,0 +1,2 @@
+PASS
+The throttle is a standard leading-plus-trailing implementation that fires on the first call and then at most once per 200 ms. It also keeps the last scroll event, uses a passive listener, and shows how to remove the handler.

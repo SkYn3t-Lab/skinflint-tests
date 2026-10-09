@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains pooling mechanics (checkout, return, validation, sizing, queuing) and its benefits (avoiding handshake/auth cost, capping database load, handling failures), with accurate details like PostgreSQL's process-per-connection model and the pool-size-times-instances limit.

@@ -1,0 +1,3 @@
+PASS
+
+The route does proper keyset pagination on `(created_at, id)` with a row-value comparison. It fetches `limit + 1` rows to detect a next page and clamps `limit` to 1–100. It keeps microsecond precision by casting `created_at` to text, validates the cursor, and maps malformed-value database errors to a 400. I read through it but did not run it.

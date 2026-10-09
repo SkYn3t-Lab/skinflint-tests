@@ -1,0 +1,1 @@
+PASS: The answer correctly explains the extra index maintenance on each INSERT (B-tree traversal, WAL logging, page splits, random-key cache misses, unique checks, costly GIN or composite indexes, lost HOT updates in Postgres). It also gives practical fixes, so it answers the question. The unrelated "chisle statusline badge" line at the end doesn't change that.

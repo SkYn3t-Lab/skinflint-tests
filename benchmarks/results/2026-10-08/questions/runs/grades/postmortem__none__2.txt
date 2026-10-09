@@ -1,0 +1,1 @@
+PASS: The answer is a complete postmortem with summary, impact, timeline, root cause, contributing factors and prioritized remediations, and it plainly says all specifics are placeholders. Its timeline arithmetic and its technical story (a remote call made while holding a database connection, a default 60 s read timeout, and a shared pool that ran out) both hold together.

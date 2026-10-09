@@ -1,0 +1,1 @@
+PASS: The answer correctly separates heap, external and native growth using `process.memoryUsage()`. It lists the usual Node.js leak causes and gives a sound heap-snapshot comparison workflow with valid flags (`--heapsnapshot-signal`, `--heapsnapshot-near-heap-limit`, `--heap-prof`, `v8.writeHeapSnapshot`), plus sensible steps for non-heap growth.

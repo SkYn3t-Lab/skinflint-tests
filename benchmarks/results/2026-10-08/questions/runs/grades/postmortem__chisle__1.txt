@@ -1,0 +1,1 @@
+PASS: The postmortem has the requested timeline, root cause and remediations. Its numbers hold together: 12 pods × 20 connections is 240, 24 pods × 20 is 480 against a limit of 400, and 13:50–17:52 is 4h 02m. The closing note about a statusline badge is unrelated to the request but doesn't affect the postmortem.

@@ -5,6 +5,9 @@
 # OUTDIR/grades/<cell>.txt with the judge's one-line reason.
 #
 #   bash benchmarks/grade.sh RUNDIR GRADES.json [MODEL]
+#
+# TASKS_FILE=<file> names the task file the run used, when it was not
+# tasks.tsv.
 set -u
 here=$(cd "$(dirname "$0")" && pwd)
 run=${1:?usage: grade.sh RUNDIR GRADES.json [MODEL]}
@@ -20,7 +23,7 @@ grade() { # cell json file
   local f=$1 name g
   name=$(basename "$f" .json); g="$run/grades/$name.txt"
   [ -s "$g" ] && return
-  python3 - "$f" "$here/tasks.tsv" > "$iso/$name.prompt" <<'EOF'
+  python3 - "$f" "${TASKS_FILE:-$here/tasks.tsv}" > "$iso/$name.prompt" <<'EOF'
 import json, sys
 f, tasks = sys.argv[1], sys.argv[2]
 tid = f.rsplit('/', 1)[-1].split('__')[0]

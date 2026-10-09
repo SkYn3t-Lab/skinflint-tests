@@ -1,0 +1,2 @@
+PASS
+The code `list(chain.from_iterable(lists))` and the comprehension alternative both correctly flatten one level, and the notes on `sum` and on strings are accurate.

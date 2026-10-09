@@ -1,0 +1,2 @@
+PASS
+`AbortSignal.timeout(5000)` is the standard way to abort a fetch after 5 seconds. It is supported in modern browsers and Node 17.3+, and it rejects with a `TimeoutError` `DOMException` as the answer says.

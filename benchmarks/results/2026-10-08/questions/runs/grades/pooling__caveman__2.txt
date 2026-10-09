@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly explains pooling mechanics (min/max sizing, borrow/return, queueing, health checks, lifetime recycling) and the benefits (avoiding connection setup cost, capping DB load, backpressure), and its caveats (leaks, `max_connections`, PgBouncer transaction-mode limits) are accurate.

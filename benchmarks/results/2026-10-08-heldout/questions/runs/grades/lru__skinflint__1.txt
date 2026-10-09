@@ -1,0 +1,3 @@
+PASS
+
+The code is a correct LRU cache. It uses an `OrderedDict` for O(1) `get` and `put`, evicts the least recently used entry when over `max_size`, and supports a default TTL with a per-entry override in `put`. The caveats it notes (lazy expiry, no thread safety) are accurate and don't break the request.

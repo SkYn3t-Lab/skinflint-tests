@@ -1,0 +1,2 @@
+FAIL
+The claim that `pop` does not drop the stash on conflict is correct, but the answer never says that `apply` is the same in that case, and it leaves out that both commands accept a stash reference like `stash@{n}`, so it is incomplete rather than wrong. The more serious problem is that it says "Resolve, then `git stash drop` by hand" without noting that `pop` keeps the stash only when the apply hits a conflict, and the phrasing "On conflict" is vague enough to suggest a different behavior than git actually has.

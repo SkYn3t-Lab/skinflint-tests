@@ -1,0 +1,3 @@
+PASS
+
+The SQL is valid Postgres. `ADD COLUMN IF NOT EXISTS` and the `first_name IS NULL AND last_name IS NULL` guard make a rerun a no-op. The regexes split "Mary Ann Smith" into `Mary` / `Ann Smith` and a single name like "Cher" into `Cher` / `NULL`, and they handle leading and trailing whitespace.

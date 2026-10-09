@@ -1,0 +1,2 @@
+PASS
+The optional chaining (`user?.profile?.name`) prevents the throw when `user` or `profile` is null or undefined, and `?? "guest"` supplies the fallback.

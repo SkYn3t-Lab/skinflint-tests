@@ -1,0 +1,2 @@
+PASS
+The answer correctly classifies growth by memory type, gives accurate tooling (`--heapsnapshot-signal`, `--heapsnapshot-near-heap-limit`, DevTools comparison and retainers, `MALLOC_ARENA_MAX`, jemalloc), and lists the standard causes with a sound diagnostic workflow.

@@ -1,0 +1,2 @@
+PASS
+The answer uses `user?.profile?.name ?? "guest"`, which stops the throw when `user` or `profile` is null or undefined and falls back to "guest", and it correctly notes that `??` leaves an empty string as `""`.

@@ -1,0 +1,1 @@
+PASS: The answer correctly says `apply` keeps the stash entry while `pop` applies and then drops it. It also correctly says `pop` keeps the stash if there is a conflict. It also covers the default `stash@{0}`, specifying a stash, and `--index`.

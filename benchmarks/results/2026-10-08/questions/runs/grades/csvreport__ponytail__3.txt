@@ -1,0 +1,1 @@
+PASS: I traced the code by hand, since the answer says it was not run. The validation, per-customer Decimal totals, reject logging and streaming read are all correct, and the self-test's expected counts (4 ok, 5 rejected), reject line numbers (5–9) and report values all match the code's behavior.

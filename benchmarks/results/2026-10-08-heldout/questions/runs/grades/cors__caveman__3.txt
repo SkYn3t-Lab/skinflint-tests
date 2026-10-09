@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that CORS is enforced only by browsers, covers the Allow-Origin check and the preflight OPTIONS case, and gives a working curl reproduction plus the right fixes (server headers, exact origin with credentials, proxy).

@@ -1,0 +1,1 @@
+PASS: The answer correctly explains the causes of slower INSERTs after adding an index (extra B-tree writes, page splits, random-key cache misses, unique checks, Postgres HOT updates) and gives accurate fixes. The unrelated statusline note at the end is noise but doesn't make it incorrect.

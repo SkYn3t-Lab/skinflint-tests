@@ -1,0 +1,3 @@
+PASS
+
+The code defines all six states, a transition table with sensible rules (cancel only from created; refund from paid, shipped or delivered; cancelled and refunded are terminal), and an `InvalidTransition` error that leaves the state unchanged. I traced the self-checks by hand and they should all pass, though the answer says it never ran them.

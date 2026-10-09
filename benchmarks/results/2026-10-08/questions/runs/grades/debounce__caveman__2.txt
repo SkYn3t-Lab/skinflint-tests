@@ -1,0 +1,2 @@
+PASS
+The code correctly debounces the input handler at 300 ms, and it also aborts the in-flight request, so a stale response can't overwrite a newer one.

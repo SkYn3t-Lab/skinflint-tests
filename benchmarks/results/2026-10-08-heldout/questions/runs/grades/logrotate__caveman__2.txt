@@ -1,0 +1,3 @@
+PASS
+
+The script handles every requirement: it gzips logs older than 7 days, deletes `.gz` logs older than 30 days (the `.gz` keeps the original mtime), supports `--dry-run`, and prints a summary. I found no bugs from reading it, though it was never run, as the answer itself says.

@@ -1,0 +1,1 @@
+PASS: The postmortem has the requested timeline, root cause and remediations, and its timings and arithmetic are consistent (09:12 to 13:14 is 4h 02m, and 12:25 to 12:48 is 23 minutes). The technical reasoning is sound: a connection held across a remote call with no timeout, a pool that exhausts, and a pool-size increase that hits the database's `max_connections`.

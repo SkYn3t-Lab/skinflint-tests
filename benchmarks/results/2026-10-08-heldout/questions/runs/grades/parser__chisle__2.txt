@@ -1,0 +1,3 @@
+PASS
+
+The code looks correct from reading it: it should compile, and the test's expected parse results and tabwriter-aligned help output match what the code produces. It covers boolean flags, value flags, generated help and positional arguments (including `--`). It hasn't been compiled or run.

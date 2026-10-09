@@ -1,0 +1,2 @@
+PASS
+`AbortSignal.timeout(5000)` passed as the `signal` option is the standard way to give `fetch` a 5-second timeout, and the answer's side notes (the `TimeoutError` rejection, body reads covered, Node 17.3+, `AbortSignal.any` for combining with manual cancel) are accurate.

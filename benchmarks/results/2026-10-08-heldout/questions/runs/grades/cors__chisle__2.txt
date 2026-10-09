@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly explains that the browser enforces CORS and curl doesn't. It covers preflight, the credentials and wildcard rule, and a server-side fix, and it gives a working curl command to reproduce the preflight. The closing line about a "chisle statusline badge" is unrelated to the question, but it doesn't make the CORS explanation wrong or incomplete.

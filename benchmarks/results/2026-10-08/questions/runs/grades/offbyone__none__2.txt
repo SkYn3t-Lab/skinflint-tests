@@ -1,0 +1,2 @@
+PASS
+The original bound `i < arr.length - 1` omits the last index, and changing it to `i < arr.length` iterates over every element, so the fix is correct and complete.

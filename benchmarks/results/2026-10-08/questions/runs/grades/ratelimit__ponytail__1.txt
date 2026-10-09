@@ -1,0 +1,1 @@
+PASS: The code looks correct on reading, though it was not run. It covers scrypt hashing with a timing-safe compare, session regeneration on login, and per-IP and per-username failed-attempt limiting with 429 and Retry-After. I traced the test's login, logout and lockout sequence through the counters, and it gives the expected statuses.

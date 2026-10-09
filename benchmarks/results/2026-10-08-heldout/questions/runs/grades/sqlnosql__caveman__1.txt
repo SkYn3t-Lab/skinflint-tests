@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear recommendation (PostgreSQL with JSONB) backed by an accurate comparison covering the points that matter for this decision, including JSONB indexing, relational integrity, transactions, faceting, sharding and update behavior, plus when MongoDB would be the better choice.

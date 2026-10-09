@@ -1,0 +1,1 @@
+PASS: The answer is technically accurate and gives a clear recommendation (modular monolith first, split later only under measurable conditions) with balanced trade-offs, concrete steps, and criteria for revisiting the decision.

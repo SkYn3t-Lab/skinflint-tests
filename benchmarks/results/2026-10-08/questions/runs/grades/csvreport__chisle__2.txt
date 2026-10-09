@@ -1,0 +1,3 @@
+PASS
+
+The script streams the CSV, validates each row (field count, encoding, customer ID, finite `Decimal` amount), totals per customer, writes a report, and sends bad rows to a rejects file instead of crashing. I read through it and found no bugs, though it was not run. The answer says so itself.

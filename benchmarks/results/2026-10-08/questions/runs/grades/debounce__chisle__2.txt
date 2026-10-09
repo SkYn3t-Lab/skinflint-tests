@@ -1,0 +1,3 @@
+PASS
+
+The vanilla JS debounce clears and resets a 300ms timer on each keystroke. It aborts the previous in-flight request with `AbortController`, and it ignores `AbortError`. The React `useEffect` version is correct too, with cleanup that clears the timer and aborts the request. The closing line about a statusline badge is irrelevant, but it doesn't make the code wrong.

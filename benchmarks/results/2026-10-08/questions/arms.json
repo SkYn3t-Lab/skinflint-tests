@@ -1,0 +1,560 @@
+{
+ "arms": [
+  "none",
+  "skinflint",
+  "caveman",
+  "chisle",
+  "ponytail"
+ ],
+ "overall": {
+  "none": {
+   "n": 20,
+   "total_pct": 100,
+   "avg_pct": 100,
+   "worst_pct": 100,
+   "worst_task": "debounce",
+   "backfires": 0
+  },
+  "skinflint": {
+   "n": 20,
+   "total_pct": 40,
+   "avg_pct": 49,
+   "worst_pct": 111,
+   "worst_task": "envvar",
+   "backfires": 1
+  },
+  "caveman": {
+   "n": 20,
+   "total_pct": 71,
+   "avg_pct": 70,
+   "worst_pct": 138,
+   "worst_task": "postmortem",
+   "backfires": 1
+  },
+  "chisle": {
+   "n": 20,
+   "total_pct": 70,
+   "avg_pct": 98,
+   "worst_pct": 228,
+   "worst_task": "offbyone",
+   "backfires": 6
+  },
+  "ponytail": {
+   "n": 20,
+   "total_pct": 80,
+   "avg_pct": 88,
+   "worst_pct": 168,
+   "worst_task": "retry",
+   "backfires": 3
+  }
+ },
+ "by_kind": {
+  "coding": {
+   "none": {
+    "n": 10,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "debounce",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 10,
+    "total_pct": 33,
+    "avg_pct": 50,
+    "worst_pct": 111,
+    "worst_task": "envvar",
+    "backfires": 1
+   },
+   "caveman": {
+    "n": 10,
+    "total_pct": 62,
+    "avg_pct": 70,
+    "worst_pct": 97,
+    "worst_task": "migration",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 10,
+    "total_pct": 61,
+    "avg_pct": 104,
+    "worst_pct": 228,
+    "worst_task": "offbyone",
+    "backfires": 3
+   },
+   "ponytail": {
+    "n": 10,
+    "total_pct": 70,
+    "avg_pct": 86,
+    "worst_pct": 168,
+    "worst_task": "retry",
+    "backfires": 2
+   }
+  },
+  "explain": {
+   "none": {
+    "n": 10,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "backref",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 10,
+    "total_pct": 55,
+    "avg_pct": 48,
+    "worst_pct": 64,
+    "worst_task": "rerender",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 10,
+    "total_pct": 89,
+    "avg_pct": 69,
+    "worst_pct": 138,
+    "worst_task": "postmortem",
+    "backfires": 1
+   },
+   "chisle": {
+    "n": 10,
+    "total_pct": 87,
+    "avg_pct": 92,
+    "worst_pct": 193,
+    "worst_task": "backref",
+    "backfires": 3
+   },
+   "ponytail": {
+    "n": 10,
+    "total_pct": 100,
+    "avg_pct": 90,
+    "worst_pct": 121,
+    "worst_task": "postmortem",
+    "backfires": 1
+   }
+  }
+ },
+ "by_size": {
+  "short": {
+   "none": {
+    "n": 10,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "debounce",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 10,
+    "total_pct": 44,
+    "avg_pct": 53,
+    "worst_pct": 111,
+    "worst_task": "envvar",
+    "backfires": 1
+   },
+   "caveman": {
+    "n": 10,
+    "total_pct": 58,
+    "avg_pct": 60,
+    "worst_pct": 82,
+    "worst_task": "envvar",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 10,
+    "total_pct": 94,
+    "avg_pct": 120,
+    "worst_pct": 228,
+    "worst_task": "offbyone",
+    "backfires": 4
+   },
+   "ponytail": {
+    "n": 10,
+    "total_pct": 93,
+    "avg_pct": 94,
+    "worst_pct": 168,
+    "worst_task": "retry",
+    "backfires": 2
+   }
+  },
+  "long": {
+   "none": {
+    "n": 10,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "cache",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 10,
+    "total_pct": 39,
+    "avg_pct": 44,
+    "worst_pct": 64,
+    "worst_task": "rerender",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 10,
+    "total_pct": 73,
+    "avg_pct": 79,
+    "worst_pct": 138,
+    "worst_task": "postmortem",
+    "backfires": 1
+   },
+   "chisle": {
+    "n": 10,
+    "total_pct": 66,
+    "avg_pct": 75,
+    "worst_pct": 101,
+    "worst_task": "monolith",
+    "backfires": 2
+   },
+   "ponytail": {
+    "n": 10,
+    "total_pct": 78,
+    "avg_pct": 83,
+    "worst_pct": 121,
+    "worst_task": "postmortem",
+    "backfires": 1
+   }
+  },
+  "coding/short": {
+   "none": {
+    "n": 5,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "debounce",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 5,
+    "total_pct": 49,
+    "avg_pct": 63,
+    "worst_pct": 111,
+    "worst_task": "envvar",
+    "backfires": 1
+   },
+   "caveman": {
+    "n": 5,
+    "total_pct": 63,
+    "avg_pct": 67,
+    "worst_pct": 82,
+    "worst_task": "envvar",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 5,
+    "total_pct": 112,
+    "avg_pct": 144,
+    "worst_pct": 228,
+    "worst_task": "offbyone",
+    "backfires": 3
+   },
+   "ponytail": {
+    "n": 5,
+    "total_pct": 106,
+    "avg_pct": 105,
+    "worst_pct": 168,
+    "worst_task": "retry",
+    "backfires": 2
+   }
+  },
+  "coding/long": {
+   "none": {
+    "n": 5,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "cache",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 5,
+    "total_pct": 31,
+    "avg_pct": 36,
+    "worst_pct": 63,
+    "worst_task": "migration",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 5,
+    "total_pct": 62,
+    "avg_pct": 72,
+    "worst_pct": 97,
+    "worst_task": "migration",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 5,
+    "total_pct": 57,
+    "avg_pct": 65,
+    "worst_pct": 96,
+    "worst_task": "migration",
+    "backfires": 0
+   },
+   "ponytail": {
+    "n": 5,
+    "total_pct": 67,
+    "avg_pct": 68,
+    "worst_pct": 90,
+    "worst_task": "ratelimit",
+    "backfires": 0
+   }
+  },
+  "explain/short": {
+   "none": {
+    "n": 5,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "backref",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 5,
+    "total_pct": 41,
+    "avg_pct": 44,
+    "worst_pct": 63,
+    "worst_task": "backref",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 5,
+    "total_pct": 54,
+    "avg_pct": 53,
+    "worst_pct": 59,
+    "worst_task": "pooling",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 5,
+    "total_pct": 80,
+    "avg_pct": 97,
+    "worst_pct": 193,
+    "worst_task": "backref",
+    "backfires": 1
+   },
+   "ponytail": {
+    "n": 5,
+    "total_pct": 82,
+    "avg_pct": 83,
+    "worst_pct": 95,
+    "worst_task": "pooling",
+    "backfires": 0
+   }
+  },
+  "explain/long": {
+   "none": {
+    "n": 5,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "restgraphql",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 5,
+    "total_pct": 58,
+    "avg_pct": 53,
+    "worst_pct": 64,
+    "worst_task": "rerender",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 5,
+    "total_pct": 98,
+    "avg_pct": 86,
+    "worst_pct": 138,
+    "worst_task": "postmortem",
+    "backfires": 1
+   },
+   "chisle": {
+    "n": 5,
+    "total_pct": 88,
+    "avg_pct": 86,
+    "worst_pct": 101,
+    "worst_task": "monolith",
+    "backfires": 2
+   },
+   "ponytail": {
+    "n": 5,
+    "total_pct": 104,
+    "avg_pct": 98,
+    "worst_pct": 121,
+    "worst_task": "postmortem",
+    "backfires": 1
+   }
+  }
+ },
+ "per_task": {
+  "debounce": {
+   "none": 100,
+   "skinflint": 28,
+   "caveman": 75,
+   "chisle": 77,
+   "ponytail": 75,
+   "baseline_tokens": 1358
+  },
+  "dedupe": {
+   "none": 100,
+   "skinflint": 25,
+   "caveman": 63,
+   "chisle": 78,
+   "ponytail": 65,
+   "baseline_tokens": 302
+  },
+  "envvar": {
+   "none": 100,
+   "skinflint": 111,
+   "caveman": 82,
+   "chisle": 185,
+   "ponytail": 135,
+   "baseline_tokens": 261
+  },
+  "offbyone": {
+   "none": 100,
+   "skinflint": 84,
+   "caveman": 81,
+   "chisle": 228,
+   "ponytail": 82,
+   "baseline_tokens": 78
+  },
+  "retry": {
+   "none": 100,
+   "skinflint": 70,
+   "caveman": 35,
+   "chisle": 148,
+   "ponytail": 168,
+   "baseline_tokens": 791
+  },
+  "cache": {
+   "none": 100,
+   "skinflint": 14,
+   "caveman": 42,
+   "chisle": 28,
+   "ponytail": 26,
+   "baseline_tokens": 8278
+  },
+  "migration": {
+   "none": 100,
+   "skinflint": 63,
+   "caveman": 97,
+   "chisle": 96,
+   "ponytail": 86,
+   "baseline_tokens": 1850
+  },
+  "statemachine": {
+   "none": 100,
+   "skinflint": 19,
+   "caveman": 84,
+   "chisle": 63,
+   "ponytail": 54,
+   "baseline_tokens": 3751
+  },
+  "csvreport": {
+   "none": 100,
+   "skinflint": 59,
+   "caveman": 95,
+   "chisle": 85,
+   "ponytail": 84,
+   "baseline_tokens": 6605
+  },
+  "ratelimit": {
+   "none": 100,
+   "skinflint": 26,
+   "caveman": 44,
+   "chisle": 52,
+   "ponytail": 90,
+   "baseline_tokens": 10425
+  },
+  "backref": {
+   "none": 100,
+   "skinflint": 63,
+   "caveman": 48,
+   "chisle": 193,
+   "ponytail": 84,
+   "baseline_tokens": 156
+  },
+  "pooling": {
+   "none": 100,
+   "skinflint": 45,
+   "caveman": 59,
+   "chisle": 65,
+   "ponytail": 95,
+   "baseline_tokens": 920
+  },
+  "gitrebase": {
+   "none": 100,
+   "skinflint": 34,
+   "caveman": 50,
+   "chisle": 66,
+   "ponytail": 82,
+   "baseline_tokens": 595
+  },
+  "unrelated": {
+   "none": 100,
+   "skinflint": 30,
+   "caveman": 54,
+   "chisle": 72,
+   "ponytail": 78,
+   "baseline_tokens": 709
+  },
+  "deadlock": {
+   "none": 100,
+   "skinflint": 45,
+   "caveman": 53,
+   "chisle": 90,
+   "ponytail": 73,
+   "baseline_tokens": 926
+  },
+  "restgraphql": {
+   "none": 100,
+   "skinflint": 18,
+   "caveman": 65,
+   "chisle": 70,
+   "ponytail": 87,
+   "baseline_tokens": 1046
+  },
+  "postmortem": {
+   "none": 100,
+   "skinflint": 62,
+   "caveman": 138,
+   "chisle": 101,
+   "ponytail": 121,
+   "baseline_tokens": 4857
+  },
+  "monolith": {
+   "none": 100,
+   "skinflint": 57,
+   "caveman": 74,
+   "chisle": 101,
+   "ponytail": 91,
+   "baseline_tokens": 1818
+  },
+  "apidesign": {
+   "none": 100,
+   "skinflint": 62,
+   "caveman": 79,
+   "chisle": 75,
+   "ponytail": 99,
+   "baseline_tokens": 4110
+  },
+  "rerender": {
+   "none": 100,
+   "skinflint": 64,
+   "caveman": 72,
+   "chisle": 83,
+   "ponytail": 91,
+   "baseline_tokens": 1607
+  }
+ },
+ "correct": {
+  "none": "56/60",
+  "skinflint": "58/60",
+  "caveman": "59/60",
+  "chisle": "60/60",
+  "ponytail": "60/60"
+ }
+}

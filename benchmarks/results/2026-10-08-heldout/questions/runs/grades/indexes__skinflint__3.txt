@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that each INSERT must also update the index (B-tree traversal, page splits, extra WAL writes), notes the random-key cache effect, and gives sensible mitigations.

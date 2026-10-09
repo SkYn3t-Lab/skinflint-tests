@@ -1,0 +1,1 @@
+PASS: The answer is a complete postmortem with summary, impact, timeline, root cause with contributing factors, remediations and lessons. It is technically sound, and I found no inconsistencies in its times, durations or connection-limit arithmetic. It also says plainly that the incident details are placeholders.

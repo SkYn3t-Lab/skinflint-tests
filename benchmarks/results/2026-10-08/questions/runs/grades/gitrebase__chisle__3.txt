@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that merge creates a two-parent merge commit and leaves existing commits untouched. It also correctly explains that rebase replays commits as new SHAs for a linear history, and it covers the shared-branch risk and `--force-with-lease`. The stray statusline-badge line is irrelevant, but it doesn't make the answer incorrect or incomplete.

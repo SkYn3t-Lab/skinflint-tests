@@ -69,7 +69,8 @@ cell() { # id prompt arm dir rep
   fi
   PLUGIN_DIR=$PLUGIN_DIR box net "$work" "$iso" \
     timeout 900 env HOME="$iso" CLAUDE_CONFIG_DIR="$iso" "$claude" "${args[@]}" </dev/null > "$f.tmp" 2>/dev/null
-  if [ -s "$f.tmp" ]; then
+  # A run that ended in an error (a usage limit, for one) is not a result.
+  if [ -s "$f.tmp" ] && ! grep -q '"is_error":true' "$f.tmp"; then
     cp "$f.tmp" "$iso/result.json"
     PLUGIN_DIR= box nonet "$work" "$iso" python3 "$here/check.py" "$1" "$work" "$iso/result.json" > "$f.check" 2>/dev/null </dev/null
     [ -s "$f.check" ] || echo "FAIL check did not run" > "$f.check"

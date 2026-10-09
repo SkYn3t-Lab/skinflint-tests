@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a race condition (timing-dependent outcome from unsynchronized shared-state access, with a valid lost-update example) and lists the standard preventions: locks/mutexes, atomics, immutability, and message passing.

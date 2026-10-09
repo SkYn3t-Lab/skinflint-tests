@@ -1,0 +1,2 @@
+PASS
+The postmortem has everything requested: a timeline, a root cause that follows from the stated facts (30 s timeout with 25 s latency, a 50-connection pool, and no limit on acquisition wait), and remediations with owners and dates. It also says plainly that the names and figures are placeholders.

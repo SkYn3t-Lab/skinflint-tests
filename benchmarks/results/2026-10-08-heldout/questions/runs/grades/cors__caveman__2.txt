@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that CORS is enforced only by browsers, covers the preflight `OPTIONS` mechanism, gives a working curl command to reproduce it, and states the right fixes, including the credentials rule that forbids `*` and the proxy option.

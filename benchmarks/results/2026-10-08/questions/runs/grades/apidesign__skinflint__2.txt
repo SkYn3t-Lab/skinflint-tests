@@ -1,0 +1,3 @@
+PASS
+
+The answer covers all five requested areas (resources, auth, pagination, versioning, error format) with sound reasoning: tenant taken from the credential, ETag/If-Match with 412 and 428, opaque cursors, path versioning with Deprecation and Sunset headers, and RFC 9457 problem details. I found no technical errors.

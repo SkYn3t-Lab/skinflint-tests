@@ -1,0 +1,3 @@
+PASS
+
+The comparison is technically accurate: HTTP caching, rate limiting, error semantics, query-cost risks and N+1 handling are all covered correctly. It gives a clear REST recommendation with conditions for choosing GraphQL instead. The unrelated statusline note at the end is off-topic but doesn't make the answer wrong.

@@ -1,0 +1,1 @@
+PASS: The cache code is correct: it stores the promise so concurrent misses share one fetch, it removes failed fetches from the cache, and it exports an invalidation hook. It also states its assumptions, namely that `fetchProfile` and `Profile` are placeholders and that the cache is per-process, which is reasonable because the working directory has no app code.

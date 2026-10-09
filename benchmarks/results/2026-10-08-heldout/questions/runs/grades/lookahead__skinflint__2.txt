@@ -1,0 +1,2 @@
+PASS
+The answer correctly describes a lookahead as a zero-width assertion that checks what follows the current position without consuming characters, and its positive (`(?=...)`) and negative (`(?!...)`) examples are accurate.

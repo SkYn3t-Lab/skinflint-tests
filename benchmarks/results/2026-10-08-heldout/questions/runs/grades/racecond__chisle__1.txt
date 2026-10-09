@@ -1,0 +1,2 @@
+PASS
+The answer defines race conditions correctly, gives accurate examples, lists standard prevention methods, and its closing note about a statusline badge is an unrelated aside that doesn't make the technical content wrong or incomplete.

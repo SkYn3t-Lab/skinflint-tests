@@ -1,0 +1,1 @@
+PASS: The answer correctly explains lookahead as a zero-width assertion, covers positive and negative forms with accurate examples, and notes that `a(?=b)c` can never match; the stray statusline line is unrelated to the question.

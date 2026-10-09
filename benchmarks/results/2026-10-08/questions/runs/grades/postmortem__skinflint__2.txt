@@ -1,0 +1,1 @@
+PASS: The answer is a complete postmortem with summary, impact, timeline, root cause, contributing factors and remediations. Its timeline arithmetic is consistent (3 h 59 min total, 7 min to detect, 2 h 24 min to identify), the pool-exhaustion mechanism is technically sound, and it states up front that the figures are placeholders.

@@ -1,0 +1,3 @@
+PASS
+
+`list(dict.fromkeys(items))` correctly removes duplicates while keeping order, and the answer notes the hashability limit and gives a working fallback for unhashable items. The unrelated "Caveman statusline badge" line is noise but doesn't make the solution wrong.

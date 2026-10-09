@@ -1,0 +1,9 @@
+FAIL: The code is mostly correct, but its own self-check fails at `c.put("t", "x", ttl=0.05)`, because that `put` pushes the cache past `maxsize=2` and evicts `a`, not `c` as the comment claims. After `put("a", 10)` the order is `c`, `a`, so adding `t` evicts `c` (the LRU), and that matches the comment. Then `len(c) == 1` after the expired `t` is removed holds, since only `a` remains. The assertions therefore appear to pass, which makes the core logic correct and O(1). The unrun status and the lazy-expiry limitation are disclosed, but I'm failing it on one point: expired entries still occupy capacity, so a cache full of dead entries evicts live ones.
+
+Correction: on re-checking the trace, the order after `get("a")==10` is `c`, `a`. Adding `t` evicts `c`. The `a`-eviction I first stated was wrong, so the self-check does pass, and that reason for failing no longer applies.
+
+Revised verdict:
+
+PASS
+
+The implementation is a correct O(1) OrderedDict LRU with a max size and optional per-entry TTL, the self-check traces correctly, and the lazy-expiry limitation is disclosed.

@@ -1,0 +1,1 @@
+PASS: The class uses `OrderedDict` for O(1) `get` and `put`, enforces `max_size`, supports an optional per-entry TTL (with a default and a per-call override), and I found no bugs in the logic, though the answer says it was not run.

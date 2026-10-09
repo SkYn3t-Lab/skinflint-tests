@@ -1,0 +1,1 @@
+PASS: The answer compares both databases for varied product attributes and picks PostgreSQL with a JSONB column, as asked. Its technical claims check out: GIN doesn't serve range queries, TOAST kicks in around 2 kB, and JSONB has no per-key statistics.

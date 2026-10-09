@@ -1,0 +1,1 @@
+PASS: The answer correctly describes lookahead as a zero-width assertion with positive and negative forms. Its examples are accurate, including the backtracking case where `\d+(?!px)` matches `10` in `100px`. It is also right that RE2 and Go lack lookahead support.

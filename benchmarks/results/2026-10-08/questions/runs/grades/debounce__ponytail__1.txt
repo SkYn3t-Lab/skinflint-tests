@@ -1,0 +1,1 @@
+PASS: Both snippets correctly debounce the input with a 300 ms `setTimeout`/`clearTimeout` and cancel stale in-flight requests with `AbortController`, which fully answers the request.

@@ -1,0 +1,3 @@
+PASS
+
+The code is correct and complete: it defines all six states, enforces the transition table, rejects invalid and self transitions with a clear error, and states its assumptions and the fact that it wasn't run.

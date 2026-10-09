@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that `pop` applies and then drops the stash while `apply` keeps it, including the conflict gotcha, stash refs, and `--index`; the trailing statusline-badge offer is irrelevant but doesn't make the technical content wrong.

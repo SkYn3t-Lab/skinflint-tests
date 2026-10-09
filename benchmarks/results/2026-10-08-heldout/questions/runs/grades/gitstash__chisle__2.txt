@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that apply keeps the stash while pop applies and then drops it, and it correctly notes that pop keeps the stash on conflict. The extra line about a "Chisle statusline badge" is irrelevant to the question, but it doesn't make the git content wrong.

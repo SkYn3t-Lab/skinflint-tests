@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that each INSERT must update every index (B-tree traversal, page splits, random I/O, WAL volume, uniqueness checks) and gives accurate, relevant fixes. The HOT-update note is correctly flagged as an UPDATE concern, not an INSERT one.

@@ -1,0 +1,1 @@
+PASS: The answer is a complete blameless incident summary with timeline placeholders, a preliminary likely cause that lists plausible database connection mechanisms, and prioritized follow-up actions, so it covers everything the user asked for.

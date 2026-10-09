@@ -1,0 +1,1 @@
+PASS: The design is technically sound and covers all four requested areas. It uses Authorization Code with PKCE in the system browser, short-lived JWT access tokens, and rotating opaque refresh tokens with reuse detection and a retry grace window. It also covers logout, a lost-phone flow with remote revoke, and recovery.

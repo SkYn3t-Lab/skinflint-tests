@@ -1,0 +1,3 @@
+PASS
+
+The code is correct. An unset `PORT` gives `NaN`, and an empty string gives `0`. Both fall back to 3000, as do non-numeric, fractional and out-of-range values. The only oddities are that hex and exponent strings like `"0x50"` and `"1e3"` are accepted as numbers, and that is arguably acceptable. The note about port 0 is accurate.

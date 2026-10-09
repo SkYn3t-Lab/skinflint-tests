@@ -1,0 +1,3 @@
+PASS
+
+The code runs as written on Express 5 and Node 18+. It covers all three requirements: scrypt hashing with a per-password salt and a constant-time compare, session login with `regenerate` and secure cookie settings, and per-IP and per-username rate limiting of failed attempts. The only flaw is a rare edge case: if the cleanup timer clears the IP entry while scrypt is running, `attempts.get(ipKey).n--` could throw.

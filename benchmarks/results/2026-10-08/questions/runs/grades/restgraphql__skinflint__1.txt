@@ -1,0 +1,2 @@
+PASS
+The answer recommends REST with accurate reasoning (low integrator barrier, native HTTP caching/CDN and per-endpoint rate limiting, GraphQL's need for query-cost and depth limiting, its strength for first-party frontends) and notes that GraphQL can be added later.

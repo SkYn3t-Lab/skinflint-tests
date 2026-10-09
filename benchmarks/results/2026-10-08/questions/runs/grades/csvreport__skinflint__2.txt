@@ -1,0 +1,1 @@
+PASS: The script streams the file, validates columns, customer and amount (rejecting NaN and Infinity), totals with `Decimal`, and handles `csv.Error` per row so it keeps going. It would crash only on an absurd amount like `1e9999999`, which overflows when added to the total, and that edge case doesn't undermine the core solution.

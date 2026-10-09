@@ -1,0 +1,3 @@
+PASS
+
+The answer says plainly that the directory has no profile API code and labels its code an untested sketch. The cache-aside code it gives is sound: the Redis calls are valid, Redis errors fall back to the source, concurrent misses share one fetch, and writes invalidate the key. The answer also states its main limits (viewer-specific responses, the stale window on a racing write, and uncached missing users).

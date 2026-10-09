@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that each INSERT must also maintain every index (B-tree lookup and insert, page splits, extra WAL, unique checks, cache pressure), and it gives practical mitigations (drop and rebuild for bulk loads, avoid random keys, remove unused indexes).

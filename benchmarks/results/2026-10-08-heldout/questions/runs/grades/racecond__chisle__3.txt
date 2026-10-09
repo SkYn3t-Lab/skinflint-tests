@@ -1,0 +1,2 @@
+FAIL
+The race-condition explanation and prevention advice are technically correct, but the answer ends with an unrelated offer to add a "Chisle statusline badge" to `settings.json`, which the user never asked about.

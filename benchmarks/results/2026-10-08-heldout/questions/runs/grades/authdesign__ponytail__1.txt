@@ -1,0 +1,2 @@
+PASS
+The answer covers sign-in (Auth Code + PKCE, system browser), token lifetimes and rotation with reuse detection and a grace window, logout, and lost-phone handling (remote revoke, step-up auth, recovery), and it is technically sound and notes its trade-offs.

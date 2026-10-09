@@ -1,0 +1,1 @@
+PASS: The script compresses logs older than 7 days, deletes compressed ones older than 30 days, prints a per-file log and a summary, and has a working `--dry-run`. I found no bugs when reading it, though it was never run. It only matches `*.log`, `*.log.N` and their `.gz` forms, and the answer says so and tells the user how to change the regexes.

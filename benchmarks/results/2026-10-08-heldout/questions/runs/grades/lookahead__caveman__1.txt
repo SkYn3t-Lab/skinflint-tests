@@ -1,0 +1,2 @@
+PASS
+The answer correctly describes lookahead as a zero-width assertion with accurate positive `(?=X)` and negative `(?!X)` syntax, and its examples (`\d+(?= USD)` on `100 USD` and `foo(?!bar)` on `foobaz`/`foobar`) behave as stated.

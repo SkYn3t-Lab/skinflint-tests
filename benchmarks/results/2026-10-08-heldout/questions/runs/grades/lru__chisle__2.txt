@@ -1,0 +1,3 @@
+PASS
+
+The code uses `OrderedDict` for O(1) `get` and `put`, enforces `maxsize`, and supports a default TTL with a per-entry override. I traced the included test by hand, and it passes. The stray note about a "Chisle statusline badge" is irrelevant to the request but doesn't make the code wrong.

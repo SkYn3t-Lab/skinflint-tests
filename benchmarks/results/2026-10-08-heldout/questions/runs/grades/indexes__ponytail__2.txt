@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that each index adds write work (B-tree maintenance, random I/O, extra WAL, unique checks), and its fixes are sound (drop unused indexes, load in bulk then index, batch inserts, use sequential keys). The HOT-update point is slightly off-topic for INSERTs, but it isn't wrong.

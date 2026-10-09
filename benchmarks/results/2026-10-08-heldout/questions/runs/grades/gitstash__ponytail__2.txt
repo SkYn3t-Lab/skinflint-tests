@@ -1,0 +1,2 @@
+PASS
+The answer correctly says `apply` keeps the stash entry while `pop` drops it after a clean apply, and that `pop` keeps the stash on conflict. It also correctly describes the default of `stash@{0}` and the option to name a specific stash.

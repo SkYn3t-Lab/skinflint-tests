@@ -1,0 +1,1 @@
+PASS: The code returns the PORT value when it is an integer from 1 to 65535 and falls back to 3000 in every other case. That covers unset, empty, non-numeric, fractional and out-of-range values. The note about `PORT=0` is also accurate.

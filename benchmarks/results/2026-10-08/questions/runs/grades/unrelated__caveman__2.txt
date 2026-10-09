@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the error means the histories share no common ancestor, lists the usual causes, and gives the right fixes (`--allow-unrelated-histories`, correcting the remote, `git fetch --unshallow`, and a force-push with a warning). It also suggests inspecting the histories first.

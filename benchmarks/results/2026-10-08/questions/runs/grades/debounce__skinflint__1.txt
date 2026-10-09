@@ -1,0 +1,3 @@
+PASS
+
+The snippet is a correct, standard debounce: it clears the pending timer on each `input` event and calls `search` once, 300 ms after the last keystroke. The answer also explains the placeholders and mentions the in-flight request and React cases.

@@ -1,0 +1,2 @@
+PASS
+The code is a standard leading-and-trailing throttle: it runs immediately, then at most once per 200 ms, with one trailing call after scrolling stops, and the `last`/`timer` bookkeeping is correct.

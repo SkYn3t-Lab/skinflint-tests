@@ -1,0 +1,1 @@
+PASS: I traced the code by hand and it appears correct. It compiles, it handles booleans, value flags (`--name=value`, `--name value`, `-n value`), positionals, `--` and help, and the tests' expected strings match the generated usage output, including the tabwriter spacing. I didn't run it, and the answer says it is unrun.

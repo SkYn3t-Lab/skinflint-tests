@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a backreference as matching the same text captured earlier, and its `\b(\w+) \1\b` example is valid, with accurate match and non-match cases.

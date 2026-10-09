@@ -1,0 +1,1 @@
+PASS: The Postgres migration is valid and does what was asked. `ADD COLUMN IF NOT EXISTS` plus the `WHERE first_name IS NULL` guard make it safe to run twice, and the backfill splits the name at the first word. It handles single-word names, extra spaces and NULL names sensibly, and the answer says it hasn't been run against a database.

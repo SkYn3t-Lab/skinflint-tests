@@ -1,0 +1,20 @@
+throttle	coding	short	Throttle a scroll handler in JavaScript so it runs at most once every 200 ms. Show the code.
+flatten	coding	short	Flatten a list of lists by one level in Python.
+timeout	coding	short	Add a 5 second timeout to a fetch call in JavaScript.
+nullcheck	coding	short	This throws when user is null: const name = user.profile.name; Fix it so name falls back to "guest".
+slugify	coding	short	Turn a title like "Hello, World!" into a URL slug like "hello-world" in Python.
+lru	coding	long	Write an LRU cache class in Python with get and put in O(1), a maximum size, and an optional time-to-live per entry.
+pagination	coding	long	Write an Express route that returns a paginated list of orders from PostgreSQL using keyset pagination on created_at and id, with a limit parameter and a cursor the client passes back.
+parser	coding	long	Write a small command-line argument parser in Go without third-party packages. It should support boolean flags, flags with values, a help message generated from the definitions, and positional arguments.
+logrotate	coding	long	Write a Python script that reads a directory of application log files, compresses any older than 7 days with gzip, deletes compressed ones older than 30 days, and prints a summary of what it did. It needs a dry-run option.
+queue	coding	long	Write a job queue in TypeScript that runs async jobs with a concurrency limit, retries a failed job up to three times, and lets the caller wait until the queue is empty.
+lookahead	explain	short	What does a lookahead do in a regular expression?
+indexes	explain	short	Why did adding an index make my INSERTs slower?
+gitstash	explain	short	What is the difference between git stash pop and git stash apply?
+cors	explain	short	My browser says a request was blocked by CORS policy, but the same request works in curl. Why?
+racecond	explain	short	What is a race condition, and how do I usually prevent one?
+sqlnosql	explain	long	We are choosing between PostgreSQL and MongoDB for a new product catalogue with varied attributes per product. Compare them for this use and say which you would pick.
+outage	explain	long	Our checkout service returned errors for 40 minutes after a deploy that changed a database connection setting. Write a blameless incident summary with timeline placeholders, likely cause, and follow-up actions.
+microfront	explain	long	Our frontend is one large React app owned by five teams. Should we split it into micro-frontends? Lay out the trade-offs and give a recommendation.
+authdesign	explain	long	Design authentication for a mobile app and its API: sign-in, token lifetime and refresh, logout, and what happens when a phone is lost.
+memleak	explain	long	A Node.js service grows in memory until it is restarted. What are the common causes and how do I find which one it is?

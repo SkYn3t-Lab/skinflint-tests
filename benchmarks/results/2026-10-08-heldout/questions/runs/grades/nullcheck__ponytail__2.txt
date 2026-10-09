@@ -1,0 +1,2 @@
+PASS
+The one-line optional-chaining fix with `?? "guest"` is correct, handles null `user` plus missing `profile` or `name`, and the answer accurately notes the empty-string caveat.

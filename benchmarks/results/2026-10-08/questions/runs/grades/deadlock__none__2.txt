@@ -1,0 +1,1 @@
+PASS: The answer correctly defines deadlock, gives a valid example, lists the four Coffman conditions accurately, and covers the standard avoidance techniques (lock ordering, acquiring all locks at once, try-lock with timeouts, and others) along with detection and recovery.

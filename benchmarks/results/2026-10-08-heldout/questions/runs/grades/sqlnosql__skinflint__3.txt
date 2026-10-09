@@ -1,0 +1,2 @@
+PASS
+The answer recommends PostgreSQL with a sound hybrid design (relational columns plus `jsonb` with a GIN index), accurately describes the tradeoffs on joins, integrity and transactions, and correctly notes when MongoDB would be the better choice.

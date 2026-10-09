@@ -1,0 +1,1 @@
+PASS: The answer compares REST and GraphQL accurately for a public API (caching, rate limiting, query-cost limits, N+1, tooling) and clearly recommends REST with a sensible path to add GraphQL later; the unrelated statusline offer at the end doesn't affect its correctness.

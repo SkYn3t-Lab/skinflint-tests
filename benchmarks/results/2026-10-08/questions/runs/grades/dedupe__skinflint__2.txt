@@ -1,0 +1,2 @@
+PASS
+`dict.fromkeys(items)` removes duplicates and keeps first-seen order, because dicts keep insertion order from Python 3.7 on. The answer also correctly notes that the items must be hashable and gives a fallback for unhashable ones.

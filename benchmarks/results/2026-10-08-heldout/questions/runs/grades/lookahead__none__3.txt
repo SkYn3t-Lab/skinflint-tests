@@ -1,0 +1,1 @@
+PASS: The answer correctly describes lookaheads as zero-width assertions, covers both positive and negative forms with accurate examples, and is right about which engines support them.

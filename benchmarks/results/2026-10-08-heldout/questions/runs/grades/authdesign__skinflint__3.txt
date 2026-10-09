@@ -1,0 +1,3 @@
+PASS
+
+The answer gives a technically sound design that covers all four requested areas: PKCE with the system browser and no embedded client secret, 15-minute access tokens with rotating refresh tokens and reuse detection, immediate logout through session revocation, and lost-phone handling through remote revoke, with recovery codes to avoid lockout.

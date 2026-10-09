@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a backreference as matching the same text a prior capture group matched, and its example `\b(\w+) \1\b` is valid and accurately described, including the "the then" non-match.

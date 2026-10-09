@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear pick (PostgreSQL with typed columns plus a GIN-indexed `jsonb` column). It correctly compares the two on joins, foreign keys, transactions and sharding, and it says when MongoDB would be the better choice.

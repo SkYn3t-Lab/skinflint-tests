@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the browser enforces CORS (Origin and Access-Control-Allow-Origin checks, preflight, credentials), shows how to reproduce it with curl, gives the right server-side fixes, and notes that `no-cors` won't help.

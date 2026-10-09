@@ -1,0 +1,2 @@
+PASS
+The answer correctly uses `AbortSignal.timeout(5000)`, which throws `TimeoutError` and covers body reading. The `AbortSignal.any` combination and the `setTimeout` fallback with `AbortError` are also accurate.

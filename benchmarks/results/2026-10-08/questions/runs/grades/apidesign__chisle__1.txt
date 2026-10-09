@@ -1,0 +1,1 @@
+PASS: The design covers resources, auth, pagination, versioning and error format with correct reasoning (RFC 9457, RFC 7396, If-Match with 412/428, cursor pagination, 404 for cross-tenant IDs). The stray statusline-badge sentence at the end is irrelevant but doesn't make the answer wrong.

@@ -1,0 +1,3 @@
+PASS
+
+The route correctly implements keyset pagination on `(created_at, id)`. It uses a row-value comparison that matches the `DESC` ordering, fetches `limit + 1` rows to detect a next page, and validates `limit` and the cursor. It builds the cursor from `created_at::text`, which keeps microsecond precision. It maps malformed-cursor database errors to a 400. The remaining caveats are minor: the `OR` null check may weaken index use under a generic plan, and the code assumes `timestamptz` and `bigint` column types, which it states.

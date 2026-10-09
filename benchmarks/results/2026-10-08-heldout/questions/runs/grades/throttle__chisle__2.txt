@@ -1,0 +1,3 @@
+PASS
+
+The throttle runs immediately on the first call and otherwise at most once per 200 ms. It also schedules a trailing call, and it attaches correctly as a passive scroll listener. The unrelated statusline note at the end doesn't affect the code's correctness.

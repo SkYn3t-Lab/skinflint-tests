@@ -1,0 +1,198 @@
+{
+ "sessions": {
+  "caveman": 4,
+  "chisle": 4,
+  "none": 4,
+  "ponytail": 4,
+  "skinflint": 4
+ },
+ "arms": {
+  "none": {
+   "output tokens": {
+    "per_session": [
+     4894.75,
+     8615.0,
+     10131.5,
+     4563.75,
+     28205.0
+    ],
+    "share": [
+     100,
+     100,
+     100,
+     100,
+     100
+    ]
+   },
+   "reply bytes": {
+    "per_session": [
+     12197.75,
+     14562.5,
+     15044.75,
+     11522.5,
+     53327.5
+    ],
+    "share": [
+     100,
+     100,
+     100,
+     100,
+     100
+    ]
+   },
+   "cost_per_session": 0.91816315,
+   "hook_bytes_per_session": {}
+  },
+  "caveman": {
+   "output tokens": {
+    "per_session": [
+     4216.5,
+     7300.25,
+     8937.75,
+     4103.0,
+     24557.5
+    ],
+    "share": [
+     86,
+     85,
+     88,
+     90,
+     87
+    ]
+   },
+   "reply bytes": {
+    "per_session": [
+     7783.5,
+     10579.0,
+     10955.5,
+     8402.75,
+     37720.75
+    ],
+    "share": [
+     64,
+     73,
+     73,
+     73,
+     71
+    ]
+   },
+   "cost_per_session": 0.8456447,
+   "hook_bytes_per_session": {
+    "UserPromptSubmit": 8180.0
+   }
+  },
+  "chisle": {
+   "output tokens": {
+    "per_session": [
+     4411.25,
+     6899.0,
+     8122.5,
+     3984.25,
+     23417.0
+    ],
+    "share": [
+     90,
+     80,
+     80,
+     87,
+     83
+    ]
+   },
+   "reply bytes": {
+    "per_session": [
+     7481.75,
+     9319.0,
+     10008.25,
+     9249.75,
+     36058.75
+    ],
+    "share": [
+     61,
+     64,
+     67,
+     80,
+     68
+    ]
+   },
+   "cost_per_session": 0.7905472,
+   "hook_bytes_per_session": {
+    "UserPromptSubmit": 4100.0
+   }
+  },
+  "ponytail": {
+   "output tokens": {
+    "per_session": [
+     4554.0,
+     7552.0,
+     9585.25,
+     4824.0,
+     26515.25
+    ],
+    "share": [
+     93,
+     88,
+     95,
+     106,
+     94
+    ]
+   },
+   "reply bytes": {
+    "per_session": [
+     8984.5,
+     11296.75,
+     11991.75,
+     10465.75,
+     42738.75
+    ],
+    "share": [
+     74,
+     78,
+     80,
+     91,
+     80
+    ]
+   },
+   "cost_per_session": 0.88395435,
+   "hook_bytes_per_session": {}
+  },
+  "skinflint": {
+   "output tokens": {
+    "per_session": [
+     2373.25,
+     3586.75,
+     5785.75,
+     2360.25,
+     14106.0
+    ],
+    "share": [
+     48,
+     42,
+     57,
+     52,
+     50
+    ]
+   },
+   "reply bytes": {
+    "per_session": [
+     5246.5,
+     5115.5,
+     6351.25,
+     4752.0,
+     21465.25
+    ],
+    "share": [
+     43,
+     35,
+     42,
+     41,
+     40
+    ]
+   },
+   "cost_per_session": 0.5116602,
+   "hook_bytes_per_session": {
+    "SessionStart": 767.0,
+    "UserPromptSubmit": 260.0
+   }
+  }
+ }
+}

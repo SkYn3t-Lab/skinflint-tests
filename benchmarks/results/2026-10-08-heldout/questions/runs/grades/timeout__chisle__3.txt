@@ -1,0 +1,3 @@
+PASS
+
+`AbortSignal.timeout(5000)` passed as `signal` is the correct way to put a 5-second timeout on `fetch`. The `TimeoutError` behavior, the Node 17.3+ and 2022 browser support, and the `AbortController` fallback are all accurate. The unrelated "Chisle statusline" line is noise, but it doesn't affect the correctness of the answer.

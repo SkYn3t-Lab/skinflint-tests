@@ -1,0 +1,2 @@
+PASS
+`AbortSignal.timeout(5000)` is the standard way to add a 5-second timeout to `fetch`, and it rejects with a `TimeoutError` as the answer says.

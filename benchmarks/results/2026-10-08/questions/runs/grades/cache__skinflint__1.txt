@@ -1,0 +1,2 @@
+PASS
+The code is a correct, working TTL cache with invalidation, and the answer honestly flags that it is untested, that `fetch_profile` is a stand-in, and what it leaves out (size limit, shared store, locking, per-requester keys).

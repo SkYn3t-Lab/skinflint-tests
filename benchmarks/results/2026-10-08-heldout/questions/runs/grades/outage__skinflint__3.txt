@@ -1,0 +1,2 @@
+PASS
+The answer gives a blameless summary with timeline placeholders, a hedged likely cause tied to the connection setting, and concrete follow-up actions, and it doesn't claim an unsupported root cause.

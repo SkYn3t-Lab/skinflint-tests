@@ -1,0 +1,1 @@
+PASS: The code is a working Express login. It hashes passwords with bcrypt, uses `express-session` with `regenerate` on login, and rate-limits only failed attempts through `express-rate-limit`'s `skipSuccessfulRequests`. It also handles unknown usernames with a dummy hash, and the caveats it states are accurate. I did not run it.

@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains pooling mechanics (checkout, return, exhaustion, housekeeping), why it helps (connection setup cost, capping load, better throughput with fewer connections), and accurate pitfalls like leaks, sizing, and external poolers.

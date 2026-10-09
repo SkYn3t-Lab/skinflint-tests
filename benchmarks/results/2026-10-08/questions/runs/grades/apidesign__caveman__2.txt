@@ -1,0 +1,1 @@
+PASS. The answer covers resources, auth, pagination, versioning and errors with sound reasoning, and its technical details are accurate: RFC 9457, RFC 7396 merge-patch, 412/428 for `If-Match`, keyset pagination, and 404 for cross-tenant IDs.

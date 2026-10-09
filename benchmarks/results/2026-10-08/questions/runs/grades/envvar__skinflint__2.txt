@@ -1,0 +1,3 @@
+PASS
+
+The code handles the cases the question asks about: an unset `PORT` gives `NaN`, and an empty string gives `0`, so both fall back to 3000. Non-integer or out-of-range values also fall back to 3000. The only quirk is that `Number()` accepts forms like `"0x50"` and `"1e3"`, which is minor, and the closing note about `PORT=0` is accurate.

@@ -1,0 +1,2 @@
+PASS
+The code defines all six states, a sensible transition table that rejects illegal moves (including from terminal states) by raising `InvalidTransition`, and it states its assumptions about the rules.

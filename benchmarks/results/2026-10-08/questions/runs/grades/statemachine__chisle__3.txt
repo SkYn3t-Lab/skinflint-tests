@@ -1,0 +1,3 @@
+PASS
+
+The code defines all six states, enforces a sensible transition table, and raises `InvalidTransition` on illegal moves. Its self-test checks every source/destination pair, including that a rejected transition leaves the state unchanged, and it should run and print `ok`. The extra lines about unsaved code and a statusline badge are odd, but they don't affect correctness.

@@ -1,0 +1,3 @@
+PASS
+
+The answer gives correct, working debounce code for both vanilla JS (a debounce helper plus AbortController to cancel stale requests) and React (a debounced-value hook plus an effect cleanup that aborts), and it says plainly that the endpoint and render function are placeholders.

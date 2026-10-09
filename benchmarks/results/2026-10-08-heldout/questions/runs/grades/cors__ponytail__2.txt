@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that CORS is enforced by the browser rather than the server, so curl is unaffected. It also covers preflight, credentials handling, ways to reproduce the problem with curl, and practical fixes.

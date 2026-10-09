@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that CORS is enforced only by browsers (curl doesn't check it), names the `Access-Control-Allow-Origin` header and preflight handling, and gives practical fixes for both server-controlled and non-controlled cases.

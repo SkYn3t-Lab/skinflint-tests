@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that each insert must also update the index (B-tree maintenance, page splits, extra logging), that cost scales with the number of indexes, and gives sound mitigations (drop unused indexes, drop and recreate around bulk loads).

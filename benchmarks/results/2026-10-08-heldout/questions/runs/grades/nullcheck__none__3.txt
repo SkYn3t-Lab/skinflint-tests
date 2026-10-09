@@ -1,0 +1,2 @@
+PASS
+The optional-chaining plus nullish-coalescing expression stops the throw when `user` or `profile` is null/undefined and falls back to "guest". The answer also correctly notes that `??` keeps an empty string and that `||` would replace it.

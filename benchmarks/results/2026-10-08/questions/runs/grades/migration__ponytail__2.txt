@@ -1,0 +1,3 @@
+PASS
+
+The Postgres SQL is correct and idempotent. `ADD COLUMN IF NOT EXISTS` and the `first_name IS NULL AND last_name IS NULL` guard make a rerun a no-op. The split regexes behave as the comments describe. The answer also says it is untested and that it assumed a `users` table.

@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that each INSERT must also update every index (a B-tree insert plus WAL/redo), lists the real factors that make it worse (random keys, an index too big for RAM, uniqueness checks, wide or GIN indexes), and gives sensible fixes.

@@ -1,0 +1,1 @@
+PASS: The answer is technically accurate and covers all three requested areas: ordering (modularize first, then a routing layer, edge capabilities, value-driven extraction, core entities last), data ownership (single-writer tables, staged split, sagas and outbox) and shippability (expand/contract, branch by abstraction, shadow traffic, flagged ramp-up, deleting the old path).

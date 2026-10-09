@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a race condition, gives accurate examples (lost-update counter, check-then-act), lists standard valid preventions, and mentions appropriate detection tools.

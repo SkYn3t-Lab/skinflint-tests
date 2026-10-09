@@ -1,0 +1,3 @@
+PASS
+
+The route is correct keyset pagination. It orders by `(created_at DESC, id DESC)` and filters with a row comparison `(created_at, id) < ($2, $3)`, which Postgres types from the columns. It fetches `limit + 1` rows to decide whether a next page exists, and it keeps microsecond precision by using `created_at::text` in the cursor. Bad cursors give a 400, either from decoding or from Postgres class-22 errors. The limit is clamped, and the index matches the sort order.

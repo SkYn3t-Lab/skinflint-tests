@@ -1,0 +1,24 @@
+sessions per arm: {'caveman': 4, 'chisle': 4, 'none': 4, 'ponytail': 4, 'skinflint': 4}; 20 prompts per session
+
+output tokens, share of none, by position in the session
+arm           prompts 1-5           6-10          11-15          16-20            all
+none           4894  100%     8615  100%    10131  100%     4563  100%    28205  100%
+caveman        4216   86%     7300   85%     8937   88%     4103   90%    24557   87%
+chisle         4411   90%     6899   80%     8122   80%     3984   87%    23417   83%
+ponytail       4554   93%     7552   88%     9585   95%     4824  106%    26515   94%
+skinflint      2373   48%     3586   42%     5785   57%     2360   52%    14106   50%
+
+reply bytes, share of none, by position in the session
+arm           prompts 1-5           6-10          11-15          16-20            all
+none          12197  100%    14562  100%    15044  100%    11522  100%    53327  100%
+caveman        7783   64%    10579   73%    10955   73%     8402   73%    37720   71%
+chisle         7481   61%     9319   64%    10008   67%     9249   80%    36058   68%
+ponytail       8984   74%    11296   78%    11991   80%    10465   91%    42738   80%
+skinflint      5246   43%     5115   35%     6351   42%     4752   41%    21465   40%
+
+cost per session $: none 0.92, caveman 0.85, chisle 0.79, ponytail 0.88, skinflint 0.51
+hooks added, bytes per session, none       nothing
+hooks added, bytes per session, caveman    {'UserPromptSubmit': 8180.0}
+hooks added, bytes per session, chisle     {'UserPromptSubmit': 4100.0}
+hooks added, bytes per session, ponytail   nothing
+hooks added, bytes per session, skinflint  {'SessionStart': 767.0, 'UserPromptSubmit': 260.0}

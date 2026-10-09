@@ -1,0 +1,3 @@
+PASS
+
+The answer defines deadlock correctly, gives a valid classic example, lists the four Coffman conditions accurately, maps each avoidance technique to the condition it breaks, and covers detection/recovery and debugging.

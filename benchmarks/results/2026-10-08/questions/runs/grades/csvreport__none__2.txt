@@ -1,0 +1,1 @@
+PASS: The script is correct. It streams rows, validates each field and sends bad rows to a rejects file instead of crashing. It catches `csv.Error` and keeps reading. It totals per customer with `Decimal` and writes the report atomically. It also says plainly that it is untested and that the schema is a guess.

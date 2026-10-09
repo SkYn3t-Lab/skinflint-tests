@@ -1,0 +1,2 @@
+PASS
+The answer recommends PostgreSQL with a `jsonb` column, gives valid DDL (including a GIN `jsonb_path_ops` index that supports `@>`), and compares the two databases accurately. It also states when MongoDB would be the better choice, which covers both the comparison and the pick the user asked for.

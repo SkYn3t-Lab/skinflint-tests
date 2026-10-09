@@ -1,0 +1,2 @@
+PASS
+The expression `user?.profile?.name ?? "guest"` safely handles null/undefined `user` or `profile` without throwing and falls back to "guest", and the note about `??` versus `||` for empty strings is accurate.

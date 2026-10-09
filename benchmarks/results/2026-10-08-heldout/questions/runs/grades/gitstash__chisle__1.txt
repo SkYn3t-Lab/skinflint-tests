@@ -1,0 +1,1 @@
+PASS: The answer correctly says `apply` keeps the stash and `pop` drops it only when it applies cleanly. It also correctly covers the conflict case, the optional stash ref, and `--index`. The unrelated statusline line at the end doesn't make it technically wrong.

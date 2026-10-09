@@ -1,0 +1,2 @@
+PASS
+The regex lowercases the input, collapses each run of non-alphanumeric characters into a single hyphen, and strips leading and trailing hyphens, so "Hello, World!" becomes "hello-world". The answer also states its non-ASCII limitation.

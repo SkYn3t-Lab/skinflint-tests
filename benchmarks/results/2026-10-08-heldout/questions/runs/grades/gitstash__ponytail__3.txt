@@ -1,0 +1,1 @@
+PASS: The answer correctly says `apply` keeps the stash entry and `pop` drops it only when the changes apply cleanly, and it correctly says a conflict leaves the stash in place so you must run `git stash drop` yourself.

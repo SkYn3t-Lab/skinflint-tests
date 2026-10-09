@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear REST recommendation backed by accurate trade-offs (caching, rate limiting, N+1, observability, versioning), says when GraphQL fits better, and states its assumptions.

@@ -1,0 +1,34 @@
+                          none     skinflint       caveman        chisle      ponytail
+all               100% w100 b0   40% w111 b1   71% w138 b1   70% w228 b6   80% w168 b3
+coding            100% w100 b0   33% w111 b1    62% w97 b0   61% w228 b3   70% w168 b2
+explain           100% w100 b0    55% w64 b0   89% w138 b1   87% w193 b3  100% w121 b1
+short             100% w100 b0   44% w111 b1    58% w82 b0   94% w228 b4   93% w168 b2
+long              100% w100 b0    39% w64 b0   73% w138 b1   66% w101 b2   78% w121 b1
+coding/short      100% w100 b0   49% w111 b1    63% w82 b0  112% w228 b3  106% w168 b2
+coding/long       100% w100 b0    31% w63 b0    62% w97 b0    57% w96 b0    67% w90 b0
+explain/short     100% w100 b0    41% w63 b0    54% w59 b0   80% w193 b1    82% w95 b0
+explain/long      100% w100 b0    58% w64 b0   98% w138 b1   88% w101 b2  104% w121 b1
+
+per task (%% of none; baseline tokens):
+debounce        1358        28      75      77      75
+dedupe           302        25      63      78      65
+envvar           261       111      82     185     135
+offbyone          78        84      81     228      82
+retry            791        70      35     148     168
+cache           8278        14      42      28      26
+migration       1850        63      97      96      86
+statemachine    3751        19      84      63      54
+csvreport       6605        59      95      85      84
+ratelimit      10425        26      44      52      90
+backref          156        63      48     193      84
+pooling          920        45      59      65      95
+gitrebase        595        34      50      66      82
+unrelated        709        30      54      72      78
+deadlock         926        45      53      90      73
+restgraphql     1046        18      65      70      87
+postmortem      4857        62     138     101     121
+monolith        1818        57      74     101      91
+apidesign       4110        62      79      75      99
+rerender        1607        64      72      83      91
+
+correct: {'none': '56/60', 'skinflint': '58/60', 'caveman': '59/60', 'chisle': '60/60', 'ponytail': '60/60'}

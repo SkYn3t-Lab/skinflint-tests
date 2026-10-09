@@ -1,0 +1,3 @@
+PASS
+
+The answer defines deadlock correctly, lists all four Coffman conditions, and matches each prevention technique to the condition it breaks. Two details are loose but don't change the substance. `std::scoped_lock(a, b)` is written without a variable name, so as a statement it would create a temporary that unlocks at once. Go's `-race` flag detects data races, not deadlocks.

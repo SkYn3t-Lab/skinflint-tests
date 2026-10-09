@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear PostgreSQL pick with jsonb and a fair, technically accurate comparison with MongoDB, covering the trade-offs and when MongoDB would win. The stray note about a "chisle statusline badge" is irrelevant to the question but doesn't make the comparison wrong.

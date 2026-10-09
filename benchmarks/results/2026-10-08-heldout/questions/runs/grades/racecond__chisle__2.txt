@@ -1,0 +1,1 @@
+PASS: The answer defines race conditions correctly and covers the usual preventions: avoiding shared state, atomic operations, locking, and idempotency. The unrelated statusline-badge offer at the end doesn't make the technical content wrong.

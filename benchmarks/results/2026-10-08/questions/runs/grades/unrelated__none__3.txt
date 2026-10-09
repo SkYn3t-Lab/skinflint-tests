@@ -1,0 +1,3 @@
+FAIL
+
+The answer's main advice is right (`--allow-unrelated-histories`, check the remote, `git fetch --unshallow`), but two claims are wrong or misleading. First, a shallow clone doesn't cause this error, because it still shares the ancestor commits it fetched. Second, the final advice for rewritten history is incorrect: unrelated histories only arise there if the roots changed, and `git reset` to the remote followed by cherry-picking is valid only in that case.

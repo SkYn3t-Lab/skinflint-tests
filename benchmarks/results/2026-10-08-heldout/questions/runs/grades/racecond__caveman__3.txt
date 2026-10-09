@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a race condition (outcome depends on interleaving of concurrent operations on shared state) and lists the standard, accurate prevention techniques: avoiding shared mutable state, locks, atomics, atomic check-then-act, and single ownership. It also names real detection tools.

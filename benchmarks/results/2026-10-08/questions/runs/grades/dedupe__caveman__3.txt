@@ -1,0 +1,2 @@
+PASS
+Both snippets correctly remove duplicates while preserving first-occurrence order: `dict.fromkeys` for hashable items (ordered in Python 3.7+), and the `not in` loop for unhashable items, with the O(n²) cost noted.

@@ -1,0 +1,2 @@
+PASS
+The answer delivers a blameless incident summary with timeline placeholders, a hedged likely cause tied to the connection setting change (pool exhaustion, connection limits, timeouts, connectivity), and concrete follow-up actions, so it covers everything the user asked for.

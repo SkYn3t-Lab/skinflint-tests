@@ -1,0 +1,2 @@
+FAIL
+The question asked for a small argument parser written without third-party packages, and the answer just wraps Go's standard `flag` package instead of writing the parser, so it skips the parsing logic that was requested (the answer itself says that was left out and offers to write it).

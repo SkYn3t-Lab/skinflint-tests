@@ -1,0 +1,3 @@
+PASS
+
+The answer gives a clear REST recommendation backed by an accurate comparison table and a sensible rationale. It also states when GraphQL would be the better choice.

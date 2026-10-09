@@ -1,0 +1,2 @@
+PASS
+The code defines all six states, a transition table with sensible legal edges, raises `InvalidTransition` before mutating state on illegal moves, and its usage example matches its behavior, though it is untested.

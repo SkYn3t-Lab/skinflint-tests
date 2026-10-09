@@ -1,0 +1,1 @@
+PASS: The answer correctly defines a race condition as timing-dependent behavior on shared state, gives a valid read-modify-write example, and lists the standard prevention methods (locks, atomics, immutability, message passing).

@@ -1,0 +1,1 @@
+PASS: The answer correctly separates heap, external and RSS-only growth, lists the real common causes of Node.js leaks, and gives accurate steps for finding the cause (`--heapsnapshot-signal`, snapshot comparison with retainers, `--heap-prof`, `--trace-gc`, `--heapsnapshot-near-heap-limit`, jemalloc or `MALLOC_ARENA_MAX`).

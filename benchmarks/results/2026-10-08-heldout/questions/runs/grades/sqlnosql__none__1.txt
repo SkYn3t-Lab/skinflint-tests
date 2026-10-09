@@ -1,0 +1,3 @@
+PASS
+
+The answer gives a clear recommendation (PostgreSQL with JSONB) and a technically accurate comparison covering GIN and expression indexes, MongoDB wildcard indexes, transactions, sharding, and when MongoDB would be the better choice.

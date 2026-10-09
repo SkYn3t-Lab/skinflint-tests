@@ -1,0 +1,2 @@
+PASS
+The answer recommends PostgreSQL with a `jsonb` column, compares the two across the relevant dimensions accurately, gives valid DDL, and states the costs and the cases where MongoDB would be the better choice.

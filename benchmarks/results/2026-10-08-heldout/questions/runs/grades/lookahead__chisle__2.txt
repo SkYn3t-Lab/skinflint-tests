@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that a lookahead is a zero-width assertion, covers positive and negative forms with accurate examples, and its caveats (negative lookahead succeeding at end of string, lookbehind width limits) are also correct. The unrelated closing line about a statusline badge is noise, but it doesn't make the regex explanation wrong.

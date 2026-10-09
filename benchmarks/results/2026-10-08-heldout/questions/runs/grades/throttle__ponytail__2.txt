@@ -1,0 +1,2 @@
+PASS
+The code is a correct leading-edge throttle that runs the handler at most once per 200 ms, and the answer says openly that it omits the trailing call.

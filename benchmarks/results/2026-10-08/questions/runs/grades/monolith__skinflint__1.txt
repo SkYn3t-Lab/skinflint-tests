@@ -1,0 +1,2 @@
+PASS
+The answer correctly covers strangler fig routing, ordering of extractions, staged data ownership migration (schema split, expand/contract, sagas, outbox), and shippability techniques (shadow traffic, flags, branch by abstraction, contract tests) without technical errors.

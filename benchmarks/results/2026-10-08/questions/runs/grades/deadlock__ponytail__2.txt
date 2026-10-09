@@ -1,0 +1,2 @@
+PASS
+The answer defines deadlock correctly, gives the classic two-lock example, lists the four Coffman conditions accurately, and offers valid avoidance strategies (lock ordering, try-lock/timeouts, fewer locks, and others) along with a correct fix for its example.

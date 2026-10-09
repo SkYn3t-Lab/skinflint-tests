@@ -1,0 +1,2 @@
+PASS
+The fix removes the off-by-one `- 1` so the loop runs to the last index, which is the correct and complete solution.

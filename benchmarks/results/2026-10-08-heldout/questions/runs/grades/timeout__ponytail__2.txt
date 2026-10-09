@@ -1,0 +1,2 @@
+PASS
+`AbortSignal.timeout(5000)` is the standard way to add a 5-second timeout to `fetch`. It rejects with a `TimeoutError` `DOMException`, and the timer also covers reading the body, as the answer says.

@@ -1,0 +1,2 @@
+PASS
+The postmortem includes a timeline, a root cause and remediations, and its numbers are internally consistent: the connection math works, the scale-out would exceed `max_connections`, and the 4h window matches 13:44–17:44. It also says up front that the details are placeholders.

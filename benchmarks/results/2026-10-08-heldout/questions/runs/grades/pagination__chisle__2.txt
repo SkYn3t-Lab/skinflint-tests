@@ -1,0 +1,3 @@
+PASS
+
+The route does what was asked. It uses a row-value keyset comparison on `(created_at, id)` with a matching `ORDER BY`. It fetches `limit + 1` rows to detect a next page. It keeps microsecond precision by carrying `created_at::text` in the cursor, and it rejects malformed cursors with a 400. I did not run it, since there's no Postgres here.

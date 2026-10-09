@@ -1,0 +1,2 @@
+PASS
+`AbortSignal.timeout(5000)` is the standard way to give `fetch` a 5-second timeout, and it rejects with a `TimeoutError` `DOMException` as the answer says. The Node 17.3+ requirement is also correct.

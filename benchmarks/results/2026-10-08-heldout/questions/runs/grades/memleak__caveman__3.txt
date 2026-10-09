@@ -1,0 +1,1 @@
+PASS: The answer correctly covers the common causes of a Node.js memory leak. It also gives an accurate diagnostic workflow, with valid tools and flags: `process.memoryUsage()`, the heap snapshot Comparison view and Retainers panel, `--heapsnapshot-signal`, `--heap-prof`, `getActiveResourcesInfo()`, jemalloc and `MALLOC_ARENA_MAX`.

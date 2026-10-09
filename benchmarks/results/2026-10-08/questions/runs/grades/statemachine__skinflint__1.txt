@@ -1,0 +1,1 @@
+PASS: The code defines all six states, a transition table with sensible legal moves, and a `transition` method that raises `InvalidTransition` for any move not in the table and leaves the state unchanged. The business-rule assumptions are stated openly.

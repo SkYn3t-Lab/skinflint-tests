@@ -1,0 +1,2 @@
+PASS
+The code is a correct leading-and-trailing throttle: it fires immediately when 200 ms have passed, schedules one trailing call otherwise, and attaches it to the scroll event.

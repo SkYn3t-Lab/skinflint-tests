@@ -1,0 +1,2 @@
+PASS
+The answer correctly lists the common Node.js leak causes and gives a sound diagnostic path: `process.memoryUsage()` to separate heap from external memory, heap snapshots with Comparison view, and Retainers. It also notes the production cost of snapshots and that a plateau is not a leak.

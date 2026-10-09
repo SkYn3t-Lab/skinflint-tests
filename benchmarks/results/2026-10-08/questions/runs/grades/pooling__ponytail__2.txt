@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains how pooling works (checkout/return, max size with queueing, health checks) and why it helps (avoiding connection setup cost, protecting the database, and getting more throughput from fewer connections), and its caveats on sizing, leaks, session state and external poolers are accurate.

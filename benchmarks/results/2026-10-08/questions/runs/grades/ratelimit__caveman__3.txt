@@ -1,0 +1,1 @@
+PASS: The code is correct and complete. It covers argon2id hashing, regenerated sessions with hardened cookies, failure-only rate limiting per IP and per username, and a dummy-hash check against username enumeration. It is also honest about its demo in-memory stores and the lockout trade-off.

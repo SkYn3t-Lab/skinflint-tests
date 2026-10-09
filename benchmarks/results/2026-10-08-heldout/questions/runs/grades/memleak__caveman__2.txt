@@ -1,0 +1,2 @@
+PASS
+The answer correctly identifies the main Node.js leak categories (unbounded caches, listeners, timers, closures, buffers, native or allocator leaks) and gives an accurate diagnostic workflow: `process.memoryUsage()` fields, snapshot comparison with retainers, `--heap-prof`, `--trace-gc` and jemalloc or `MALLOC_ARENA_MAX` tests.

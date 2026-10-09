@@ -1,0 +1,1 @@
+PASS: The answer correctly covers the main causes of extra re-renders (parent renders, state placed too high, unstable prop references, context value changes, broad store selectors, effect-synced derived state, nested component definitions, unstable keys, hook-driven renders, StrictMode). Each cause comes with a valid fix, and the code examples are correct.

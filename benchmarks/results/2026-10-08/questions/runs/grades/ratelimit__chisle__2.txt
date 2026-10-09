@@ -1,0 +1,3 @@
+PASS
+
+The code covers what was asked. Scrypt hashing uses a per-user salt, `timingSafeEqual` and a dummy hash for unknown users. Sessions regenerate on login and use hardened cookies. Per-IP and per-username limiters count only failed attempts, so the six-request check gives 401 five times and then 429. The stray "chisle" comments and the statusline note at the end are irrelevant but don't affect correctness.

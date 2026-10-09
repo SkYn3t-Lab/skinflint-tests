@@ -1,0 +1,1 @@
+PASS: The answer delivers all three requested elements: a blameless-framed summary with timeline placeholders, a hedged likely-cause section with plausible connection-setting failure mechanisms, and concrete follow-up actions.

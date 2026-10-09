@@ -1,0 +1,3 @@
+FAIL
+
+The user asked for a small parser written without third-party packages, and the answer swapped in the standard library `flag` package. That is technically allowed, but it skips building the parser. It also leaves "a help message generated from the definitions" and positional-argument handling to `flag` rather than implementing them. The answer says the code is untested and unwritten, and it ends by asking whether the user wanted the parser written from scratch. The task is only partly done.

@@ -1,0 +1,1 @@
+PASS: The queue caps concurrent jobs at `concurrency`, runs each job up to four times (one try plus three retries) before rejecting, and `onIdle()` resolves once nothing is active or pending. I found no bugs, apart from the unhandled edge case of `concurrency` set to 0, which would never run anything.

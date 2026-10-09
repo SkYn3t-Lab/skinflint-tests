@@ -1,0 +1,2 @@
+FAIL
+The user asked for a parser written without third-party packages, and the answer wraps Go's standard `flag` package instead of writing one. The answer admits this skips the hand-written parser, and it also leaves the code untested.

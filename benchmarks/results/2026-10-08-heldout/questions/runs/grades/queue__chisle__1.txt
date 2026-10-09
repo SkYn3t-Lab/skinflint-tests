@@ -1,0 +1,1 @@
+PASS: The code is correct. Each job gets 1 + 3 attempts and a failure rejects only that job's own promise. Concurrency is capped in `drain`, and `onIdle()` resolves once nothing is running or queued. The answer also correctly warns about unhandled rejections and says the code was not run.

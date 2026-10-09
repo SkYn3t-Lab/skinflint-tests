@@ -1,0 +1,2 @@
+PASS
+The loop bound `i < arr.length - 1` stops before the last index, and changing it to `i < arr.length` correctly includes every element.

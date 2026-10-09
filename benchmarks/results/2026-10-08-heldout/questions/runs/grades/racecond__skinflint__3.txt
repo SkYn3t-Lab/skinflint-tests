@@ -1,0 +1,1 @@
+PASS: The answer correctly defines a race condition, gives the classic lost-update example, and lists the standard preventions (locks/mutexes, atomic operations, transactions, and avoiding shared mutable state).

@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a backreference as matching the same text captured by an earlier group, and its example `\b(\w+) \1\b` works as described for doubled words.

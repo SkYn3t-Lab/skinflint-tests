@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the two histories share no common commit and gives the standard fix (`git pull origin main --allow-unrelated-histories`), and it also covers the wrong-remote case.

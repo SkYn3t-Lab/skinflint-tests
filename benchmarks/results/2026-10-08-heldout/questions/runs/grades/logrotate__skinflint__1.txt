@@ -1,0 +1,3 @@
+PASS
+
+The script meets every requirement. It compresses non-`.gz` log files older than 7 days with gzip and deletes `.gz` files older than 30 days. It prints a summary, and `--dry-run` skips all file changes. It also keeps the original modification time on the compressed file, so the 30-day clock runs from the last write.

@@ -1,0 +1,1 @@
+PASS. The migration adds the columns with `IF NOT EXISTS`, backfills only rows where both new columns are NULL, and runs in one transaction. The regex splitting is valid PostgreSQL, and a second run changes nothing.

@@ -1,0 +1,1 @@
+PASS: The postmortem has the requested timeline, root cause (connection held across a slow remote call, no timeout, shared pool) and remediations. It is internally consistent, with durations, arithmetic and ordering that check out, and it says up front that all specifics are placeholders.

@@ -1,0 +1,1 @@
+PASS: I traced the code by hand and it appears correct. It streams rows, validates them with `Decimal`, and sends malformed rows, including `csv.Error` cases, to a rejects file instead of crashing. The selftest's expected counts, totals and reject line numbers match my trace, and the answer says plainly that it was never executed.

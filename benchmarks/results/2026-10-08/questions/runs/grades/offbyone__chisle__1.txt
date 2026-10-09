@@ -1,0 +1,3 @@
+PASS
+
+Changing the bound to `i < arr.length` correctly fixes the off-by-one so the last element is included, and the explanation is accurate. The unrelated statusline sentence is noise but doesn't affect correctness.

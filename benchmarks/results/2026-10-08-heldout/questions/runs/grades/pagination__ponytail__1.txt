@@ -1,0 +1,1 @@
+PASS: The route correctly implements newest-first keyset pagination on `(created_at, id)`. It preserves microsecond precision by casting the timestamp to text, fetches `limit + 1` rows to detect a next page, and returns a base64url cursor. It also validates the cursor (400 on bad input) and gives a matching descending index.

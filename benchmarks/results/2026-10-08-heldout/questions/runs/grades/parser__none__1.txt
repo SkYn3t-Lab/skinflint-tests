@@ -1,0 +1,1 @@
+PASS: The code looks like it compiles and covers all four requirements: boolean flags, value flags (long, short, `=` and attached forms), positional arguments, and generated help. I read it through but couldn't run it, and the answer says openly that it is untested.

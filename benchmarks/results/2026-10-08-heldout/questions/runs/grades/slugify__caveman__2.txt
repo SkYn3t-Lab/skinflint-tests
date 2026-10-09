@@ -1,0 +1,2 @@
+PASS
+The regex-based `slugify` correctly turns "Hello, World!" into "hello-world" by lowercasing, collapsing non-alphanumeric runs into hyphens, and stripping edge hyphens. The answer also covers the non-ASCII case with a correct NFKD-transliteration variant.

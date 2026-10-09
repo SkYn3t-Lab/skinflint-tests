@@ -1,0 +1,2 @@
+PASS
+The code is a standard leading-and-trailing throttle: it fires immediately, schedules at most one trailing call for the remaining time, and the same function reference works with `removeEventListener`.

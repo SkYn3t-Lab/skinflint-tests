@@ -1,0 +1,1 @@
+PASS: The API design covers resources, auth and tenancy, cursor pagination, versioning and RFC 9457 errors, and the reasoning is technically sound. The stray last line about a statusline badge is irrelevant, but it doesn't make the design wrong or incomplete.

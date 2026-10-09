@@ -1,0 +1,1 @@
+PASS: The code is a complete, coherent Express login implementation. It has salted scrypt hashing with a constant-time compare and a dummy hash for unknown users. Sessions regenerate on login, and rate limits apply per account and per IP with refunds and resets on success. I found no bugs, and the answer says plainly that it was not run.

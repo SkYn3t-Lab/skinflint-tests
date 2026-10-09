@@ -1,0 +1,3 @@
+PASS
+
+The code is correct: it enforces the concurrency limit, makes 1 initial attempt plus 3 retries before rejecting, and `onIdle()` resolves once nothing is pending or active. It is untested, but I found no bugs when reading it through.

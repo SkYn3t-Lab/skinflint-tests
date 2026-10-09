@@ -1,0 +1,1 @@
+{"hook_success:SessionStart": {"count": 1, "bytes": 0, "first": ""}, "hook_additional_context:SessionStart": {"count": 1, "bytes": 767, "first": "SKINFLINT ON. Prose: answer first, then only what the user n"}, "hook_additional_context:UserPromptSubmit": {"count": 20, "bytes": 260, "first": "SKINFLINT ON."}}

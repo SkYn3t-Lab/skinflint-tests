@@ -1,0 +1,3 @@
+PASS
+
+The throttle is a correct leading-edge implementation that runs at most once per 200 ms and is attached properly with a passive scroll listener. The answer also notes the missed-final-position limitation and how to remove the listener. The stray statusline remark is irrelevant but doesn't make the code wrong.

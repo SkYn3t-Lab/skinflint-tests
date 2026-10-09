@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains the pool lifecycle (checkout, use, return with state reset, queueing on saturation, housekeeping) and gives accurate reasons it helps (setup cost, load capping, throughput, centralized failure handling), plus accurate caveats such as pool sizing, leaks, per-instance multiplication, external poolers and session state.

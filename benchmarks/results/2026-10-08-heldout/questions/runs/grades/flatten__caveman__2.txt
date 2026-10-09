@@ -1,0 +1,2 @@
+PASS
+Both snippets correctly flatten one level (the comprehension and `chain.from_iterable`), and the warning about `sum(nested, [])` being quadratic is accurate.

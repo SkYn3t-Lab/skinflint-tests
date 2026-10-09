@@ -1,0 +1,3 @@
+PASS
+
+The answer compares the two on the points that matter for a varied-attribute catalogue and picks Postgres with a concrete schema. Its technical claims are accurate: GIN supports containment but not JSONB range queries, JSONB statistics are poor, a JSONB update rewrites the whole value, and Mongo has wildcard indexes, sharding and weaker `$lookup` joins. The closing line about a "chisle statusline badge" is stray and irrelevant, but it doesn't affect the correctness of the comparison.

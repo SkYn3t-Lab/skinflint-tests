@@ -1,0 +1,3 @@
+PASS
+
+The script covers every requested behavior (gzip logs older than 7 days, delete `.gz` files older than 30 days, print a summary, `--dry-run`). I read through it and found no bugs, though the answer says it was not run. It also handles edge cases safely: an existing `.gz` target, temp-file writes, and mtime preservation.

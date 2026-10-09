@@ -1,0 +1,1 @@
+PASS: The merge/rebase explanation is technically accurate (merge commits, fast-forward, rebase creating new SHAs, force-push risks, and the rule of thumb), and it fully answers the question; the unrelated side note about a statusline badge doesn't make it incorrect.

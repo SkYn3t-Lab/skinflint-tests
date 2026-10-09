@@ -1,0 +1,3 @@
+PASS
+
+I traced the code by hand, including the self-test data, and it does what was asked. It streams the file, rejects bad rows with a line number and reason, totals per customer with `Decimal`, and writes the report. The self-test's expected results (5 good rows, 5 rejects, alice 11.30, bob 2.50) match my trace. The answer also says plainly that it did not run the code.

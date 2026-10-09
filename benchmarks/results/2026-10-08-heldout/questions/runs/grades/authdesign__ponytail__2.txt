@@ -1,0 +1,2 @@
+PASS
+The design correctly covers PKCE sign-in via the system browser, short-lived access tokens, rotating hashed refresh tokens with reuse detection and a grace window, server-side logout revocation, and lost-phone remote revoke, recent-auth checks for sensitive actions and recovery.

@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the browser enforces CORS while curl does not, covers simple and preflight cases, gives accurate curl commands to reproduce the browser's checks, and lists correct server-side fixes, including the credentials and wildcard restriction.

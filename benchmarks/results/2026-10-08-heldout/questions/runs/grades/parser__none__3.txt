@@ -1,0 +1,1 @@
+PASS: The code looks like it compiles and covers everything asked for: boolean flags, value flags, positional arguments and generated help. The parsing logic is sound, and the answer says plainly that it was never compiled or run.

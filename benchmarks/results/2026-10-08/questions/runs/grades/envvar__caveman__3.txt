@@ -1,0 +1,2 @@
+PASS
+The code reads `PORT`, accepts it only if it is all digits and in the range 1–65535, and otherwise returns 3000, which covers unset, empty, non-numeric, partial-numeric like "3000abc", and out-of-range values.

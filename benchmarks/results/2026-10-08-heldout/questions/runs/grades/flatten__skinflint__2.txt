@@ -1,0 +1,2 @@
+PASS
+The list comprehension `[x for sub in lists for x in sub]` correctly flattens one level of nesting, with the loop order (outer `sub`, then inner `x`) being the right one.

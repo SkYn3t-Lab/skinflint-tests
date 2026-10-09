@@ -1,0 +1,3 @@
+PASS
+
+The code makes one initial try plus three retries with waits of 1s, 2s and 4s. It retries only on connection errors, timeouts, 5xx and 429. On the last attempt it either re-raises the exception or returns the failing response, so `resp` is always bound at the final `return`.

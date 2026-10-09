@@ -1,0 +1,3 @@
+PASS
+
+The code is correct. It enforces the concurrency cap, retries a failing job three times after the first attempt (four runs in total, which the answer states), and `onIdle()` resolves once the queue drains. I found no logic bugs. The answer also says the code is untested and not saved to disk, but the code is inline and complete.

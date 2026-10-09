@@ -1,0 +1,1 @@
+PASS: The answer is a blameless incident summary with timeline placeholders, a hedged likely cause with plausible connection-setting failure modes, and prioritized follow-up actions. The closing statusline-badge offer is unrelated but doesn't make the summary wrong or incomplete.

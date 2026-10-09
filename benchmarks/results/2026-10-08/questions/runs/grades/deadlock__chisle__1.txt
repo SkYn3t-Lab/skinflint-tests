@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly defines deadlock, lists the four Coffman conditions, and gives valid avoidance strategies (lock ordering, atomic acquisition, timeouts with jitter, holding less, not sharing), plus accurate notes on database deadlock detection and debugging tools. The trailing statusline offer is irrelevant but doesn't make the explanation wrong.

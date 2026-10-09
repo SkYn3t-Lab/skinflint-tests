@@ -1,0 +1,3 @@
+PASS
+
+The answer covers all four parts (sign-in, token lifetime and refresh, logout, lost phone) with technically sound choices: Authorization Code + PKCE in the system browser, hashed rotating refresh tokens with reuse detection, per-session revocation, and a warning about recovery when the lost phone is also the MFA device. The stray statusline-badge line at the end is irrelevant, but it doesn't affect correctness.

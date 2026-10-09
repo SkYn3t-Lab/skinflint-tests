@@ -1,0 +1,3 @@
+PASS
+
+The answer picks Postgres with a typed-core-plus-JSONB design and gives accurate trade-offs for both databases (GIN and expression indexes, no per-key planner stats, whole-value JSONB rewrites, Mongo wildcard indexes, `$jsonSchema`, sharding, weak `$lookup`). It also says when MongoDB would be the better pick. The closing line about a statusline badge is irrelevant to the question, but it doesn't make the comparison wrong or incomplete.

@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that each index adds write work (B-tree maintenance, random I/O, WAL volume, uniqueness checks, contention), gives practical fixes, and asks for specifics to narrow it down.

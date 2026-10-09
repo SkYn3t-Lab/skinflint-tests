@@ -1,0 +1,1 @@
+PASS: The Postgres code is correct and re-runnable. `ADD COLUMN IF NOT EXISTS` is a no-op on the second run, and the `WHERE` clause skips rows that already have a first name. The regex splits the first word from the rest, and single-word and blank names are handled sensibly.

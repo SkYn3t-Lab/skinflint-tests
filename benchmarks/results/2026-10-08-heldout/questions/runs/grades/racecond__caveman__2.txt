@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a race condition and gives standard, accurate prevention techniques (immutability/message passing, locks with ordering, atomics, single ownership, database controls, atomic check-then-act) plus detection tools.

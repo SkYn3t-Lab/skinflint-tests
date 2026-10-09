@@ -1,0 +1,2 @@
+PASS
+The answer lists the standard causes (unbounded caches, listeners/timers, closures/queues, Buffers/native) and gives a correct diagnostic workflow: `process.memoryUsage()` fields, DevTools heap snapshot comparison with retainers, and `--heapsnapshot-signal=SIGUSR2` for production.

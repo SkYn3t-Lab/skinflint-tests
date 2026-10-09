@@ -1,0 +1,1 @@
+PASS: The code is a working Express login. It hashes passwords with bcrypt and equalises timing for unknown usernames, and it regenerates the session ID on login. It rate-limits with `skipSuccessfulRequests`, so only failed attempts count. The caveats it lists are accurate: in-memory storage, per-IP limiting, and the trust-proxy setting.

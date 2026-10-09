@@ -1,0 +1,1 @@
+PASS: The answer covers resources, auth, pagination, versioning and error format with sound, standards-aligned reasoning (tenant from the credential, 404 across tenants, keyset cursors, `If-Match` with 412/428, RFC 9457 problem+json), and it explains its decisions.

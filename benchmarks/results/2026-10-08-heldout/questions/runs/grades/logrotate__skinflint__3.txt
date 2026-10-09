@@ -1,0 +1,1 @@
+PASS: The script compresses files not modified in over 7 days, deletes `.gz` files not modified in over 30 days, supports `--dry-run`, and prints a summary of what it did. I read it without running it, and found no bugs.

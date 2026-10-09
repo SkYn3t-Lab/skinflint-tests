@@ -1,0 +1,2 @@
+PASS
+The design is technically sound and covers all four requested areas (sign-in, token lifetime and refresh, logout, lost phone) with correct practices: PKCE, short-lived JWTs, rotating refresh tokens with reuse detection and a grace window, DPoP binding, and session revocation.

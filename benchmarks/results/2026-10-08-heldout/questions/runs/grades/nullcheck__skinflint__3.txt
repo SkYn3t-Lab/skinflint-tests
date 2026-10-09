@@ -1,0 +1,2 @@
+PASS
+Optional chaining on `user` and `profile` prevents the TypeError when `user` is null, and `?? "guest"` supplies the fallback.

@@ -49,7 +49,8 @@ cell() { # id prompt arm dir rep
   [ "$4" != - ] && args+=(--plugin-dir "$4")
   [ "${NO_TOOLS:-}" = 1 ] && args+=(--tools "")
   ( cd "$iso" && timeout 300 env HOME="$iso" CLAUDE_CONFIG_DIR="$iso" claude "${args[@]}" </dev/null ) > "$f.tmp" 2>/dev/null
-  if [ -s "$f.tmp" ]; then mv "$f.tmp" "$f"; else rm -f "$f.tmp"; echo "  failed $1/$3/$5"; fi
+  # A run that ended in an error (a usage limit, for one) is not an answer.
+  if [ -s "$f.tmp" ] && ! grep -q '"is_error":true' "$f.tmp"; then mv "$f.tmp" "$f"; else rm -f "$f.tmp"; echo "  failed $1/$3/$5"; fi
 }
 
 for rep in $(seq 1 "$reps"); do

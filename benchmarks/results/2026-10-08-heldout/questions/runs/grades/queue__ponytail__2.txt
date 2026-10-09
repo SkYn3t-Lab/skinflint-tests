@@ -1,0 +1,1 @@
+PASS: The code is correct. It enforces the concurrency limit, makes four attempts per job (one try plus three retries), and `onIdle()` resolves once nothing is running or waiting. I traced the included tests through the code and they should pass, though the answer says it never ran them.

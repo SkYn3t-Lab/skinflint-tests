@@ -1,0 +1,2 @@
+PASS
+Both snippets correctly flatten one level, the stated example output is accurate, and the note about `sum(nested, [])` being quadratic is also correct.

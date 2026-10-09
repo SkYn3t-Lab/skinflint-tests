@@ -1,0 +1,3 @@
+PASS
+
+The answer covers the real causes of extra re-renders (parent renders, unstable props, context, selectors, effects, components defined inside components, StrictMode) and gives a correct fix for each. Its only slip is that an index key on a reordering list mis-associates state rather than remounting, which is minor. The closing line about the chisle statusline badge is off-topic but doesn't make the React content wrong.

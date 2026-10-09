@@ -1,0 +1,3 @@
+PASS
+
+The route is correct: it uses a `(created_at, id)` row comparison with a microsecond-precision text cursor, fetches `limit + 1` rows to detect a next page, and validates both `limit` and the cursor. The answer also says it is untested and that the column list and index are assumptions.

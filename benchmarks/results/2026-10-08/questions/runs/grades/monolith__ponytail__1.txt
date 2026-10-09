@@ -1,0 +1,1 @@
+PASS: The answer correctly covers the strangler fig approach, ordering (low-risk first, leaves before core, one extraction at a time), data ownership (a stepwise path to a single writer per service, expand/contract, outbox, sagas), and keeping it shippable (reversible steps, feature flags, shadow traffic, contract tests), with no technical errors.

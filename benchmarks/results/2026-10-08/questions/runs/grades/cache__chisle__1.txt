@@ -1,0 +1,1 @@
+PASS: The answer gives a working TypeScript in-process TTL cache that shares concurrent fetches, doesn't cache failures, and has an invalidate function. It also states its assumptions (`fetchProfile` and `Profile` are the user's own) and flags the per-viewer keying and multi-instance caveats. The stray "chisle" statusline remark is irrelevant but doesn't make the code wrong.

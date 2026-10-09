@@ -1,0 +1,3 @@
+PASS
+
+The migration is valid PostgreSQL and is idempotent. `ADD COLUMN IF NOT EXISTS` makes the DDL safe to repeat, and the `UPDATE` only touches rows where `first_name IS NULL`. After the first run, `split_part` always returns a non-NULL value, so a second run changes nothing. The split logic handles extra spaces and single-word names correctly, and the answer states its limits clearly (assumed table name, splits on first space only, not run).

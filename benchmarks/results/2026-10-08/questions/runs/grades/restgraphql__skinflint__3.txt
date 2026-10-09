@@ -1,0 +1,2 @@
+PASS
+The answer recommends REST and backs it with accurate points: the low barrier of curl and OpenAPI, HTTP caching and CDN support, per-endpoint rate limiting, and GraphQL's need for query-cost and depth limits. It also says when GraphQL is the better choice, which covers both the comparison and the recommendation.

@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains the checkout/return lifecycle, pool limits and queuing, housekeeping, the cost of opening connections, server-side overhead, load protection, sizing pitfalls, leaks, session state, and external poolers, and it contains no technical errors.

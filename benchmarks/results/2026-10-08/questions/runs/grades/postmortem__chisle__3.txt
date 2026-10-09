@@ -1,0 +1,3 @@
+PASS
+
+The postmortem has the requested timeline, root cause and remediations. The stated durations, the connection-pool arithmetic (240 to 480 connections against a 500 limit) and the causal chain all hold up. The closing line about a "chisle statusline badge" is irrelevant, but it doesn't affect the postmortem's correctness.

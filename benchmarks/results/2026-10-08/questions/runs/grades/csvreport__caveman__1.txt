@@ -1,0 +1,1 @@
+PASS: The script streams the CSV, validates each row, totals amounts per customer with `Decimal`, and writes the report atomically. Malformed rows (wrong field count, bad or non-finite amounts, empty customer, `csv.Error`, overflow) are caught and logged to a rejects file. I found no bugs when I read through it, and the answer says plainly that it was not run.

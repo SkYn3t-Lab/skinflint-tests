@@ -1,0 +1,3 @@
+PASS
+
+The code is correct: unset gives `NaN`, and an empty string gives `0`, which fails `n > 0`. Both fall back to 3000, and `Number` also rejects trailing junk like `"3000abc"`. The extra "statusline badge" line is irrelevant to the question but doesn't make the answer wrong.

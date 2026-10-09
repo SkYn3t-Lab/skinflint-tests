@@ -1,0 +1,2 @@
+PASS
+Both versions correctly debounce the input at 300 ms and cancel stale requests with AbortController, and the React version also cleans up its timer and aborts the in-flight fetch in effect cleanup.

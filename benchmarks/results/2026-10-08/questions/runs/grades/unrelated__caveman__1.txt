@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the branches share no common ancestor, notes the 2.9 default change, and gives the right fixes: check `git remote -v`, use `--allow-unrelated-histories`, re-clone, or `git fetch --unshallow`.

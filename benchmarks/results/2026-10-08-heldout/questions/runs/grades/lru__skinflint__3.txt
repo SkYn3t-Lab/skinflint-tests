@@ -1,0 +1,3 @@
+PASS
+
+The code is a correct `OrderedDict`-based LRU cache. `get` and `put` are O(1), `put` evicts the oldest entry once `max_size` is exceeded, and an expired entry is removed on read. A per-entry `ttl` overrides the default, and the answer states the limitation that expired entries are only removed when read.

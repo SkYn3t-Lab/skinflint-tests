@@ -1,0 +1,1 @@
+PASS: The answer correctly says `apply` keeps the stash entry while `pop` restores and drops it, and that on conflict `pop` keeps the entry so the user must run `git stash drop` after resolving.

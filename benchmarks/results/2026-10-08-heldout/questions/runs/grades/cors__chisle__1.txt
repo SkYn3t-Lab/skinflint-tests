@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the browser enforces CORS while curl doesn't, covers the preflight case with a working reproduction command, and gives accurate fixes and caveats (credentials with `*`, `no-cors` being opaque). The unrelated statusline offer at the end doesn't make it incorrect.

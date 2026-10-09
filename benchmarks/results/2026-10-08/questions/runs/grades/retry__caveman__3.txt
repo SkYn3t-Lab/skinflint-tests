@@ -1,0 +1,3 @@
+PASS
+
+The code makes one initial try plus three retries, sleeps 1s, 2s and 4s between them, retries on connection errors, timeouts, 5xx and 429, and either returns the last bad response or re-raises the final network error.

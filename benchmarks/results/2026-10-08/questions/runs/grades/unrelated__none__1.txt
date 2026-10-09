@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the error means the two histories share no common ancestor, and that Git has refused such merges by default since 2.9. Its fixes are correct: `--allow-unrelated-histories` for the common case, fixing the remote, `git fetch --unshallow`, a force push or fresh clone, and a rebase as an alternative.

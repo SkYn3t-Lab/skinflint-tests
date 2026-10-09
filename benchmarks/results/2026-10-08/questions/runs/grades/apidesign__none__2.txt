@@ -1,0 +1,1 @@
+PASS: The answer covers every requested area (resources, auth, pagination, versioning, error format) with sound, technically correct choices (RFC 9457 errors, keyset cursors, `If-Match` with 412/428, merge-patch) and explains the reasoning and trade-offs for each.

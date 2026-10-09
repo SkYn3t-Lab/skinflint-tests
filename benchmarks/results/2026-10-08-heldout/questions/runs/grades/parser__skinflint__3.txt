@@ -1,0 +1,3 @@
+PASS
+
+I read through the code without compiling it, and it should build. The `if i++; i == len(args)` and `if *f.b, err = ...; err != nil` statements are both valid Go. It covers all four requested features: boolean flags, flags with values (`--name value` or `--name=value`), a help message generated from the flag definitions, and positional arguments, including everything after `--`. The one limitation, that a positional starting with a dash must come after `--`, is stated in the answer.

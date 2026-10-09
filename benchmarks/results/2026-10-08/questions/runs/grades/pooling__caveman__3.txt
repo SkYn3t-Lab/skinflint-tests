@@ -1,0 +1,1 @@
+PASS: The answer correctly explains how pooling works (borrow, return, grow up to a max, queue or time out, health checks) and why it helps (it skips connection setup cost, caps database load, and applies backpressure). Its gotchas are also accurate: oversized pools, leaked connections, session state leaking between borrowers, and external poolers such as PgBouncer.

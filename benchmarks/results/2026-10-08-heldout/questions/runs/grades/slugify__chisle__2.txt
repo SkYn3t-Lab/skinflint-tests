@@ -1,0 +1,2 @@
+PASS
+The code correctly lowercases, collapses non-alphanumeric runs into hyphens, strips edge hyphens, and yields "hello-world" for the example; it also usefully notes the non-ASCII caveat and a fix.

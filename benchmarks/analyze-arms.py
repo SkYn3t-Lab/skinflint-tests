@@ -7,7 +7,9 @@ Per arm, as a percentage of the no-plugin arm's output tokens (lower is
 better): the total over all tasks, the average per task, the worst single
 task, and backfires (tasks where the arm wrote MORE than no plugin). Also
 split by kind (coding, explain) and by size (short, long), and per task.
-With GRADES.json, the share of answers graded correct per arm.
+With GRADES.json, the share of answers graded correct per arm. TASKS_FILE
+in the environment names the task file the run used, when it was not
+tasks.tsv.
 """
 import glob, json, os, re, statistics as st, sys
 
@@ -15,7 +17,7 @@ rundir = sys.argv[1]
 grades = json.load(open(sys.argv[2])) if len(sys.argv) > 2 and not sys.argv[2].startswith('--') else {}
 here = os.path.dirname(os.path.abspath(__file__))
 tasks = {}
-for line in open(os.path.join(here, 'tasks.tsv')):
+for line in open(os.environ.get('TASKS_FILE') or os.path.join(here, 'tasks.tsv')):
     if line.strip():
         i, kind, size, prompt = line.rstrip('\n').split('\t')
         tasks[i] = (kind, size, prompt)

@@ -1,0 +1,1 @@
+PASS: The answer correctly says merge keeps existing history and adds a merge commit, while rebase replays commits as new ones on top of the target branch. It also gives the standard guidance to avoid rewriting commits that have already been shared.

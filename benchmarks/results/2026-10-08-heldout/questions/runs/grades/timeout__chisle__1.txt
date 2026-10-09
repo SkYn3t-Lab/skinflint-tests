@@ -1,0 +1,2 @@
+PASS
+The answer gives correct, working code (`AbortSignal.timeout(5000)` passed as the fetch `signal`), and its notes on `TimeoutError`, version support, and `AbortSignal.any` are accurate.

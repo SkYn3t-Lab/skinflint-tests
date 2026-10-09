@@ -1,0 +1,1 @@
+PASS: The answer correctly describes the strangler fig approach and covers ordering, data ownership (single writer, saga, outbox, CDC, expand/contract) and keeping the system shippable (flags, shadow traffic, branch by abstraction), with no significant technical errors.

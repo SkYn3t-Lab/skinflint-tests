@@ -1,0 +1,3 @@
+PASS
+
+`list(chain.from_iterable(nested))` correctly flattens a list of lists by one level, and the comprehension alternative and the warning that `sum(nested, [])` is quadratic are also accurate. The unrelated statusline-badge line doesn't affect correctness.

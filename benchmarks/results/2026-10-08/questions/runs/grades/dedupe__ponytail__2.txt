@@ -1,0 +1,2 @@
+PASS
+`dict.fromkeys` is the standard way to dedupe a hashable list in order, and it keeps the first occurrence. The unhashable fallback is also correct, though O(n²).

@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a race condition, gives an accurate read-modify-write example, and lists standard prevention methods (avoiding shared state, atomic operations, database guarantees, locks, single-owner confinement) plus accurate notes on detection and non-threading scope.

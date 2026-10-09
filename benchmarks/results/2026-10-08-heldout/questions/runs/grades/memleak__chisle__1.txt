@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly sorts memory growth by type (heap, external, RSS) and lists the usual JS leak causes. It gives a valid heap-snapshot workflow (`--heapsnapshot-signal`, three snapshots, Comparison view, Retainers) and sensible alternatives (`--heap-prof`, `--trace-gc`, `MALLOC_ARENA_MAX`, jemalloc). The unrelated "chisle statusline badge" line at the end is off-topic, but it doesn't make the answer wrong.

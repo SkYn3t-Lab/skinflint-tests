@@ -1,0 +1,1 @@
+PASS: The debounce is implemented correctly in both vanilla JS and React, with AbortController cancellation of stale requests. The answer says openly that no search input code was found in the working directory, so it gives a drop-in pattern with placeholders.

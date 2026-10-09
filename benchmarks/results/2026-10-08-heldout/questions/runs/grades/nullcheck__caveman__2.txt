@@ -1,0 +1,2 @@
+PASS
+`user?.profile?.name ?? "guest"` stops the throw when `user` or `profile` is null or undefined, and it falls back to "guest" in those cases and when `name` itself is null or undefined. The answer also notes that `||` would cover an empty-string name.

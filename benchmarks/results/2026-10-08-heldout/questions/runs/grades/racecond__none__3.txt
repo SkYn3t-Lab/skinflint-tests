@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a race condition, gives an accurate lost-update example, and lists standard prevention techniques (avoiding shared state, locks, atomics, atomic check-and-act, database transactions and optimistic concurrency, single-owner confinement) plus detection tools.

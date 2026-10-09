@@ -1,0 +1,2 @@
+PASS
+The code is a correct leading-edge throttle that calls the handler at most once per 200 ms, and it is attached properly to the scroll event with a passive listener.

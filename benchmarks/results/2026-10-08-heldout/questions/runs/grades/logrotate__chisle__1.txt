@@ -1,0 +1,3 @@
+PASS
+
+The script compresses `*.log*` files older than 7 days with gzip and deletes `.gz` files older than 30 days, using a snapshot so a file compressed in a run isn't deleted in that same run. It has a working `--dry-run` and prints a summary. The oddities are the stray "Write permission denied" and statusline notes at the start and end of the answer, which don't affect correctness.

@@ -1,0 +1,3 @@
+PASS
+
+`list(dict.fromkeys(items))` correctly removes duplicates while keeping first-occurrence order (dicts preserve insertion order from Python 3.7). The unhashable-items fallback is also correct, and the answer notes it is O(n²). The stray statusline line is irrelevant to the question but doesn't make the answer wrong.

@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a race condition with an accurate example and covers the standard prevention techniques (avoiding shared state, locks, atomics, DB mechanisms, atomic check-then-act, idempotency) plus detection tools.

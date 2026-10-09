@@ -1,0 +1,1 @@
+PASS: I read through the code and found no compile errors or logic bugs, though I didn't compile or run it. It covers boolean flags, value flags, positional arguments (required, optional and rest), and help generated from the definitions, using only the standard library. The answer says it is untested because the write was denied.

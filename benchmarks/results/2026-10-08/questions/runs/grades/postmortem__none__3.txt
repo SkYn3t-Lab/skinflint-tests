@@ -1,0 +1,1 @@
+PASS: The postmortem has all three requested parts (timeline, root cause, remediations) and is internally consistent: the timeline times fit the stated duration, and the causal chain from slow downstream to exhausted pool to full outage is technically sound. It also says up front that the scenario is illustrative.

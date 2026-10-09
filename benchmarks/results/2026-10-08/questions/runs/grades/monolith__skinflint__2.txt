@@ -1,0 +1,1 @@
+PASS. The answer correctly covers the strangler fig approach and extraction ordering, and it sets out single-owner data rules with a staged data migration. It also covers sagas with an outbox, expand/contract schema changes, flags, and fallback, so it answers what was asked.

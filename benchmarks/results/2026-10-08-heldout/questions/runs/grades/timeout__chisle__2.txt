@@ -1,0 +1,3 @@
+PASS
+
+`fetch(url, { signal: AbortSignal.timeout(5000) })` is a correct 5-second timeout. The details check out: the rejection is a `TimeoutError`, the timer also covers the body read, and `AbortSignal.timeout` needs Node 17.3+. The stray line about Chisle's statusline badge is irrelevant, but it doesn't make the answer wrong.

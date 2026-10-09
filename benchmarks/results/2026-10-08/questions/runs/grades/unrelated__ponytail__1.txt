@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the two branches share no common ancestor and that git has refused this merge by default since 2.9. It also gives the right fix (`--allow-unrelated-histories`), checks to run first, and safe alternatives, with a warning about the force push.

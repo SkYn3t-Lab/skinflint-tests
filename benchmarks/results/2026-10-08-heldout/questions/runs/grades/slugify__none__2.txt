@@ -1,0 +1,2 @@
+PASS
+The code lowercases the title, replaces each run of non-alphanumeric characters with a single hyphen, and strips hyphens from the ends. That turns "Hello, World!" into "hello-world". The NFKD/ASCII variant also correctly handles accented characters such as "Café" → "cafe".

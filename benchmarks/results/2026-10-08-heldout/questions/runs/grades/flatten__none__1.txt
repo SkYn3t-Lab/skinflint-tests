@@ -1,0 +1,2 @@
+PASS
+The answer gives two correct one-level flattening methods (a nested list comprehension and `itertools.chain.from_iterable`), and its example output and the note about `sum(nested, [])` being quadratic are both accurate.

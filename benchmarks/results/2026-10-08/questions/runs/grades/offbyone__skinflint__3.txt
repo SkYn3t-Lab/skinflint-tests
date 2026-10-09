@@ -1,0 +1,2 @@
+PASS
+Changing the condition to `i < arr.length` removes the off-by-one error, so the loop now sums every element including the last, and the explanation is accurate.

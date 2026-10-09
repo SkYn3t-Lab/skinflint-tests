@@ -1,0 +1,3 @@
+PASS
+
+The code returns 3000 for an unset, empty, non-numeric, non-integer or out-of-range `PORT`, and it returns the parsed number otherwise. The only quirk is that `Number` also accepts forms like `1e3` and hex, which is minor. The answer also explains how to allow port 0, and its suggested change works.

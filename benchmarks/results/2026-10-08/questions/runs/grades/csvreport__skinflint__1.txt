@@ -1,0 +1,3 @@
+PASS
+
+The script streams rows and catches both `csv.Error` and `ValueError`, so malformed rows are skipped and logged without a crash. It validates column count, customer ID, and amount (including NaN and Infinity). It totals per customer with `Decimal` and writes both a report and a rejects file. The remaining gaps are minor: a UTF-8 BOM on the header would be reported as a missing column, and `Decimal` accepts underscores like `1_000`. The answer also states its column-name assumption and that it hasn't been run.

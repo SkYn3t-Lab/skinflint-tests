@@ -1,0 +1,3 @@
+PASS
+
+The code is a correct `OrderedDict` LRU cache. `get` and `put` are O(1), and `maxsize` is enforced by evicting the least recently used entry. A per-entry `ttl` falls back to the constructor default, and `ttl=0` and `float("inf")` both behave correctly. The self-check should pass when read through, and the answer says plainly that it wasn't run and lists its limits (lazy expiry only, no thread safety, stored `None` can't be told from a miss).

@@ -1,0 +1,3 @@
+PASS
+
+The queue enforces the concurrency limit through `running` and `next()`, and it makes 4 attempts per job (the first try plus 3 retries). `onIdle()` resolves once `running` is 0 and `pending` is empty. Synchronous throws from a job are caught, and the answer correctly warns that the promise returned by `add()` must be handled.

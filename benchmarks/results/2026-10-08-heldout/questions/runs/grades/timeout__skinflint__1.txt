@@ -1,0 +1,2 @@
+PASS
+`AbortSignal.timeout(5000)` is the standard way to give `fetch` a 5-second timeout, and on timeout the promise rejects with a `TimeoutError` DOMException, as the answer says.

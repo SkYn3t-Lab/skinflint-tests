@@ -1,0 +1,3 @@
+PASS
+
+The answer covers ordering, data ownership and staying shippable, and the techniques are sound: strangler routing, staged schema splits, a single writer per table, CDC or outbox instead of dual-write, sagas, shadow traffic and a reverse sync after the write cutover. The stray statusline-badge line at the end is irrelevant, but it doesn't make the migration advice wrong.

@@ -1,0 +1,2 @@
+PASS
+The answer is a blameless incident summary that has the timeline placeholders, a likely cause (clearly labeled as a hypothesis, since the prompt gives no details) and follow-up actions, and its technical content on connection-setting failure modes is sound.

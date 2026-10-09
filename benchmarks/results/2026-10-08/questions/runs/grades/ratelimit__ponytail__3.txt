@@ -1,0 +1,1 @@
+PASS: I traced the code by hand and found no bugs. The scrypt parameters fit within `maxmem`, and failures are counted before verification and refunded on success. Session regeneration, the Express 5 handling of an empty body, and the test's expected status codes (including the 429 lockout) all work out. The answer also says plainly that it hasn't been run.

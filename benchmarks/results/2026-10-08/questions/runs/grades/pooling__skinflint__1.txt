@@ -1,0 +1,1 @@
+PASS: The answer correctly explains how pooling works (borrow, return, max size, queuing, timeout) and why it helps (avoiding the TCP, TLS, auth and Postgres process-fork setup costs, and capping concurrency), and its practical advice on pool sizing, leaks and validation is accurate.

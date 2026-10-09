@@ -1,0 +1,2 @@
+PASS
+The answer correctly covers the main re-render causes (state, parent, context, selectors, derived-state effects, `Object.is` bailout, hooks, remounting, StrictMode) and gives accurate fixes for each.

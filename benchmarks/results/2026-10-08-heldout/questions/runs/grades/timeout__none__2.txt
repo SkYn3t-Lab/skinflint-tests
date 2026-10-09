@@ -1,0 +1,1 @@
+PASS: The answer is technically correct: `AbortSignal.timeout(5000)`, the `TimeoutError` name, the Node 17.3+ requirement, the timeout covering body reads, `AbortSignal.any`, and the `AbortController` fallback with `AbortError` are all right. It fully answers the question. The closing remark about not finding a file to edit is irrelevant but harmless.

@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly defines a backreference as matching the exact text a prior capture group matched, and `\b(\w+) \1\b` is a valid example that matches "the the" but not "the cat". The stray line about a Chisle statusline badge is irrelevant to the question but doesn't make the answer wrong.

@@ -1,0 +1,2 @@
+PASS
+The answer is correct: `dict.fromkeys` removes duplicates while keeping first-occurrence order (guaranteed since Python 3.7), and it correctly covers the unhashable fallback and the key-based dedupe.

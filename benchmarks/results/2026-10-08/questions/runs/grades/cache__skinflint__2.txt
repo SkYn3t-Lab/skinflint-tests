@@ -1,0 +1,1 @@
+PASS: The code is a working TTL cache that shares in-flight fetches, drops failed fetches and supports invalidation, and the answer plainly states its assumptions (TypeScript, an existing `getUserProfile`) and limits (no eviction, per-process, viewer-dependent fields).

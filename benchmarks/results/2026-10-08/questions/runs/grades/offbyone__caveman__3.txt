@@ -1,0 +1,2 @@
+PASS
+The answer correctly identifies the off-by-one in the `arr.length - 1` bound and gives a loop with `i < arr.length` that sums every element.

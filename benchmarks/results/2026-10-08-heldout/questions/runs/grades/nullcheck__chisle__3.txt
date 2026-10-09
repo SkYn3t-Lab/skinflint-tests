@@ -1,0 +1,1 @@
+PASS: `user?.profile?.name ?? "guest"` stops the throw when `user` or `profile` is null and falls back to "guest", and the note about `??` versus `||` for empty strings is accurate. The stray line about a "Chisle statusline badge" is irrelevant, but it doesn't affect the fix.

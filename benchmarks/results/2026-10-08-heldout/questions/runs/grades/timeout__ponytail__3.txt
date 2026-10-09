@@ -1,0 +1,2 @@
+PASS
+`AbortSignal.timeout(5000)` passed as `signal` is the standard way to put a 5-second timeout on `fetch`. The answer's details also hold: it rejects with a `TimeoutError` `DOMException`, it covers reading the body, and Node 17.3+ and current browsers support it.

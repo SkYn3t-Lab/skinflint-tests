@@ -1,0 +1,2 @@
+PASS
+The merge-versus-rebase explanation is technically accurate and complete, covering history shape, new SHAs, the risk of rewriting shared history, and when to use each; the trailing statusline-badge line is irrelevant but doesn't make the answer incorrect.

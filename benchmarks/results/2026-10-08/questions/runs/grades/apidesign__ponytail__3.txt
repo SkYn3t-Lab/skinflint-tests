@@ -1,0 +1,1 @@
+PASS. The answer covers all five requested areas (resources, auth, pagination, versioning, error format) with sound reasoning and correct standards use: RFC 9457 problem+json, 412/428 for If-Match, cursor pagination, 404 for cross-tenant IDs, and row-level security for isolation.

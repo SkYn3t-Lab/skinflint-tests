@@ -1,0 +1,1 @@
+PASS: The answer covers every requested area (resources, auth, pagination, versioning, errors) with sound reasoning, and I found no technical errors. Its uses of ETag with `If-Match`, 412/428, RFC 9457, keyset cursors and path-based major versioning are all correct.

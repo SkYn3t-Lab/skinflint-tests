@@ -1,0 +1,1 @@
+PASS: The answer gives a clear recommendation (modular monolith first) and accurately covers the benefits, costs (singleton React, version skew, shell ownership, UX drift), prerequisites, and conditions for splitting later, which is what the user asked for.

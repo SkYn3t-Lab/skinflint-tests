@@ -1,0 +1,2 @@
+PASS
+The code implements a concurrency-limited queue, retries each failed job three times (four attempts total, which the answer states), and `onIdle()` resolves once the queue is empty. I traced the slot accounting, retry loop and idle-waiter logic and found no bugs.

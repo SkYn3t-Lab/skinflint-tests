@@ -1,0 +1,2 @@
+PASS
+The code correctly debounces the input with a 300ms timeout and cancels stale in-flight requests with AbortController, in both vanilla JS and React forms; the extra statusline note is irrelevant but doesn't affect correctness.

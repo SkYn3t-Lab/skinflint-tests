@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that `apply` keeps the stash entry while `pop` applies and then drops it, and that `pop` keeps the entry if there are conflicts. It also correctly says both default to `stash@{0}` and accept a specific stash.

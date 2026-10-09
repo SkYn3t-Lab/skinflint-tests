@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains pooling (borrow/return, max size, waiting), the cost of connection setup, protection of the database from overload, and sound sizing and leak caveats.

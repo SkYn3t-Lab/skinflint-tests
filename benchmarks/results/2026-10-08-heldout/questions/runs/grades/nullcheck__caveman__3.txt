@@ -1,0 +1,2 @@
+PASS
+`user?.profile?.name ?? "guest"` avoids the throw when `user` or `profile` is null or undefined, and it falls back to "guest" when `name` is missing, which is what the user asked for.

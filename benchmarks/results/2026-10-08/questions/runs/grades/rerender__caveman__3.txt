@@ -1,0 +1,1 @@
+PASS: The answer covers the main causes of unexpected re-renders (parent renders, unstable props, context, selectors, effects, keys, component definitions, StrictMode) with correct fixes and no real technical errors. The only slip is calling React Compiler "React 19", which is slightly imprecise because it's a separate tool that also works with React 17 and 18.

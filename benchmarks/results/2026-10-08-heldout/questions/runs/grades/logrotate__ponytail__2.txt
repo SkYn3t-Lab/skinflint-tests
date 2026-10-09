@@ -1,0 +1,1 @@
+PASS: The script compresses logs older than 7 days, deletes `.gz` files older than 30 days, supports `--dry-run`, and prints a summary. By my reading, its built-in self-test assertions should hold, though I didn't run it. It also handles existing archives, partial writes and iteration order correctly.

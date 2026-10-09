@@ -1,0 +1,2 @@
+FAIL
+The `dict.fromkeys` answer is correct, but the final "hashable key" example is wrong for the unhashable items the answer cites, because `tuple(item)` fails or collapses distinct items: dicts become tuples of their keys, so `{'a':1}` and `{'a':2}` are treated as duplicates, and a list containing a list still raises `TypeError`.

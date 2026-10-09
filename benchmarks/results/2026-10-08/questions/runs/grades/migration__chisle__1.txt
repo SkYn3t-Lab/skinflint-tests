@@ -1,0 +1,1 @@
+PASS: The SQL is valid Postgres. `ADD COLUMN IF NOT EXISTS` and the `IS NULL` guards make a rerun a no-op, `regexp_match` handles the split, and rows with a blank or NULL `full_name` are skipped. The stray statusline remark doesn't affect correctness.

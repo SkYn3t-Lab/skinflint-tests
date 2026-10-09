@@ -1,0 +1,2 @@
+PASS
+The code correctly debounces input with a 300ms timer, aborts stale in-flight requests, and handles AbortError, in both vanilla JS and React forms, which answers the request given that no search input exists in the directory.

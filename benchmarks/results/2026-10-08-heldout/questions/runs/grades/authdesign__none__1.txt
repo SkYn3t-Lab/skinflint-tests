@@ -1,0 +1,1 @@
+PASS: The design is technically sound and covers all four asked areas: sign-in (Authorization Code with PKCE through the system browser), token lifetime and rotating refresh with reuse detection, logout on one device and everywhere, and lost-phone revocation and recovery.

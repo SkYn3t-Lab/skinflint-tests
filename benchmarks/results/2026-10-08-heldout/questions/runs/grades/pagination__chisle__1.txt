@@ -1,0 +1,3 @@
+PASS
+
+The route does keyset pagination correctly. It orders by `(created_at DESC, id DESC)` and compares with `(created_at, id) < ($2, $3)`. It fetches `limit + 1` rows to detect a next page and clamps `limit`. It also keeps timestamp microseconds by carrying the cursor timestamp as text, and returns 400 for malformed cursors. The closing statusline-badge offer is unrelated to the question, but it doesn't affect the code's correctness.

@@ -1,0 +1,1 @@
+PASS: The script does what was asked. It gzips logs older than 7 days, deletes `.gz` archives older than 30 days, and prints a per-file and summary report. It has a working `--dry-run` flag, writes the archive atomically, and I found no bugs in it. I judged it by reading it, since the answer says it wasn't run.

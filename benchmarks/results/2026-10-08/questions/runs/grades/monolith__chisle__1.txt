@@ -1,0 +1,1 @@
+PASS: The answer covers ordering, data ownership and shippability accurately: strangler fig, a staged one-writer data split with a one-way write flip, outbox and sagas, flagged cutover with shadow traffic, and expand/contract. The stray statusline-badge sentence at the end is irrelevant to the question but doesn't make the content incorrect.

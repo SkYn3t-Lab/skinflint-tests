@@ -1,0 +1,2 @@
+PASS
+The answer correctly says `apply` keeps the stash while `pop` applies it and then drops it. It also correctly notes that `pop` keeps the stash when there are conflicts.

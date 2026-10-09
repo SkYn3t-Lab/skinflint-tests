@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear recommendation (modular monolith first), accurately lays out the benefits, costs and alternatives, and states when the recommendation would change, with no technical errors.

@@ -1,0 +1,1 @@
+PASS: The script streams rows, validates every field, uses `Decimal` for totals, catches `csv.Error` per row, writes rejected rows to a rejects file, and writes the per-customer report. I found no bugs when reading it through, only minor leniency, such as `Decimal` accepting `1_000`. It was not run, as the answer itself says.

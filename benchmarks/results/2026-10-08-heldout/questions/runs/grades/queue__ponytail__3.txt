@@ -1,0 +1,1 @@
+PASS: The code is correct. It caps concurrency by tracking active jobs, runs one try plus three retries and rejects with the last error. `onIdle()` resolves once nothing is running or waiting. I traced the three tests by hand and each should pass. The answer was not run, and it says so.

@@ -1,0 +1,1 @@
+PASS: The design is technically sound and covers all four asked areas. It uses auth code with PKCE in the system browser, short-lived JWTs, rotating refresh tokens with reuse detection and a grace window, and server-side session revocation. It also states the access-token revocation lag and handles lost-phone and recovery cases.

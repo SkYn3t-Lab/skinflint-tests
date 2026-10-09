@@ -1,0 +1,2 @@
+PASS
+The answer removes the erroneous `- 1` so the loop runs through every index up to `arr.length - 1`, which fixes the skipped last element.

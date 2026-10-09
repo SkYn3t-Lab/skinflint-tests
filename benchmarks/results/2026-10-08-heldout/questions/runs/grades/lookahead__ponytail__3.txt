@@ -1,0 +1,1 @@
+PASS: The answer correctly describes lookahead as a zero-width assertion, covers both the positive and negative forms, and its code examples give the stated outputs (`['100']` and `['200']`). The `\b` explanation, the stacked-lookahead password pattern and the lookbehind mention are also accurate.

@@ -1,0 +1,3 @@
+PASS
+
+The migration is valid PostgreSQL: `ADD COLUMN IF NOT EXISTS` and the `first_name IS NULL AND last_name IS NULL` backfill filter make a second run a no-op. The whitespace-normalizing split gives the correct first/last values, and the answer states its assumptions and caveats clearly.

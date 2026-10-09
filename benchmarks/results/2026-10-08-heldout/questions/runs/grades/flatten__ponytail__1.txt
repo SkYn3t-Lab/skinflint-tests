@@ -1,0 +1,2 @@
+PASS
+Both `list(chain.from_iterable(lists))` and `[x for sub in lists for x in sub]` correctly flatten a list of lists by exactly one level.

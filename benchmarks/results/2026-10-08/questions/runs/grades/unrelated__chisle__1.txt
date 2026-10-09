@@ -1,0 +1,1 @@
+PASS. The answer correctly explains that the branches share no common ancestor, gives the right `--allow-unrelated-histories` fix and sensible alternatives (check the remote, `git fetch --unshallow`, re-clone, rebase), and the odd statusline side note doesn't affect its correctness.

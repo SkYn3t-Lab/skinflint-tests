@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly explains how pooling works (borrow, return, queueing, timeouts, validation) and why it helps (connection setup cost, bounded concurrency), and its gotchas are accurate. The unrelated chisle statusline note at the end doesn't affect its correctness.

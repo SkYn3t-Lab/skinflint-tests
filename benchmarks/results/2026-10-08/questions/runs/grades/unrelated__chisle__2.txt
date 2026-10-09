@@ -1,0 +1,1 @@
+PASS: The answer correctly explains the error (no common ancestor, default refusal since Git 2.9), lists the usual causes, and gives the right fix (`--allow-unrelated-histories`) plus safe alternatives with appropriate warnings.

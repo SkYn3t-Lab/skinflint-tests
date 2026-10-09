@@ -1,0 +1,3 @@
+PASS
+
+The queue enforces the concurrency limit and runs each job up to four times (the first try plus three retries). `onIdle()` resolves once nothing is running or waiting. The wrapper never rejects, so the `.finally` slot bookkeeping always runs. The answer also warns that callers must catch the promise `add()` returns.

@@ -1,0 +1,2 @@
+PASS
+The answer correctly covers the main causes of extra re-renders (parent renders, unstable references, state too high, context value changes, broad selectors, effects that set state, unstable keys, custom hooks, Strict Mode) and gives accurate fixes and diagnostic tools for each.

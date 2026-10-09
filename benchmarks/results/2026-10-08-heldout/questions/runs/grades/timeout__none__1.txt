@@ -1,0 +1,2 @@
+PASS
+The answer uses `AbortSignal.timeout(5000)` correctly, accurately describes the `TimeoutError` behavior, notes that the signal also covers body reads, and gives a valid `AbortController` fallback that rejects with `AbortError`.

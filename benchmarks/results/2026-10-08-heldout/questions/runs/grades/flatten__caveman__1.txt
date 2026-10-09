@@ -1,0 +1,2 @@
+PASS
+Both snippets correctly flatten one level (list comprehension and `chain.from_iterable`), and the warning about `sum(lists, [])` being quadratic is accurate.

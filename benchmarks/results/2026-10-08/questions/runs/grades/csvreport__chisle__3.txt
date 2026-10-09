@@ -1,0 +1,3 @@
+PASS
+
+The script streams rows and validates each one, rejecting short, long, empty-ID, non-numeric and non-finite rows to a rejects file. It sums per customer with `Decimal` and writes the report. I read through it and found no bugs. The answer also says plainly that the code is untested.

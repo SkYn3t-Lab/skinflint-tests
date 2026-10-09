@@ -1,0 +1,3 @@
+PASS
+
+The stdlib code makes one try plus three retries, backs off at 1s, 2s and 4s, and re-raises the last error. It retries 5xx, 429 and network errors, and it raises other 4xx errors straight away. The `requests`/`Retry` alternative and its note about POST and PATCH are also correct.

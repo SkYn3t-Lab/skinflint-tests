@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that browsers enforce CORS while curl doesn't, covers preflight, gives a working curl command to reproduce the OPTIONS check, and lists server-side fixes and the credentials/wildcard gotcha; the trailing statusline note is irrelevant but doesn't make it wrong.

@@ -1,0 +1,1 @@
+PASS: The sketch is valid Python. `lru_cache` keyed on `(user_id, time bucket)` gives a working per-process TTL cache, and `cache_clear()` on writes keeps reads fresh. The answer is also open about its limits: async fetches, in-place mutation of cached objects, and no shared cache across workers. With no project code to adapt, a generic layer is a reasonable response.

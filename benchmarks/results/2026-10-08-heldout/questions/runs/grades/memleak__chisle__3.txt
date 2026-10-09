@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly separates heap, external/arrayBuffers and RSS growth, lists the usual causes, and gives accurate diagnostic steps (`--trace-gc`, heap snapshot diffing, `--heap-prof`, `MALLOC_ARENA_MAX`). The stray line about a statusline badge is irrelevant to the question, but it doesn't make the technical content wrong.

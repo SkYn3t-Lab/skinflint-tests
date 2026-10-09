@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the error means the histories share no common ancestor, lists accurate causes, and gives the right fixes: check the remote, then use `--allow-unrelated-histories`, with a force-push option and a warning about it. One small slip is that the refusal began in Git 2.9, not "since 2.9" in the sense of a default option, but that doesn't change the advice.

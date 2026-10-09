@@ -1,0 +1,3 @@
+PASS
+
+The SQL is valid Postgres: `ADD COLUMN IF NOT EXISTS` and the `first_name IS NULL` guard make a rerun a no-op. The `substring(... from regex)` captures give the right first-token and remainder split, and the answer notes that single-word names get a NULL `last_name`. The stray "chisle" comment and the statusline note are noise, but they don't affect correctness.

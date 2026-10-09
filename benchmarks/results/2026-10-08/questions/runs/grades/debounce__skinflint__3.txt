@@ -1,0 +1,2 @@
+PASS
+The code is a correct, working debounce (clearTimeout plus a 300 ms setTimeout around the API call), and it flags the placeholder names, the AbortController option and the React equivalent.

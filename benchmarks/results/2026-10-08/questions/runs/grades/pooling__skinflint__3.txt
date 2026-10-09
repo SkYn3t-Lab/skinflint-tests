@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains how pooling works (borrow/return, waiting with timeout) and why it helps (avoiding expensive connection setup, capping server load), and its pool-sizing and leak caveats are accurate.

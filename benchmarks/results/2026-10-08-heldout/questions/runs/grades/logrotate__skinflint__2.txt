@@ -1,0 +1,3 @@
+PASS
+
+The script compresses `*.log*` files older than 7 days, deletes `.gz` files older than 30 days, and prints a summary. `--dry-run` skips all changes. It keeps the original mtime on the `.gz`, so the 30-day clock runs from the log's age, and it skips files whose `.gz` already exists. The answer states the matching and age behaviour (including the two-run delete for old uncompressed logs) accurately.

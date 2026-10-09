@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly defines a backreference as a reference (`\1`, `\2`) to text already matched by a numbered capture group, and its example `\b(\w+) \1\b` works for finding doubled words like "the the".

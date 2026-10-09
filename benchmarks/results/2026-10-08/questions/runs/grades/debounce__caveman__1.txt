@@ -1,0 +1,2 @@
+PASS
+The answer gives correct, working debounce code in both vanilla JS and React, with sensible extras (AbortController to cancel stale requests, empty-query handling, URL encoding). The user asked for code, and the answer shows it.

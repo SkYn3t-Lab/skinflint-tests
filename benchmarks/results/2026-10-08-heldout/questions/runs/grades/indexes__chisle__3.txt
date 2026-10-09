@@ -1,0 +1,1 @@
+PASS: The answer correctly explains the write amplification from each index (B-tree insert, WAL volume, random-key page splits and cache misses, unique checks, wide keys, GIN) and gives accurate mitigations. The unrelated statusline offer at the end doesn't make it wrong.

@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that each index adds a write per INSERT (tree traversal, random I/O, page splits, WAL volume, uniqueness checks, contention) and gives accurate, practical fixes, such as dropping unused indexes, batching, and dropping and recreating the index for bulk loads.

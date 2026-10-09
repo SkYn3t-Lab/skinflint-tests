@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a backreference as a token that matches the same text a capture group already matched, and the `\b(\w+) \1\b` example for doubled words is valid and accurately described. The statusline sentence is unrelated, but it doesn't make the answer wrong.

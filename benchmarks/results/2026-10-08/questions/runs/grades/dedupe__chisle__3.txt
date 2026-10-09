@@ -1,0 +1,3 @@
+PASS
+
+`list(dict.fromkeys(items))` is the standard order-preserving dedupe for hashable items, and the O(n²) fallback correctly handles unhashable ones. The stray Chisle statusline remark is irrelevant but doesn't make the solution wrong.

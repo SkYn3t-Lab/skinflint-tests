@@ -1,0 +1,2 @@
+PASS
+The code is a correct leading-and-trailing throttle: it fires immediately, schedules at most one trailing call for the remaining time, and the passive listener is attached properly.

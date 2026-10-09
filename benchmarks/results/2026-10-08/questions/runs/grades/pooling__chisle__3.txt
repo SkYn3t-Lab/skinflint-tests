@@ -1,0 +1,1 @@
+PASS: The explanation of pooling is technically accurate and complete: it covers borrow/return, queuing and timeouts, validation, the cost of opening connections, capping against `max_connections`, and the main gotchas. The unrelated chisle statusline note at the end is a harmless aside that doesn't detract from the answer.

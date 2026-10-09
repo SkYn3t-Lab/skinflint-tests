@@ -1,0 +1,2 @@
+PASS
+The answer covers all requested areas (resources, auth, pagination, versioning, error format) with technically sound choices (RFC 9457, keyset cursors, ETag/If-Match with 412/428, idempotency keys, tenant bound to the credential) and explains the reasoning behind each.

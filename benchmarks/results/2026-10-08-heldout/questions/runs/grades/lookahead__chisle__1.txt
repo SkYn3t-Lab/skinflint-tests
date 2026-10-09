@@ -1,0 +1,1 @@
+PASS: The answer correctly explains lookahead as a zero-width assertion, covers positive and negative forms, and gives accurate examples, including the backtracking gotcha and its fixes. Its engine-support claims are also right. The closing line about a "Chisle statusline badge" is irrelevant, but it doesn't make the answer wrong.

@@ -1,0 +1,6 @@
+model claude-opus-5-5, 3 repetitions, Claude Code 2.1.295, Node.js v18.19.1; judge claude-sonnet-5-5
+questions: benchmarks/tasks-heldout.tsv
+skinflint 92cf964 (0.5.0)
+chisle c200401
+ponytail c982cd4
+caveman 6571943

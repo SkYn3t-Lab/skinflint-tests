@@ -1,0 +1,2 @@
+PASS
+The answer correctly describes the strangler fig approach, covers ordering (modularize first, low-risk first extraction, tangled core last), data ownership (single writer, sagas, outbox, phased data migration), and shippability (feature flags, shadow traffic, canaries, expand-and-contract), with no technical errors.

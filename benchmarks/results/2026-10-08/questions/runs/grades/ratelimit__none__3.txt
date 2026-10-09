@@ -1,0 +1,1 @@
+PASS: The code looks correct on a read-through, though it was not run. Argon2id hashing, the dummy-hash check for unknown users, session regeneration on login, and per-IP and per-user+IP limiting with a refund on success are all used correctly with Express 5 and `rate-limiter-flexible`.

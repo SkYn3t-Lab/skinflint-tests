@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear REST recommendation with accurate trade-offs (caching, rate limiting, N+1, GraphQL's 200-with-errors), a fair account of where GraphQL wins, and sound REST practices (OpenAPI 3.1, RFC 9457, idempotency keys).

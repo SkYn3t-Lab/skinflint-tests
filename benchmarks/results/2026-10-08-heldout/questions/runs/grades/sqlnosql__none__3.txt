@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear PostgreSQL+JSONB recommendation backed by an accurate comparison. Its main claims hold: GIN indexing, whole-value JSONB rewrites, weak JSONB planner statistics, MongoDB wildcard indexes and built-in sharding, and `$lookup` trade-offs. It also covers when MongoDB would be the better choice.

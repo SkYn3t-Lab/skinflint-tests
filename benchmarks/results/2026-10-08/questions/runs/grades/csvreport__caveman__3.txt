@@ -1,0 +1,3 @@
+PASS
+
+The script streams the file, validates the field count, customer ID and amount, and keeps going after a bad row, including a `csv.Error`. It sums with `Decimal`, logs rejected rows with their line number and reason, and writes the report atomically; it was not run, as the answer says, but I found no bugs reading it.

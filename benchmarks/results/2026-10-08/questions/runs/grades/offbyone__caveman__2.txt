@@ -1,0 +1,2 @@
+PASS
+The original condition `i < arr.length - 1` stops before the last index, and changing it to `i < arr.length` makes the loop visit every element, so the fix is correct.

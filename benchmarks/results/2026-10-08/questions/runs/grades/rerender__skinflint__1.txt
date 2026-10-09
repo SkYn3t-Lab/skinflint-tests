@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly covers the main causes of unexpected re-renders (parent renders, unstable props defeating `memo`, context value identity, fresh-object selectors, effect-driven state loops, remounting from unstable keys or nested component definitions, and StrictMode double renders), and each fix is accurate.

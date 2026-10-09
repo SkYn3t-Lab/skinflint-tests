@@ -1,0 +1,1 @@
+PASS: The answer correctly describes a lookahead as a zero-width assertion, and it covers both the positive and negative forms. Both regex examples give the stated results, `['10']` and `['20']`. The password example works, and the lookbehind note is accurate.

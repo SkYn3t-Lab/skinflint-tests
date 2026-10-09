@@ -1,0 +1,2 @@
+PASS
+The answer accurately covers the strangler fig approach, extraction ordering, staged data ownership (including sagas, outbox, CDC, expand/contract), and shippability practices (branch by abstraction, shadow traffic, incremental rollout, rollback), and it contains no technical errors.

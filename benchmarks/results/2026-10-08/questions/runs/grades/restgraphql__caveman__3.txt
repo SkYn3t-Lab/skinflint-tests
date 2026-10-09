@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear REST recommendation with accurate technical tradeoffs (caching, rate limiting, error semantics, N+1, authorization, versioning) and a concrete implementation plan, fully addressing the comparison-and-recommend request.

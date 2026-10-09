@@ -1,0 +1,1 @@
+PASS: The script reads the directory, gzips files older than 7 days (writing to a temp file first), deletes `.gz` files older than 30 days, and prints a summary. `--dry-run` changes nothing, and the edge cases (existing `.gz`, leftover `.tmp` files, symlinks) are handled. I read it through but didn't run it, and the answer itself says it wasn't run.

@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that merge creates a two-parent merge commit preserving history while rebase replays commits as new SHAs for linear history, and it accurately covers conflicts, the force-push and shared-history caveat, and when to use each.

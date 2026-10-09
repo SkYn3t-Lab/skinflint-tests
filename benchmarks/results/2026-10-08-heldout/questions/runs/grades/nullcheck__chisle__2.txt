@@ -1,0 +1,2 @@
+PASS
+The optional-chaining plus `??` fix correctly handles null `user` or `profile` and falls back to "guest". The trailing line about a statusline badge is irrelevant to the question and doesn't affect correctness.

@@ -1,0 +1,3 @@
+PASS
+
+The migration is valid PostgreSQL: `substring(... from '\S+')` and the capture-group form both behave as the answer describes, and `ADD COLUMN IF NOT EXISTS` plus the `WHERE first_name IS NULL AND last_name IS NULL` guard make a rerun a no-op. It also covers the edge cases (single-word, NULL and blank names) and says what to do for large tables and when to drop `full_name`.

@@ -1,0 +1,1 @@
+PASS: The answer correctly defines lookahead as a zero-width assertion and gives both forms. Its examples are accurate, including the backtracking gotcha where `\d+(?! dollars)` matches `10` in `100 dollars`. Its claims about which regex flavors support lookahead are also correct.

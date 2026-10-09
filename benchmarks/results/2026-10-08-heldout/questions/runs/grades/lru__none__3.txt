@@ -1,0 +1,2 @@
+PASS
+The class correctly implements an LRU cache with O(1) `get`/`put` using `OrderedDict`, a max size with LRU eviction, and optional default and per-entry TTL with lazy expiry, and it states plainly that the code was not run.

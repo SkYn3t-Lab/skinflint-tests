@@ -1,0 +1,2 @@
+PASS
+The code reads PORT with `Number`, accepts only integers from 1 to 65535, and falls back to 3000 for unset, empty (`Number("")` is 0, which fails `n > 0`), non-numeric, fractional and out-of-range values, which is what the user asked for.

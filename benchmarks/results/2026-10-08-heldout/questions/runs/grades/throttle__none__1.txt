@@ -1,0 +1,2 @@
+PASS
+The `throttle` function correctly runs the handler at most once per 200 ms, with a leading call and one trailing call, and it's wired up properly with `addEventListener` and `removeEventListener` guidance.

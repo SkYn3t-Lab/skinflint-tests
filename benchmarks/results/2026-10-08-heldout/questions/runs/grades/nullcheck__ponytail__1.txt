@@ -1,0 +1,2 @@
+PASS
+The optional chaining handles a null `user` or missing `profile`, and `?? "guest"` supplies the fallback, so the code solves the problem. The note about `||` versus `??` for empty strings is accurate.

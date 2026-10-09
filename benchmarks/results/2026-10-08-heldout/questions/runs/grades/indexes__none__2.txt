@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that each index must be maintained on every INSERT (B-tree traversal, page splits, random I/O, extra logging, uniqueness checks, contention) and gives accurate, practical mitigations, and it asks for specifics only as an optional follow-up.

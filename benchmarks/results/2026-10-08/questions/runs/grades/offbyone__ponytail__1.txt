@@ -1,0 +1,2 @@
+PASS
+The original condition `i < arr.length - 1` stopped before the last index, and changing it to `i < arr.length` sums every element, which fixes the bug.

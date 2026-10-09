@@ -1,0 +1,1 @@
+PASS: The answer defines deadlock correctly, gives a valid example, lists the four Coffman conditions accurately, and offers sound avoidance strategies (lock ordering, atomic acquisition, try-lock with backoff, detection and recovery).

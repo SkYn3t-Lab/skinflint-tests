@@ -1,0 +1,3 @@
+PASS
+
+The code is correct. It caps concurrency with `active` and `pending`, and it retries each job up to 3 times, so a job can run 4 times in total, which the answer states and explains how to change. `onIdle()` resolves only when nothing is running or queued, and the answer notes that `add()` rejections need a `.catch`. The text around the code is odd (a write-permission note and a statusline badge mention), but it doesn't affect the code.

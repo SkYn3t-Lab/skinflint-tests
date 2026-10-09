@@ -1,0 +1,3 @@
+PASS
+
+The code is correct: it uses `OrderedDict` for O(1) `get` and `put`, enforces `max_size` with LRU eviction, and supports a default or per-entry TTL with lazy expiry. The edge cases hold: tuple items are never `None`, so the lookup works, and an updated key is moved to the end without evicting anything.

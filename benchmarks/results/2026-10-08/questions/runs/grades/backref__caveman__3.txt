@@ -1,0 +1,2 @@
+PASS
+The answer correctly defines a backreference as a token matching the same text an earlier capture group matched, and its `\b(\w+) \1\b` example does match repeated words like "the the" but not "the cat".

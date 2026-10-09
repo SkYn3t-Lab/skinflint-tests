@@ -1,0 +1,3 @@
+PASS
+
+The design covers sign-in, token lifetime and refresh, logout and lost-phone handling, and it is technically sound: Authorization Code with PKCE, rotating hashed refresh tokens with reuse detection and a grace window, short-lived access tokens, and remote revoke. The closing statusline offer is irrelevant to the question but doesn't make the answer wrong.

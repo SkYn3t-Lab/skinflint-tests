@@ -1,0 +1,2 @@
+PASS
+The answer correctly describes lookahead as a zero-width assertion, covers both positive `(?=...)` and negative `(?!...)` forms, and gives accurate examples (`\d+(?= USD)` matches `100` in `100 USD`, and `\d+(?! USD)` matches `100` in `100 EUR`).

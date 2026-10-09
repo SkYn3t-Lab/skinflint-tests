@@ -1,0 +1,2 @@
+PASS
+The optional-chaining expression with `?? "guest"` prevents the throw when `user` or `profile` is null/undefined and falls back to "guest", and the note about `||` for empty strings is accurate.

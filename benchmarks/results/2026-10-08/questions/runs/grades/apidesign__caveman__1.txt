@@ -1,0 +1,1 @@
+PASS: The answer covers resources, auth, pagination, versioning and error format with reasoned trade-offs. Its technical details hold up: RFC 9457 problem+json, If-Match with 412/428, Idempotency-Key, keyset cursors, tenant isolation via RLS, and 404 for cross-tenant access.

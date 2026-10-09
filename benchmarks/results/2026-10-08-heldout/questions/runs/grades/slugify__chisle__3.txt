@@ -1,0 +1,2 @@
+PASS
+The code correctly lowercases, collapses non-alphanumeric runs into hyphens and strips the ends, so "Hello, World!" becomes "hello-world", and the answer also notes the non-ASCII limitation with a valid transliteration fix.

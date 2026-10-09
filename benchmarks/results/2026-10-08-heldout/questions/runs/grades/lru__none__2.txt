@@ -1,0 +1,1 @@
+PASS: The code is a correct LRU cache with O(1) `get` and `put` using `OrderedDict`, a maximum size, and an optional per-entry TTL with a default. I found no bugs in it, even though it is untested.

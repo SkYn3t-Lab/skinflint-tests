@@ -1,0 +1,2 @@
+PASS
+Removing the `- 1` makes the loop run through the last index, so `total` includes every element of `arr`, which is the fix the user asked for.

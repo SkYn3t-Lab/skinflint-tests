@@ -1,0 +1,3 @@
+PASS
+
+The fix is correct: changing the bound to `i < arr.length` makes the loop include the last element, and the explanation is accurate. The unrelated statusline sentence is noise but doesn't affect correctness.

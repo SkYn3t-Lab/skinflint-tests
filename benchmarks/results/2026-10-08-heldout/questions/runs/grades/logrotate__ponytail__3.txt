@@ -1,0 +1,1 @@
+PASS: The script compresses logs older than 7 days, deletes `.gz` files older than 30 days, prints a summary and has a working `--dry-run`. I read through the logic and the accompanying test and found no bugs. The answer says the code is untested, and I didn't run it either. The only flaw is cosmetic: in dry-run mode the summary reads "1 would compressed".

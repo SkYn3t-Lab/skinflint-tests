@@ -1,0 +1,2 @@
+PASS
+`list(dict.fromkeys(items))` correctly removes duplicates while preserving first-occurrence order for hashable items, and the O(n²) fallback correctly handles unhashable ones. (The stray line about a "Chisle statusline badge" is irrelevant to the question but doesn't make the code wrong.)

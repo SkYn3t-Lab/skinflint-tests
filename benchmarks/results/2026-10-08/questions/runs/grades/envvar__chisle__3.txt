@@ -1,0 +1,3 @@
+PASS
+
+The code is correct: unset, empty, non-numeric, fractional, zero and out-of-range values all fall back to 3000, and valid integer ports from 1 to 65535 are used. The `parseInt` and `n > 0` notes are accurate. The stray statusline-badge line is irrelevant but doesn't affect correctness.

@@ -1,0 +1,2 @@
+PASS
+The answer accurately explains how pooling works (borrow/return, max size, queueing, health checks) and why it helps (avoiding handshake cost, capping server load, backpressure), with correct caveats on leaks, session state, pool sizing, and external poolers.

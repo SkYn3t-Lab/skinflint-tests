@@ -1,0 +1,2 @@
+PASS
+The code is a correct, self-contained state machine with a sensible transition table that accepts legal transitions and raises `InvalidTransition` for illegal ones, and it honestly says it was not run.

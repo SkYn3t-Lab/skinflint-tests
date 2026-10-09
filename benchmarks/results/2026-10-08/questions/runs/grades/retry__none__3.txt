@@ -1,0 +1,4 @@
+FAIL
+The code has a bug: when a non-retryable status like 404 is returned, `raise_for_status()` raises `requests.HTTPError`, which is not caught by the `except (ConnectionError, Timeout)` clause, so that's fine, but a 2xx/3xx response is returned correctly. The real problem is that the `HTTPError` constructed for retryable statuses is assigned to `error` and then re-raised correctly, so the loop logic works. On closer inspection, the code is in fact correct, so this FAIL is wrong.
+
+Correction: PASS

@@ -1,0 +1,2 @@
+PASS
+The answer defines a race condition correctly, gives accurate examples (lost update, check-then-act), and lists standard, correct prevention techniques plus detection tools.

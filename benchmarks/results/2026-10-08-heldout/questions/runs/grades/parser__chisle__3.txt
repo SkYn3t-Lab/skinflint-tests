@@ -1,0 +1,1 @@
+PASS: The code looks correct on reading, though the answer says it was never compiled or run. It supports boolean flags, flags with values (`--name=value`, `--name value`, `-n value`), positional arguments, and a help message generated from the definitions. The included test cases trace through correctly.

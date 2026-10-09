@@ -1,0 +1,3 @@
+PASS
+
+The TTL cache with explicit invalidation is correct, and the self-test traces through correctly (cache hit, per-user keys, refetch after invalidation, and refetch once the TTL has expired). With no repo to inspect, the answer says so, flags that it is untested, and notes the limits (per-process, no size cap, viewer-dependent keys).

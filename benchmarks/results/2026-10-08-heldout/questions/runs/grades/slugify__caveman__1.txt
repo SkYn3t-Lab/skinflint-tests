@@ -1,0 +1,2 @@
+PASS
+The code lowercases the title, collapses each run of non-alphanumeric characters into a single hyphen, and strips leading and trailing hyphens, so "Hello, World!" becomes "hello-world". The answer also states the ASCII-only limitation and gives an NFKD transliteration variant that handles accented letters.

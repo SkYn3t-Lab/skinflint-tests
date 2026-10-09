@@ -1,0 +1,560 @@
+{
+ "arms": [
+  "none",
+  "skinflint",
+  "caveman",
+  "chisle",
+  "ponytail"
+ ],
+ "overall": {
+  "none": {
+   "n": 20,
+   "total_pct": 100,
+   "avg_pct": 100,
+   "worst_pct": 100,
+   "worst_task": "throttle",
+   "backfires": 0
+  },
+  "skinflint": {
+   "n": 20,
+   "total_pct": 30,
+   "avg_pct": 30,
+   "worst_pct": 85,
+   "worst_task": "pagination",
+   "backfires": 0
+  },
+  "caveman": {
+   "n": 20,
+   "total_pct": 78,
+   "avg_pct": 65,
+   "worst_pct": 111,
+   "worst_task": "pagination",
+   "backfires": 1
+  },
+  "chisle": {
+   "n": 20,
+   "total_pct": 85,
+   "avg_pct": 103,
+   "worst_pct": 170,
+   "worst_task": "throttle",
+   "backfires": 9
+  },
+  "ponytail": {
+   "n": 20,
+   "total_pct": 64,
+   "avg_pct": 86,
+   "worst_pct": 220,
+   "worst_task": "nullcheck",
+   "backfires": 5
+  }
+ },
+ "by_kind": {
+  "coding": {
+   "none": {
+    "n": 10,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "throttle",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 10,
+    "total_pct": 27,
+    "avg_pct": 28,
+    "worst_pct": 85,
+    "worst_task": "pagination",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 10,
+    "total_pct": 80,
+    "avg_pct": 70,
+    "worst_pct": 111,
+    "worst_task": "pagination",
+    "backfires": 1
+   },
+   "chisle": {
+    "n": 10,
+    "total_pct": 81,
+    "avg_pct": 110,
+    "worst_pct": 170,
+    "worst_task": "throttle",
+    "backfires": 5
+   },
+   "ponytail": {
+    "n": 10,
+    "total_pct": 53,
+    "avg_pct": 84,
+    "worst_pct": 220,
+    "worst_task": "nullcheck",
+    "backfires": 3
+   }
+  },
+  "explain": {
+   "none": {
+    "n": 10,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "lookahead",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 10,
+    "total_pct": 40,
+    "avg_pct": 32,
+    "worst_pct": 57,
+    "worst_task": "outage",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 10,
+    "total_pct": 71,
+    "avg_pct": 61,
+    "worst_pct": 89,
+    "worst_task": "authdesign",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 10,
+    "total_pct": 96,
+    "avg_pct": 96,
+    "worst_pct": 116,
+    "worst_task": "gitstash",
+    "backfires": 4
+   },
+   "ponytail": {
+    "n": 10,
+    "total_pct": 92,
+    "avg_pct": 89,
+    "worst_pct": 105,
+    "worst_task": "sqlnosql",
+    "backfires": 2
+   }
+  }
+ },
+ "by_size": {
+  "short": {
+   "none": {
+    "n": 10,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "throttle",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 10,
+    "total_pct": 20,
+    "avg_pct": 19,
+    "worst_pct": 28,
+    "worst_task": "throttle",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 10,
+    "total_pct": 46,
+    "avg_pct": 49,
+    "worst_pct": 90,
+    "worst_task": "throttle",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 10,
+    "total_pct": 99,
+    "avg_pct": 109,
+    "worst_pct": 170,
+    "worst_task": "throttle",
+    "backfires": 5
+   },
+   "ponytail": {
+    "n": 10,
+    "total_pct": 78,
+    "avg_pct": 84,
+    "worst_pct": 220,
+    "worst_task": "nullcheck",
+    "backfires": 2
+   }
+  },
+  "long": {
+   "none": {
+    "n": 10,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "lru",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 10,
+    "total_pct": 32,
+    "avg_pct": 40,
+    "worst_pct": 85,
+    "worst_task": "pagination",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 10,
+    "total_pct": 82,
+    "avg_pct": 82,
+    "worst_pct": 111,
+    "worst_task": "pagination",
+    "backfires": 1
+   },
+   "chisle": {
+    "n": 10,
+    "total_pct": 84,
+    "avg_pct": 97,
+    "worst_pct": 141,
+    "worst_task": "pagination",
+    "backfires": 4
+   },
+   "ponytail": {
+    "n": 10,
+    "total_pct": 62,
+    "avg_pct": 89,
+    "worst_pct": 124,
+    "worst_task": "pagination",
+    "backfires": 3
+   }
+  },
+  "coding/short": {
+   "none": {
+    "n": 5,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "throttle",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 5,
+    "total_pct": 19,
+    "avg_pct": 18,
+    "worst_pct": 28,
+    "worst_task": "throttle",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 5,
+    "total_pct": 56,
+    "avg_pct": 58,
+    "worst_pct": 90,
+    "worst_task": "throttle",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 5,
+    "total_pct": 123,
+    "avg_pct": 127,
+    "worst_pct": 170,
+    "worst_task": "throttle",
+    "backfires": 4
+   },
+   "ponytail": {
+    "n": 5,
+    "total_pct": 73,
+    "avg_pct": 89,
+    "worst_pct": 220,
+    "worst_task": "nullcheck",
+    "backfires": 2
+   }
+  },
+  "coding/long": {
+   "none": {
+    "n": 5,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "lru",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 5,
+    "total_pct": 28,
+    "avg_pct": 37,
+    "worst_pct": 85,
+    "worst_task": "pagination",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 5,
+    "total_pct": 81,
+    "avg_pct": 82,
+    "worst_pct": 111,
+    "worst_task": "pagination",
+    "backfires": 1
+   },
+   "chisle": {
+    "n": 5,
+    "total_pct": 79,
+    "avg_pct": 93,
+    "worst_pct": 141,
+    "worst_task": "pagination",
+    "backfires": 1
+   },
+   "ponytail": {
+    "n": 5,
+    "total_pct": 52,
+    "avg_pct": 80,
+    "worst_pct": 124,
+    "worst_task": "pagination",
+    "backfires": 1
+   }
+  },
+  "explain/short": {
+   "none": {
+    "n": 5,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "lookahead",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 5,
+    "total_pct": 20,
+    "avg_pct": 21,
+    "worst_pct": 28,
+    "worst_task": "cors",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 5,
+    "total_pct": 41,
+    "avg_pct": 40,
+    "worst_pct": 56,
+    "worst_task": "cors",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 5,
+    "total_pct": 88,
+    "avg_pct": 91,
+    "worst_pct": 116,
+    "worst_task": "gitstash",
+    "backfires": 1
+   },
+   "ponytail": {
+    "n": 5,
+    "total_pct": 81,
+    "avg_pct": 80,
+    "worst_pct": 89,
+    "worst_task": "racecond",
+    "backfires": 0
+   }
+  },
+  "explain/long": {
+   "none": {
+    "n": 5,
+    "total_pct": 100,
+    "avg_pct": 100,
+    "worst_pct": 100,
+    "worst_task": "sqlnosql",
+    "backfires": 0
+   },
+   "skinflint": {
+    "n": 5,
+    "total_pct": 47,
+    "avg_pct": 43,
+    "worst_pct": 57,
+    "worst_task": "outage",
+    "backfires": 0
+   },
+   "caveman": {
+    "n": 5,
+    "total_pct": 83,
+    "avg_pct": 82,
+    "worst_pct": 89,
+    "worst_task": "authdesign",
+    "backfires": 0
+   },
+   "chisle": {
+    "n": 5,
+    "total_pct": 99,
+    "avg_pct": 100,
+    "worst_pct": 107,
+    "worst_task": "sqlnosql",
+    "backfires": 3
+   },
+   "ponytail": {
+    "n": 5,
+    "total_pct": 97,
+    "avg_pct": 98,
+    "worst_pct": 105,
+    "worst_task": "sqlnosql",
+    "backfires": 2
+   }
+  }
+ },
+ "per_task": {
+  "throttle": {
+   "none": 100,
+   "skinflint": 28,
+   "caveman": 90,
+   "chisle": 170,
+   "ponytail": 101,
+   "baseline_tokens": 449
+  },
+  "flatten": {
+   "none": 100,
+   "skinflint": 12,
+   "caveman": 46,
+   "chisle": 111,
+   "ponytail": 37,
+   "baseline_tokens": 197
+  },
+  "timeout": {
+   "none": 100,
+   "skinflint": 13,
+   "caveman": 16,
+   "chisle": 64,
+   "ponytail": 33,
+   "baseline_tokens": 483
+  },
+  "nullcheck": {
+   "none": 100,
+   "skinflint": 19,
+   "caveman": 62,
+   "chisle": 147,
+   "ponytail": 220,
+   "baseline_tokens": 132
+  },
+  "slugify": {
+   "none": 100,
+   "skinflint": 18,
+   "caveman": 75,
+   "chisle": 143,
+   "ponytail": 55,
+   "baseline_tokens": 293
+  },
+  "lru": {
+   "none": 100,
+   "skinflint": 12,
+   "caveman": 39,
+   "chisle": 79,
+   "ponytail": 74,
+   "baseline_tokens": 3407
+  },
+  "pagination": {
+   "none": 100,
+   "skinflint": 85,
+   "caveman": 111,
+   "chisle": 141,
+   "ponytail": 124,
+   "baseline_tokens": 2317
+  },
+  "parser": {
+   "none": 100,
+   "skinflint": 18,
+   "caveman": 81,
+   "chisle": 64,
+   "ponytail": 11,
+   "baseline_tokens": 16436
+  },
+  "logrotate": {
+   "none": 100,
+   "skinflint": 34,
+   "caveman": 84,
+   "chisle": 94,
+   "ponytail": 95,
+   "baseline_tokens": 6053
+  },
+  "queue": {
+   "none": 100,
+   "skinflint": 35,
+   "caveman": 95,
+   "chisle": 87,
+   "ponytail": 95,
+   "baseline_tokens": 4194
+  },
+  "lookahead": {
+   "none": 100,
+   "skinflint": 18,
+   "caveman": 26,
+   "chisle": 77,
+   "ponytail": 73,
+   "baseline_tokens": 616
+  },
+  "indexes": {
+   "none": 100,
+   "skinflint": 15,
+   "caveman": 30,
+   "chisle": 80,
+   "ponytail": 74,
+   "baseline_tokens": 889
+  },
+  "gitstash": {
+   "none": 100,
+   "skinflint": 25,
+   "caveman": 42,
+   "chisle": 116,
+   "ponytail": 71,
+   "baseline_tokens": 321
+  },
+  "cors": {
+   "none": 100,
+   "skinflint": 28,
+   "caveman": 56,
+   "chisle": 98,
+   "ponytail": 89,
+   "baseline_tokens": 847
+  },
+  "racecond": {
+   "none": 100,
+   "skinflint": 19,
+   "caveman": 48,
+   "chisle": 85,
+   "ponytail": 89,
+   "baseline_tokens": 761
+  },
+  "sqlnosql": {
+   "none": 100,
+   "skinflint": 20,
+   "caveman": 81,
+   "chisle": 107,
+   "ponytail": 105,
+   "baseline_tokens": 1001
+  },
+  "outage": {
+   "none": 100,
+   "skinflint": 57,
+   "caveman": 86,
+   "chisle": 93,
+   "ponytail": 90,
+   "baseline_tokens": 2369
+  },
+  "microfront": {
+   "none": 100,
+   "skinflint": 44,
+   "caveman": 72,
+   "chisle": 103,
+   "ponytail": 98,
+   "baseline_tokens": 1302
+  },
+  "authdesign": {
+   "none": 100,
+   "skinflint": 56,
+   "caveman": 89,
+   "chisle": 101,
+   "ponytail": 101,
+   "baseline_tokens": 2401
+  },
+  "memleak": {
+   "none": 100,
+   "skinflint": 40,
+   "caveman": 80,
+   "chisle": 98,
+   "ponytail": 94,
+   "baseline_tokens": 1768
+  }
+ },
+ "correct": {
+  "none": "58/60",
+  "skinflint": "60/60",
+  "caveman": "58/60",
+  "chisle": "58/60",
+  "ponytail": "56/60"
+ }
+}

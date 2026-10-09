@@ -1,0 +1,2 @@
+PASS
+The route correctly implements keyset pagination on (created_at, id) with a row-value comparison. It fetches limit+1 rows to detect a next page, passes microsecond-precision timestamps through a text cursor, clamps the limit, and returns 400 for malformed cursors. The only gap is that a well-formed JSON cursor with garbage values would produce a 500, which is minor.

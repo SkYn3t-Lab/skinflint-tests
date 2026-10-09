@@ -1,0 +1,1 @@
+PASS: The answer correctly covers the strangler fig approach, extraction ordering, staged data-ownership splitting (CDC/outbox, sagas, read models), and shippability practices (branch by abstraction, flags, shadow traffic, rollback), and it matches all three parts of the question.

@@ -1,0 +1,1 @@
+PASS: The answer defines deadlock correctly, gives the classic two-lock example and the four Coffman conditions, and lists standard avoidance techniques (lock ordering, try-lock with backoff, acquiring all locks at once, avoiding shared state). It also correctly notes that databases detect deadlocks and abort a victim instead of preventing them.

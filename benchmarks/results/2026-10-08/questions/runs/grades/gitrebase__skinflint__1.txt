@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that merge creates a merge commit and preserves history, while rebase replays commits as new ones with new hashes to produce linear history, and it gives the standard guidance not to rebase shared commits.

@@ -1,0 +1,2 @@
+PASS
+The code correctly flattens one level using `itertools.chain.from_iterable`, gives a valid comprehension alternative, and accurately notes the pitfalls of `sum` and of strings being split into chars. The unrelated statusline note is extraneous but doesn't make the answer incorrect.

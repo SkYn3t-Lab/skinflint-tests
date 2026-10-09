@@ -1,0 +1,1 @@
+PASS: The module is a correct TTL cache with `invalidate`, and its self-check logic holds when traced by hand. With no profile API in the working directory, a standalone module with usage notes and caveats on keying and scaling is a reasonable answer to "show the code".

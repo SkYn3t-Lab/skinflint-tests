@@ -1,0 +1,1 @@
+PASS: The queue enforces the concurrency limit, retries a failing job three times after its first attempt (four runs in total), and `onIdle()` re-checks the queue after each wake-up. I read through the code and found no bugs, though the answer says itself that it wasn't run or tested.

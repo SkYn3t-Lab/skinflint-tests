@@ -1,0 +1,3 @@
+PASS
+
+The answer recommends REST, compares the two on caching, rate limiting, tooling, ops and security with accurate technical claims, states when GraphQL is the better choice, and suggests practical mitigations.

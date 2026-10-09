@@ -1,0 +1,2 @@
+PASS
+The code correctly defines all six states, a transition table with sensible legal moves, and raises `InvalidTransition` for illegal moves, including same-state moves and terminal states. It also discloses that it was untested.

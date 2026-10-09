@@ -1,0 +1,2 @@
+PASS
+The code is correct: the transition table covers every legal move, `transition` raises `InvalidTransition` for anything else and leaves the state unchanged, and the self-test checks every state pair. The answer also says plainly that it is untested and which rules the author chose.

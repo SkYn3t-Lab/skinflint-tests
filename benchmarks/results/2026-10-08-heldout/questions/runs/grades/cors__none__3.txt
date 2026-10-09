@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the browser enforces CORS (curl doesn't), covers missing `Access-Control-Allow-Origin` and preflight failures, gives accurate curl commands to reproduce both, and offers correct fixes (including the credentials/wildcard restriction and the `no-cors` caveat).

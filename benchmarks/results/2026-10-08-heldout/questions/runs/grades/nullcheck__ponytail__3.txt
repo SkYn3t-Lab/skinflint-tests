@@ -1,0 +1,2 @@
+PASS
+The one-liner `user?.profile?.name ?? "guest"` correctly avoids the throw when `user` is null and falls back to "guest" for a missing profile or name, and the answer accurately notes the empty-string caveat.

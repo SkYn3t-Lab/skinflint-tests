@@ -1,0 +1,3 @@
+PASS
+
+The code is correct: the transition table covers all six states, `transition_to` raises `InvalidTransition` before changing any state, and the usage example's error message matches what the code would produce. The answer also states plainly that the code was not run. It mentions a drafted test file that it doesn't show, but that wasn't asked for.

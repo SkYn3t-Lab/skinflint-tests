@@ -1,0 +1,3 @@
+PASS
+
+The code returns 3000 when `PORT` is unset, empty, non-numeric or outside 1–65535, and otherwise returns the integer value. Number() also accepts forms like "0x50" and "1e3", but those are edge cases that don't break the stated requirement.

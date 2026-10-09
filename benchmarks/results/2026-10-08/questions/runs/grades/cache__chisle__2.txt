@@ -1,0 +1,3 @@
+PASS
+
+The code is a correct TTL cache with eviction, invalidation on update, and a self-test. Its assertions trace through correctly, and it flags the untested status, the key-scope risk, the per-process limitation and the missing stampede protection. With no real profile API available, a generic wired-in-by-example version is a reasonable way to answer "show the code".

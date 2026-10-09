@@ -1,0 +1,3 @@
+PASS
+
+The code is a working `requests` retry setup with `total=3` and exponential backoff. Its POST note is also correct. The stated delays are slightly off, because urllib3 actually waits about 0s, 2s and 4s. That error is minor and doesn't affect whether the code does what was asked.

@@ -1,0 +1,2 @@
+PASS
+The answer gives a clear recommendation (modular monolith first), accurately lays out the benefits and costs of micro-frontends, states the conditions that would change the advice, and gives practical next steps.

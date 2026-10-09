@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains pooling mechanics (checkout, return, queueing, housekeeping) and its benefits (avoided setup cost, bounded database load, graceful degradation), and its caveats (pool sizing, leaks, session state, external poolers like PgBouncer) are accurate.

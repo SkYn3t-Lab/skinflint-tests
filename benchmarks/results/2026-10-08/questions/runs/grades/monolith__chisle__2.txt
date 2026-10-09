@@ -1,0 +1,3 @@
+PASS
+
+The answer covers ordering, data ownership and staying shippable accurately, with sound practices (strangler fig, modular monolith first, single writer, outbox/CDC, sagas, expand/contract, shadow traffic and canary). The unrelated statusline line at the end doesn't affect its correctness or completeness.

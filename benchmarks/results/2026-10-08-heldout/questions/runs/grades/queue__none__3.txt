@@ -1,0 +1,3 @@
+PASS
+
+The code correctly implements a concurrency-limited queue, retries a failing job up to three times, and gives the caller `onIdle()` to wait until the queue is empty. I traced the `drain` and `attempt` logic and found no bugs. It is untested, but the answer says so openly.

@@ -1,0 +1,3 @@
+PASS
+
+The code is a correct O(1) `OrderedDict`-based LRU cache with a size limit and per-entry TTL. I traced its self-check by hand and every assertion holds, but I did not run it.

@@ -1,0 +1,2 @@
+PASS
+Both snippets correctly debounce at 300 ms and cancel stale in-flight requests with AbortController; the vanilla version clears the timer and aborts the old request, and the React effect cleans up on every query change.

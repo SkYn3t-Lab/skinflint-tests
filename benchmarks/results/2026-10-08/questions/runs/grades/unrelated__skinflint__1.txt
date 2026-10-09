@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that the histories share no common commit, gives the right fix (`--allow-unrelated-histories` with `git pull` or `git merge`), and adds a sensible check of the remote URL.

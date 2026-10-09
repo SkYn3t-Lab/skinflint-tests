@@ -1,0 +1,3 @@
+PASS
+
+The code returns 3000 for unset, empty, non-numeric, fractional and out-of-range values, and otherwise returns the integer port. The one deliberate gap, rejecting `PORT=0`, is stated and has a correct fix.

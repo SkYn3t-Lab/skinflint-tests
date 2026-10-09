@@ -1,0 +1,2 @@
+PASS
+`itertools.chain.from_iterable` flattens exactly one level, and `list(...)` gives the flat list the user asked for.

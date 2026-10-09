@@ -1,0 +1,2 @@
+PASS
+The answer correctly explains that browsers enforce CORS while curl doesn't, and it gives the right fixes: set `Access-Control-Allow-Origin`, handle the `OPTIONS` preflight, or use a same-origin proxy.

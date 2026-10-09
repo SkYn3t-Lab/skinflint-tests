@@ -1,0 +1,3 @@
+PASS
+
+The code correctly returns the PORT value when it is an integer from 1 to 65535 and returns 3000 when PORT is unset (`NaN`), empty (`0`), or invalid. The caveats about `"1e3"`, `"0x50"` and port 0 are accurate.

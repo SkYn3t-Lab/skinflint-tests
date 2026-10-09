@@ -1,0 +1,3 @@
+PASS
+
+The answer correctly defines deadlock, lists the four Coffman conditions, and gives sound avoidance strategies. Its one small slip is saying `go vet`/race tools flag lock-order inversions (ThreadSanitizer does, Go's tools don't), which doesn't undermine the explanation. The unrelated statusline aside doesn't affect correctness.

@@ -1,0 +1,1 @@
+PASS: The answer correctly explains that the two histories share no common ancestor. It gives the right fix, `--allow-unrelated-histories`, and sensible alternatives (`git fetch --unshallow`, fixing the remote, a cautious force-push) with appropriate warnings.
